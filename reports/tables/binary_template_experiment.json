@@ -1,0 +1,75 @@
+{
+  "overall": {
+    "total_cases": 2799,
+    "retrieval_recall_at_k": 0.9946,
+    "evidence_hit_rate": 0.9868,
+    "document_precision_at_k": 0.9946,
+    "citation_accuracy": 0.8975,
+    "answer_correctness": 0.9382
+  },
+  "by_question_type": [
+    {
+      "question_type": "binary",
+      "total": 613,
+      "answer_correctness": 0.8777,
+      "citation_accuracy": 0.6754,
+      "evidence_hit_rate": 0.9902
+    },
+    {
+      "question_type": "capability",
+      "total": 431,
+      "answer_correctness": 0.9907,
+      "citation_accuracy": 1.0,
+      "evidence_hit_rate": 1.0
+    },
+    {
+      "question_type": "duration",
+      "total": 205,
+      "answer_correctness": 0.9951,
+      "citation_accuracy": 0.9659,
+      "evidence_hit_rate": 0.9951
+    },
+    {
+      "question_type": "factoid",
+      "total": 204,
+      "answer_correctness": 0.9608,
+      "citation_accuracy": 0.9951,
+      "evidence_hit_rate": 0.9951
+    },
+    {
+      "question_type": "policy_rule",
+      "total": 584,
+      "answer_correctness": 0.9229,
+      "citation_accuracy": 0.9675,
+      "evidence_hit_rate": 0.9863
+    },
+    {
+      "question_type": "procedural",
+      "total": 189,
+      "answer_correctness": 0.9259,
+      "citation_accuracy": 0.9312,
+      "evidence_hit_rate": 0.9365
+    },
+    {
+      "question_type": "sender_type_capability",
+      "total": 156,
+      "answer_correctness": 0.9295,
+      "citation_accuracy": 1.0,
+      "evidence_hit_rate": 1.0
+    },
+    {
+      "question_type": "sender_type_policy",
+      "total": 407,
+      "answer_correctness": 0.9853,
+      "citation_accuracy": 0.9066,
+      "evidence_hit_rate": 0.9951
+    },
+    {
+      "question_type": "table_extraction",
+      "total": 10,
+      "answer_correctness": 0.1,
+      "citation_accuracy": 0.0,
+      "evidence_hit_rate": 0.3
+    }
+  ]
+}

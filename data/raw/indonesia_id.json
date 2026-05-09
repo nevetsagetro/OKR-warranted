@@ -1,0 +1,229 @@
+{
+  "source_url": "https://www.twilio.com/en-us/guidelines/id/sms",
+  "locale_code": "id",
+  "locale_name": "Indonesia (ID)",
+  "tables": [
+    {
+      "title": "Locale Summary",
+      "type": "key_value",
+      "items": [
+        {
+          "field": "Locale name",
+          "description": "",
+          "value": "Indonesia"
+        },
+        {
+          "field": "ISO code",
+          "description": "The International Organization for Standardization two character representation for the given locale.",
+          "value": "ID"
+        },
+        {
+          "field": "Region",
+          "description": "",
+          "value": "Asia"
+        },
+        {
+          "field": "Mobile country code",
+          "description": "A three digit code associated with the given locale and used in conjunction with a Mobile Network Code to uniquely identify mobile networks.",
+          "value": "510"
+        },
+        {
+          "field": "Dialing code",
+          "description": "The dialing prefix used to establish a call or send an SMS from one locale to the given locale.",
+          "value": "+62"
+        }
+      ]
+    },
+    {
+      "title": "Guidelines",
+      "type": "key_value",
+      "items": [
+        {
+          "field": "Two-way SMS supported",
+          "description": "Whether Twilio supports two-way SMS in the given locale.",
+          "value": "No"
+        },
+        {
+          "field": "Number portability available",
+          "description": "Whether number portability is available in the given locale.",
+          "value": "No"
+        },
+        {
+          "field": "Twilio concatenated message support",
+          "description": "Concatenation refers to the capability of splitting a message that is too long to be sent in one SMS into smaller pieces and then joining the pieces at the receiving end so that the receiver sees the message as one.",
+          "value": "Yes* For certain sender ID types this may not be supported. Where messages are split and rejoined may vary based on character encoding."
+        },
+        {
+          "field": "Message length",
+          "description": "How many characters can be sent given a particular message encoding before the message will be split into concatenated segments.",
+          "value": "160 Characters"
+        },
+        {
+          "field": "Twilio MMS support",
+          "description": "Multimedia Messaging Service (MMS) provides a standards-based means to send pictures and video to mobile phones.",
+          "value": "Converted to SMS with embedded URL"
+        },
+        {
+          "field": "Sending SMS to landline numbers",
+          "description": "How Twilio handles an SMS message destined for landline telephone number.",
+          "value": "You cannot send SMS to a landline destination number: the Twilio REST API will throw a 400 response with error code 21614, the message will not appear in the logs, and the account will not be charged."
+        },
+        {
+          "field": "Compliance considerations",
+          "description": "Twilio strongly encourages customers to review proposed use cases with qualified legal counsel to make sure that they comply with all applicable laws. This table lists some general best practices.",
+          "value": "All SMS messages sent via domestic Sender IDs to Indonesia must include a brand name, service program, or community in the message body in order to avoid rejection of message. This requirement aligns with Twilio's ongoing commitment to ensuring compliance in Indonesia. Message delivery to M2M numbers is on best effort basis only. Sending firearms, gambling, adult content, political, religious, controlled substance, cannabis, and alcohol related content is strictly prohibited. It is best practice not to include phone numbers in message body. Twilio strongly encourages customers to review proposed use cases with qualified legal counsel to make sure that they comply with all applicable laws. The following are some general best practices. Get opt-in consent from each end-user before sending any communication to them, particularly for marketing or other non-essential communications.Only communicate during an end-user’s daytime hours unless it is urgent.SMS campaigns should support HELP/STOP messages, and similar messages, in the end-user’s local language.Do not contact end-users on do-not-call or do-not-disturb registries."
+        }
+      ]
+    },
+    {
+      "title": "Phone Numbers & Sender ID",
+      "section": "Alphanumeric",
+      "type": "matrix",
+      "columns": [
+        "International Pre-registration",
+        "Domestic Pre-registration",
+        "Dynamic"
+      ],
+      "items": [
+        {
+          "field": "Operator network capability",
+          "description": "Whether mobile operators in the given country support the feature.",
+          "values": {
+            "International Pre-registration": "Required",
+            "Domestic Pre-registration": "Required",
+            "Dynamic": "Not Supported"
+          }
+        },
+        {
+          "field": "Twilio supported",
+          "description": "Whether Twilio supports the feature for the given country.",
+          "values": {
+            "International Pre-registration": "Supported Learn more and register via the Console",
+            "Domestic Pre-registration": "Supported Learn more",
+            "Dynamic": "Supported"
+          }
+        },
+        {
+          "field": "Sender ID preserved",
+          "description": "In some countries sender IDs for certain sender types are not preserved and are changed for compliance and/or deliverability reasons. In these countries mobile subscribers will see a different ‘from sender ID’ than the one sent by you.",
+          "values": {
+            "International Pre-registration": "Yes",
+            "Domestic Pre-registration": "Yes",
+            "Dynamic": "No"
+          }
+        },
+        {
+          "field": "Provisioning time",
+          "description": "Provisioning is the process of getting the sender ID approved and registered with mobile networks (depending on country requirements). Provisioning time is how long this process takes in the given country.",
+          "values": {
+            "International Pre-registration": "4 weeks",
+            "Domestic Pre-registration": "3 weeks",
+            "Dynamic": "N/A"
+          }
+        },
+        {
+          "field": "UCS-2 support",
+          "description": "",
+          "values": {
+            "International Pre-registration": "Supported",
+            "Domestic Pre-registration": "Not Supported UCS2-encoded messages are only supported over International Registered Sender IDs",
+            "Dynamic": "Supported"
+          }
+        },
+        {
+          "field": "Use case restrictions",
+          "description": "",
+          "values": {
+            "International Pre-registration": "Please refrain from requesting generic alphanumeric sender IDs to avoid being blocked by network operators. Messages must not contain: SPAM-related materials.Anything that is misleading, deceiving, obscene, offensive, or defamatory against any person.Content that infringes on the rights of any third-party or may give rise to any legal claim by any person.",
+            "Domestic Pre-registration": "All SMS messages sent via domestic Sender IDs to Indonesia must include a brand name, service program, or community in the message body in order to avoid rejection of message. This requirement aligns with Twilio's ongoing commitment to ensuring compliance in Indonesia. Messages must not contain: SPAM-related materials.Anything that is misleading, deceiving, obscene, offensive, or defamatory against any person.Content that infringes on the rights of any third-party or may give rise to any legal claim by any person.",
+            "Dynamic": "Twilio will start blocking on the 21st of September of 2024 any traffic submitted to the networks Telkomsel, Axiata, and Smart from Sender IDs that are not pre-registered. Please Register an Alpha Sender ID in Indonesia to avoid having your messages blocked."
+          }
+        },
+        {
+          "field": "Best practices",
+          "description": "",
+          "values": {
+            "International Pre-registration": "Separate procedures are in place for registering Domestic and International Sender IDs, this may require different documents to be submitted. The major Indonesian network operators follow strict policies regarding the validity of registered Sender IDs which don't produce traffic. Every 3 months each network operator is checking the traffic that is sent to them and Alphanumeric Sender IDs with less than 1000 SMS per 3 month and per network are deprovisioned.",
+            "Domestic Pre-registration": "We strongly suggest our Domestic customers who intend to register their Alpha Sender IDs to send at least 5000 SMS, spread to all Indonesian networks",
+            "Dynamic": "Twilio suggests using a pre-registered Alphanumeric Sender ID in Indonesia"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Phone Numbers & Sender ID",
+      "section": "Long codes and short codes",
+      "type": "matrix",
+      "columns": [
+        "Long code domestic",
+        "Long code international",
+        "Short code"
+      ],
+      "items": [
+        {
+          "field": "Operator network capability",
+          "description": "Whether mobile operators in the given country support the feature.",
+          "values": {
+            "Long code domestic": "Not Supported",
+            "Long code international": "Not Supported",
+            "Short code": "Not Supported"
+          }
+        },
+        {
+          "field": "Twilio supported",
+          "description": "Whether Twilio supports the feature for the given country.",
+          "values": {
+            "Long code domestic": "Not Supported",
+            "Long code international": "Supported",
+            "Short code": "Not Supported"
+          }
+        },
+        {
+          "field": "Sender ID preserved",
+          "description": "In some countries sender IDs for certain sender types are not preserved and are changed for compliance and/or deliverability reasons. In these countries mobile subscribers will see a different ‘from sender ID’ than the one sent by you.",
+          "values": {
+            "Long code domestic": "No",
+            "Long code international": "No",
+            "Short code": "No"
+          }
+        },
+        {
+          "field": "Provisioning time",
+          "description": "Provisioning is the process of getting the sender ID approved and registered with mobile networks (depending on country requirements). Provisioning time is how long this process takes in the given country.",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "N/A",
+            "Short code": "N/A"
+          }
+        },
+        {
+          "field": "UCS-2 support",
+          "description": "",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "Supported",
+            "Short code": "N/A"
+          }
+        },
+        {
+          "field": "Use case restrictions",
+          "description": "",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "Delivery of messages submitted with Numeric Sender IDs is on a best-effort basis and will be overwritten with either random Numeric or Alphanumeric Sender IDs. Pre-registration of Alphanumeric Sender IDs is required. Twilio will start blocking on the 21st of September of 2024 any traffic submitted to the networks Telkomsel, Axiata, and Smart from Sender IDs that are not pre-registered. Please Register an Alpha Sender ID in Indonesia to avoid having your messages blocked.",
+            "Short code": "N/A"
+          }
+        },
+        {
+          "field": "Best practices",
+          "description": "",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "Twilio suggests using a pre-registered Alphanumeric Sender ID in Indonesia",
+            "Short code": "N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

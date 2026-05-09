@@ -1,0 +1,221 @@
+{
+  "source_url": "https://www.twilio.com/en-us/guidelines/gb/sms",
+  "locale_code": "gb",
+  "locale_name": "United Kingdom (GB)",
+  "tables": [
+    {
+      "title": "Locale Summary",
+      "type": "key_value",
+      "items": [
+        {
+          "field": "Locale name",
+          "description": "",
+          "value": "United Kingdom"
+        },
+        {
+          "field": "ISO code",
+          "description": "The International Organization for Standardization two character representation for the given locale.",
+          "value": "GB"
+        },
+        {
+          "field": "Region",
+          "description": "",
+          "value": "Europe"
+        },
+        {
+          "field": "Mobile country code",
+          "description": "A three digit code associated with the given locale and used in conjunction with a Mobile Network Code to uniquely identify mobile networks.",
+          "value": "234, 235"
+        },
+        {
+          "field": "Dialing code",
+          "description": "The dialing prefix used to establish a call or send an SMS from one locale to the given locale.",
+          "value": "+44"
+        }
+      ]
+    },
+    {
+      "title": "Guidelines",
+      "type": "key_value",
+      "items": [
+        {
+          "field": "Two-way SMS supported",
+          "description": "Whether Twilio supports two-way SMS in the given locale.",
+          "value": "Yes"
+        },
+        {
+          "field": "Number portability available",
+          "description": "Whether number portability is available in the given locale.",
+          "value": "Yes"
+        },
+        {
+          "field": "Twilio concatenated message support",
+          "description": "Concatenation refers to the capability of splitting a message that is too long to be sent in one SMS into smaller pieces and then joining the pieces at the receiving end so that the receiver sees the message as one.",
+          "value": "Yes* For certain sender ID types this may not be supported. Where messages are split and rejoined may vary based on character encoding."
+        },
+        {
+          "field": "Message length",
+          "description": "How many characters can be sent given a particular message encoding before the message will be split into concatenated segments.",
+          "value": "Inbound: GSM 3.38=160, Unicode=70 Outbound: GSM 3.38=160, Unicode=70"
+        },
+        {
+          "field": "Twilio MMS support",
+          "description": "Multimedia Messaging Service (MMS) provides a standards-based means to send pictures and video to mobile phones.",
+          "value": "Converted to SMS with embedded URL"
+        },
+        {
+          "field": "Sending SMS to landline numbers",
+          "description": "How Twilio handles an SMS message destined for landline telephone number.",
+          "value": "Twilio will not check whether the number is a landline and will attempt to send it to our carrier for delivery. Some carriers will convert the SMS into text-to-speech messages via voice calls."
+        },
+        {
+          "field": "Compliance considerations",
+          "description": "Twilio strongly encourages customers to review proposed use cases with qualified legal counsel to make sure that they comply with all applicable laws. This table lists some general best practices.",
+          "value": "SMS-to-voice functionality is in widespread use in the UK, and as a result, Twilio will not reject messages sent to landlines. Please be aware of this fact because it may not be the desired behavior for your application. If this is not the desired behavior, Twilio Support can help. ________________________________________________ Sending cannabis related content is strictly prohibited. CBD related content is however permissible in the UK _________________________________________________ Twilio recommends testing your message templates before launching campaigns or sending live messages to the UK, as certain characters – such as letters with a diaeresis (commonly known as umlauts, e.g., ü, ö, ä) – may not be delivered intact and could be automatically replaced to facilitate delivery. _________________________________________________ Message delivery to M2M numbers is on best-effort basis only. _________________________________________________ Twilio strongly encourages customers to review proposed use cases with qualified legal counsel to make sure that they comply with all applicable laws. The following are some general best practices: Get opt-in consent from each end user before sending any communication to them, particular for marketing or other non-essential communications.Only communicate during an end user's daytime hours unless it is urgent.SMS campaigns should support HELP/STOP messages, and similar messages, in the end user's local language.Do not contact end users on do-not-call or do-not-disturb registries. _________________________________________________ BT introduced within 2023 strict regulations in order to reduce fraudulent messaging and smishing attempts. Messages sent to BT subscribers with sender IDs related to specific brands will be blocked by default so customers are required to allowlist Alpha Sender IDs related to the specific brands before sending messages with them. Please find more details in BT Protected Brands"
+        }
+      ]
+    },
+    {
+      "title": "Phone Numbers & Sender ID",
+      "section": "Alphanumeric",
+      "type": "matrix",
+      "columns": [
+        "Pre-registration",
+        "Dynamic"
+      ],
+      "items": [
+        {
+          "field": "Operator network capability",
+          "description": "Whether mobile operators in the given country support the feature.",
+          "values": {
+            "Pre-registration": "Not Required",
+            "Dynamic": "Supported"
+          }
+        },
+        {
+          "field": "Twilio supported",
+          "description": "Whether Twilio supports the feature for the given country.",
+          "values": {
+            "Pre-registration": "Required only for Protected Sender IDs. Learn more and register via the Console",
+            "Dynamic": "Supported Learn more"
+          }
+        },
+        {
+          "field": "Sender ID preserved",
+          "description": "In some countries sender IDs for certain sender types are not preserved and are changed for compliance and/or deliverability reasons. In these countries mobile subscribers will see a different ‘from sender ID’ than the one sent by you.",
+          "values": {
+            "Pre-registration": "---",
+            "Dynamic": "Yes"
+          }
+        },
+        {
+          "field": "Provisioning time",
+          "description": "Provisioning is the process of getting the sender ID approved and registered with mobile networks (depending on country requirements). Provisioning time is how long this process takes in the given country.",
+          "values": {
+            "Pre-registration": "N/A",
+            "Dynamic": "N/A"
+          }
+        },
+        {
+          "field": "UCS-2 support",
+          "description": "",
+          "values": {
+            "Pre-registration": "N/A",
+            "Dynamic": "Supported"
+          }
+        },
+        {
+          "field": "Use case restrictions",
+          "description": "",
+          "values": {
+            "Pre-registration": "N/A",
+            "Dynamic": "Protected Sender IDs: In case you need to submit messages using a \"MEF protected Sender ID\" or a \"BT Protected Sender ID\" you need to first pre-register it with Twilio. You can register your Protected Sender ID via the Console ___________________________________________________________ The use of generic Sender IDs should be avoided as they are being blocked from the operators. ___________________________________________________________ UK operators have begun restricting Sender IDs that contain special characters (such as ?, ', +, etc.), we recommend using only the following special character set for your alphanumeric Sender IDs: A to Z (Upper case) A to Z (Lower case) . (Period) - (Dash) 0 to 9 (Numeric) _ (Underscore) (Space) & (Ampersand)"
+          }
+        },
+        {
+          "field": "Best practices",
+          "description": "",
+          "values": {
+            "Pre-registration": "N/A",
+            "Dynamic": "Generic Sender IDs: Please refrain from using generic sender IDs like SMS, TEXT, InfoSMS, INFO, Verify, Notify etc to avoid being blocked by network operators. Twilio suggests using an Alpha Sender ID that is related to the content of the message. Starting from the 1st November of 2023 the following Alphanumeric Sender IDs will be added to the above list: 1TimePin , 2FA, Accept, Access, Account, Active, Admin, Advise, Alert, Allow, Allowance, App, Appointment, Approve, Approved, Auth, AuthMsg, Authorise, AuthSMS, Aware, Bank, Banking, Bill, Billing, Call, Card, Caution, Certify, Check, CloudOTP, Code, Collect, Collection, Confirm, Contact, Control, Courier, Delay, Deliver, Delivery, Discount, Energy, Fraud, Help, Info, InfoSMS, ISA, Key, Loan, Login, Logistics,, LogMeIn, Logon, Malware, Message, Mobile, Mortgage, MSG, MsgAuth, Network, NoReply, Notify, OneTimePin, Order, OTP, OTPSMS, Package, Parcel, Pay, Payment, Pin, PinCode, Post, Protocol, Purchase, Ratify, Rebate, Receipt, Refund, Reminder, Repayment, Reply, Respond, Save, Saving, Scam, Savings, Schedule, Secure, Security, Service, Shipping, Sign, Signin, Signon, SMS, SMSAuth, SMSCode, SMSlnfo, SMSOTP, SMSVerfiy, Support, System, Text, Trace, Track, Tracking, Trust, TXT, Update, Updates, Validate, Verify, VerifySMS, VerifyMe, Virus, Warn, Warning, Winner"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Phone Numbers & Sender ID",
+      "section": "Long codes and short codes",
+      "type": "matrix",
+      "columns": [
+        "Long code domestic",
+        "Long code international",
+        "Short code"
+      ],
+      "items": [
+        {
+          "field": "Operator network capability",
+          "description": "Whether mobile operators in the given country support the feature.",
+          "values": {
+            "Long code domestic": "Supported",
+            "Long code international": "Not Supported",
+            "Short code": "Supported"
+          }
+        },
+        {
+          "field": "Twilio supported",
+          "description": "Whether Twilio supports the feature for the given country.",
+          "values": {
+            "Long code domestic": "Supported",
+            "Long code international": "Not Supported",
+            "Short code": "Supported"
+          }
+        },
+        {
+          "field": "Sender ID preserved",
+          "description": "In some countries sender IDs for certain sender types are not preserved and are changed for compliance and/or deliverability reasons. In these countries mobile subscribers will see a different ‘from sender ID’ than the one sent by you.",
+          "values": {
+            "Long code domestic": "Yes",
+            "Long code international": "N/A",
+            "Short code": "Yes"
+          }
+        },
+        {
+          "field": "Provisioning time",
+          "description": "Provisioning is the process of getting the sender ID approved and registered with mobile networks (depending on country requirements). Provisioning time is how long this process takes in the given country.",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "N/A",
+            "Short code": "8-12 weeks"
+          }
+        },
+        {
+          "field": "UCS-2 support",
+          "description": "",
+          "values": {
+            "Long code domestic": "Supported",
+            "Long code international": "N/A",
+            "Short code": "Supported"
+          }
+        },
+        {
+          "field": "Use case restrictions",
+          "description": "",
+          "values": {
+            "Long code domestic": "Virgin Mobile no longer support SMS to UK landline numbers",
+            "Long code international": "N/A",
+            "Short code": "Short codes can only message users on carriers within the countries in which they are provisioned. AlthoughTwilio can provision short codes in multiple countries, if your customers are not located in the UK, you should not obtain a UK short code. Short codes require express consent from end users before any SMS can be sent; if you cannot obtain consent then you should not use a short code. Twilio and/or the carriers will not support certain types of campaigns, including: Those in which express end-user consent cannot be obtained. This includes friend-to-friend invite-based campaigns, as well as opt-ins obtained through lead generation.Those containing cannabis related content. Note: Campaigns dealing with age-restricted content (alcohol, gambling, etc.) are allowed, but will be evaluated on a case-by-case basis by UK carriers."
+          }
+        },
+        {
+          "field": "Best practices",
+          "description": "",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "N/A",
+            "Short code": "Refer to our FAQ for short code best practices: https://support.twilio.com/hc/en-us/articles/223134887-Requirements-for-UK-short-codes."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "binary_cases": 613,
+  "binary_correct": 609,
+  "binary_correctness": 0.9935,
+  "binary_failures": 4,
+  "failed_binary_by_expected_row_key": {
+    "Twilio supported": 3,
+    "unknown": 1
+  },
+  "failed_binary_by_failure_stage": {
+    "retrieval": 4
+  },
+  "failed_binary_by_iso": {
+    "US": 3,
+    "FR": 1
+  },
+  "failed_binary_stage_by_expected_row_key": {
+    "Twilio supported": {
+      "retrieval": 3
+    },
+    "unknown": {
+      "retrieval": 1
+    }
+  },
+  "top_recommendation": "The binary answer-template gap is closed. The remaining binary failures are retrieval or source-coverage cases, so do not add more binary answer templates for this slice."
+}

@@ -1,0 +1,526 @@
+{
+  "benchmark_path": "benchmarks/country_regressions.json",
+  "work_dir": "data/work",
+  "top_k": 5,
+  "arm_k": 40,
+  "case_count": 2799,
+  "embedding_profile": {
+    "provider": "local",
+    "model": "BAAI/bge-small-en-v1.5",
+    "dimensions": 256,
+    "indexed_embedding_time_seconds": 1.2751,
+    "vector_backend": "local",
+    "vector_store_time_seconds": 4.0548,
+    "note": "This ablation reuses the promoted local vector snapshot. External embedding-model rebuilds were not run in this local pass."
+  },
+  "modes": [
+    {
+      "mode": "bm25_only",
+      "description": "Lexical BM25 retrieval only.",
+      "lexical_weight": 1.0,
+      "vector_weight": 0.0,
+      "elapsed_seconds": 0.669,
+      "metrics": {
+        "cases": 2799,
+        "retrieval_recall_at_k": 1.0,
+        "evidence_hit_rate": 0.7949,
+        "block_type_hit_rate": 0.0957,
+        "metadata_hit_rate": 0.6745,
+        "country_match_at_1": 0.9996,
+        "mean_reciprocal_rank": 0.9807
+      },
+      "by_question_type": {
+        "binary": {
+          "cases": 613,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.5302,
+          "block_type_hit_rate": 0.0424,
+          "metadata_hit_rate": 0.0522,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 0.9829
+        },
+        "capability": {
+          "cases": 431,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.9559,
+          "block_type_hit_rate": 0.0,
+          "metadata_hit_rate": 0.949,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "duration": {
+          "cases": 205,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.9854,
+          "block_type_hit_rate": 0.0049,
+          "metadata_hit_rate": 0.9902,
+          "country_match_at_1": 0.9951,
+          "mean_reciprocal_rank": 1.0
+        },
+        "factoid": {
+          "cases": 204,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 1.0,
+          "block_type_hit_rate": 0.0,
+          "metadata_hit_rate": 1.0,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 0.8407
+        },
+        "policy_rule": {
+          "cases": 584,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.7928,
+          "block_type_hit_rate": 0.3356,
+          "metadata_hit_rate": 0.7911,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 0.988
+        },
+        "procedural": {
+          "cases": 189,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.9471,
+          "block_type_hit_rate": 0.2063,
+          "metadata_hit_rate": 0.9365,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 0.9974
+        },
+        "sender_type_capability": {
+          "cases": 156,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.2885,
+          "block_type_hit_rate": 0.0256,
+          "metadata_hit_rate": 0.1859,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "sender_type_policy": {
+          "cases": 407,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.9631,
+          "block_type_hit_rate": 0.0,
+          "metadata_hit_rate": 0.8919,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 0.9914
+        },
+        "table_extraction": {
+          "cases": 10,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.3,
+          "block_type_hit_rate": 0.2,
+          "metadata_hit_rate": 0.9,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "mode": "vector_only",
+      "description": "Vector retrieval only.",
+      "lexical_weight": 0.0,
+      "vector_weight": 1.0,
+      "elapsed_seconds": 13.381,
+      "metrics": {
+        "cases": 2799,
+        "retrieval_recall_at_k": 1.0,
+        "evidence_hit_rate": 0.6885,
+        "block_type_hit_rate": 0.0379,
+        "metadata_hit_rate": 0.4069,
+        "country_match_at_1": 0.9993,
+        "mean_reciprocal_rank": 0.9996
+      },
+      "by_question_type": {
+        "binary": {
+          "cases": 613,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.8271,
+          "block_type_hit_rate": 0.0604,
+          "metadata_hit_rate": 0.4731,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "capability": {
+          "cases": 431,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.942,
+          "block_type_hit_rate": 0.0023,
+          "metadata_hit_rate": 0.2552,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "duration": {
+          "cases": 205,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.8244,
+          "block_type_hit_rate": 0.0049,
+          "metadata_hit_rate": 0.9512,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "factoid": {
+          "cases": 204,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.1176,
+          "block_type_hit_rate": 0.0,
+          "metadata_hit_rate": 0.1127,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "policy_rule": {
+          "cases": 584,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.4726,
+          "block_type_hit_rate": 0.0788,
+          "metadata_hit_rate": 0.2003,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "procedural": {
+          "cases": 189,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.3386,
+          "block_type_hit_rate": 0.0582,
+          "metadata_hit_rate": 0.0582,
+          "country_match_at_1": 0.9947,
+          "mean_reciprocal_rank": 0.9974
+        },
+        "sender_type_capability": {
+          "cases": 156,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.4808,
+          "block_type_hit_rate": 0.0128,
+          "metadata_hit_rate": 0.0064,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "sender_type_policy": {
+          "cases": 407,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.9926,
+          "block_type_hit_rate": 0.0,
+          "metadata_hit_rate": 0.941,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "table_extraction": {
+          "cases": 10,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.2,
+          "block_type_hit_rate": 0.8,
+          "metadata_hit_rate": 0.9,
+          "country_match_at_1": 0.9,
+          "mean_reciprocal_rank": 0.95
+        }
+      }
+    },
+    {
+      "mode": "hybrid_balanced",
+      "description": "Balanced reciprocal-rank fusion.",
+      "lexical_weight": 1.0,
+      "vector_weight": 1.0,
+      "elapsed_seconds": 14.976,
+      "metrics": {
+        "cases": 2799,
+        "retrieval_recall_at_k": 1.0,
+        "evidence_hit_rate": 0.7624,
+        "block_type_hit_rate": 0.0518,
+        "metadata_hit_rate": 0.6091,
+        "country_match_at_1": 1.0,
+        "mean_reciprocal_rank": 1.0
+      },
+      "by_question_type": {
+        "binary": {
+          "cases": 613,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.832,
+          "block_type_hit_rate": 0.0587,
+          "metadata_hit_rate": 0.4568,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "capability": {
+          "cases": 431,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.9698,
+          "block_type_hit_rate": 0.0023,
+          "metadata_hit_rate": 0.8306,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "duration": {
+          "cases": 205,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.8244,
+          "block_type_hit_rate": 0.0049,
+          "metadata_hit_rate": 0.9561,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "factoid": {
+          "cases": 204,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.4853,
+          "block_type_hit_rate": 0.0,
+          "metadata_hit_rate": 0.4265,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "policy_rule": {
+          "cases": 584,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.5908,
+          "block_type_hit_rate": 0.1284,
+          "metadata_hit_rate": 0.4829,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "procedural": {
+          "cases": 189,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.6349,
+          "block_type_hit_rate": 0.127,
+          "metadata_hit_rate": 0.5397,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "sender_type_capability": {
+          "cases": 156,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.4295,
+          "block_type_hit_rate": 0.0,
+          "metadata_hit_rate": 0.0256,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "sender_type_policy": {
+          "cases": 407,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.9926,
+          "block_type_hit_rate": 0.0,
+          "metadata_hit_rate": 0.9533,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "table_extraction": {
+          "cases": 10,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.2,
+          "block_type_hit_rate": 0.8,
+          "metadata_hit_rate": 0.8,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "mode": "hybrid_lexical_heavy",
+      "description": "Lexical-heavy fusion.",
+      "lexical_weight": 2.0,
+      "vector_weight": 1.0,
+      "elapsed_seconds": 16.059,
+      "metrics": {
+        "cases": 2799,
+        "retrieval_recall_at_k": 1.0,
+        "evidence_hit_rate": 0.8089,
+        "block_type_hit_rate": 0.0604,
+        "metadata_hit_rate": 0.6652,
+        "country_match_at_1": 1.0,
+        "mean_reciprocal_rank": 1.0
+      },
+      "by_question_type": {
+        "binary": {
+          "cases": 613,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.8434,
+          "block_type_hit_rate": 0.0587,
+          "metadata_hit_rate": 0.3834,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "capability": {
+          "cases": 431,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.9722,
+          "block_type_hit_rate": 0.0,
+          "metadata_hit_rate": 0.8677,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "duration": {
+          "cases": 205,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.8293,
+          "block_type_hit_rate": 0.0049,
+          "metadata_hit_rate": 0.9561,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "factoid": {
+          "cases": 204,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.8873,
+          "block_type_hit_rate": 0.0,
+          "metadata_hit_rate": 0.7941,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "policy_rule": {
+          "cases": 584,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.6473,
+          "block_type_hit_rate": 0.1575,
+          "metadata_hit_rate": 0.6079,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "procedural": {
+          "cases": 189,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.7672,
+          "block_type_hit_rate": 0.1693,
+          "metadata_hit_rate": 0.7196,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "sender_type_capability": {
+          "cases": 156,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.2949,
+          "block_type_hit_rate": 0.0,
+          "metadata_hit_rate": 0.0385,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "sender_type_policy": {
+          "cases": 407,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.9951,
+          "block_type_hit_rate": 0.0,
+          "metadata_hit_rate": 0.9582,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "table_extraction": {
+          "cases": 10,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.3,
+          "block_type_hit_rate": 0.8,
+          "metadata_hit_rate": 0.8,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "mode": "hybrid_vector_heavy",
+      "description": "Vector-heavy fusion.",
+      "lexical_weight": 1.0,
+      "vector_weight": 2.0,
+      "elapsed_seconds": 14.468,
+      "metrics": {
+        "cases": 2799,
+        "retrieval_recall_at_k": 1.0,
+        "evidence_hit_rate": 0.7245,
+        "block_type_hit_rate": 0.0454,
+        "metadata_hit_rate": 0.5309,
+        "country_match_at_1": 1.0,
+        "mean_reciprocal_rank": 1.0
+      },
+      "by_question_type": {
+        "binary": {
+          "cases": 613,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.8108,
+          "block_type_hit_rate": 0.0604,
+          "metadata_hit_rate": 0.478,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "capability": {
+          "cases": 431,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.9629,
+          "block_type_hit_rate": 0.0023,
+          "metadata_hit_rate": 0.5986,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "duration": {
+          "cases": 205,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.8244,
+          "block_type_hit_rate": 0.0049,
+          "metadata_hit_rate": 0.9561,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "factoid": {
+          "cases": 204,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.3333,
+          "block_type_hit_rate": 0.0,
+          "metadata_hit_rate": 0.3088,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "policy_rule": {
+          "cases": 584,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.5223,
+          "block_type_hit_rate": 0.0959,
+          "metadata_hit_rate": 0.3493,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "procedural": {
+          "cases": 189,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.5026,
+          "block_type_hit_rate": 0.127,
+          "metadata_hit_rate": 0.3915,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "sender_type_capability": {
+          "cases": 156,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.4615,
+          "block_type_hit_rate": 0.0,
+          "metadata_hit_rate": 0.0128,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "sender_type_policy": {
+          "cases": 407,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.9951,
+          "block_type_hit_rate": 0.0,
+          "metadata_hit_rate": 0.9509,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        },
+        "table_extraction": {
+          "cases": 10,
+          "retrieval_recall_at_k": 1.0,
+          "evidence_hit_rate": 0.2,
+          "block_type_hit_rate": 0.8,
+          "metadata_hit_rate": 0.9,
+          "country_match_at_1": 1.0,
+          "mean_reciprocal_rank": 1.0
+        }
+      }
+    }
+  ],
+  "best_mode": {
+    "name": "hybrid_lexical_heavy",
+    "reason": "Selected by evidence hit rate, then retrieval recall@k, then metadata hit rate.",
+    "metrics": {
+      "cases": 2799,
+      "retrieval_recall_at_k": 1.0,
+      "evidence_hit_rate": 0.8089,
+      "block_type_hit_rate": 0.0604,
+      "metadata_hit_rate": 0.6652,
+      "country_match_at_1": 1.0,
+      "mean_reciprocal_rank": 1.0
+    }
+  }
+}

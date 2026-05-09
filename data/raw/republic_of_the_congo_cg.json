@@ -1,0 +1,221 @@
+{
+  "source_url": "https://www.twilio.com/en-us/guidelines/cg/sms",
+  "locale_code": "cg",
+  "locale_name": "Republic of the Congo (CG)",
+  "tables": [
+    {
+      "title": "Locale Summary",
+      "type": "key_value",
+      "items": [
+        {
+          "field": "Locale name",
+          "description": "",
+          "value": "Republic of the Congo"
+        },
+        {
+          "field": "ISO code",
+          "description": "The International Organization for Standardization two character representation for the given locale.",
+          "value": "CG"
+        },
+        {
+          "field": "Region",
+          "description": "",
+          "value": "Middle East & Africa"
+        },
+        {
+          "field": "Mobile country code",
+          "description": "A three digit code associated with the given locale and used in conjunction with a Mobile Network Code to uniquely identify mobile networks.",
+          "value": "629"
+        },
+        {
+          "field": "Dialing code",
+          "description": "The dialing prefix used to establish a call or send an SMS from one locale to the given locale.",
+          "value": "+242"
+        }
+      ]
+    },
+    {
+      "title": "Guidelines",
+      "type": "key_value",
+      "items": [
+        {
+          "field": "Two-way SMS supported",
+          "description": "Whether Twilio supports two-way SMS in the given locale.",
+          "value": "No"
+        },
+        {
+          "field": "Number portability available",
+          "description": "Whether number portability is available in the given locale.",
+          "value": "No"
+        },
+        {
+          "field": "Twilio concatenated message support",
+          "description": "Concatenation refers to the capability of splitting a message that is too long to be sent in one SMS into smaller pieces and then joining the pieces at the receiving end so that the receiver sees the message as one.",
+          "value": "Yes* For certain sender ID types this may not be supported. Where messages are split and rejoined may vary based on character encoding."
+        },
+        {
+          "field": "Message length",
+          "description": "How many characters can be sent given a particular message encoding before the message will be split into concatenated segments.",
+          "value": "-----"
+        },
+        {
+          "field": "Twilio MMS support",
+          "description": "Multimedia Messaging Service (MMS) provides a standards-based means to send pictures and video to mobile phones.",
+          "value": "Converted to SMS with embedded URL"
+        },
+        {
+          "field": "Sending SMS to landline numbers",
+          "description": "How Twilio handles an SMS message destined for landline telephone number.",
+          "value": "You cannot send SMS to a landline destination number: the Twilio REST API will throw a 400 response with error code 21614, the message will not appear in the logs, and the account will not be charged."
+        },
+        {
+          "field": "Compliance considerations",
+          "description": "Twilio strongly encourages customers to review proposed use cases with qualified legal counsel to make sure that they comply with all applicable laws. This table lists some general best practices.",
+          "value": "Twilio strongly encourages customers to review proposed use cases with qualified legal counsel to make sure that they comply with all applicable laws. The following are some general best practices: Get opt-in consent from each end-user before sending any communication to them, particularly for marketing or other non-essential communications.Only communicate during an end-user’s daytime hours unless it is urgent.SMS campaigns should support HELP/STOP messages, and similar messages, in the end-user’s local language.Do not contact end-users on do-not-call or do-not-disturb registries."
+        }
+      ]
+    },
+    {
+      "title": "Phone Numbers & Sender ID",
+      "section": "Alphanumeric",
+      "type": "matrix",
+      "columns": [
+        "Global Pre-registration",
+        "Dynamic"
+      ],
+      "items": [
+        {
+          "field": "Operator network capability",
+          "description": "Whether mobile operators in the given country support the feature.",
+          "values": {
+            "Global Pre-registration": "Required There is no segregation between International and Domestic Traffic",
+            "Dynamic": "Not Supported"
+          }
+        },
+        {
+          "field": "Twilio supported",
+          "description": "Whether Twilio supports the feature for the given country.",
+          "values": {
+            "Global Pre-registration": "Supported Learn more and register via the Console",
+            "Dynamic": "Supported"
+          }
+        },
+        {
+          "field": "Sender ID preserved",
+          "description": "In some countries sender IDs for certain sender types are not preserved and are changed for compliance and/or deliverability reasons. In these countries mobile subscribers will see a different ‘from sender ID’ than the one sent by you.",
+          "values": {
+            "Global Pre-registration": "Yes",
+            "Dynamic": "No"
+          }
+        },
+        {
+          "field": "Provisioning time",
+          "description": "Provisioning is the process of getting the sender ID approved and registered with mobile networks (depending on country requirements). Provisioning time is how long this process takes in the given country.",
+          "values": {
+            "Global Pre-registration": "3 weeks",
+            "Dynamic": "N/A"
+          }
+        },
+        {
+          "field": "UCS-2 support",
+          "description": "",
+          "values": {
+            "Global Pre-registration": "Supported",
+            "Dynamic": "Supported"
+          }
+        },
+        {
+          "field": "Use case restrictions",
+          "description": "",
+          "values": {
+            "Global Pre-registration": "Promotional content is not allowed to be registered",
+            "Dynamic": "Generic Alphanumeric Sender IDs, such as InfoSMS, INFO, Verify and Notify, should be avoided. For MTN network specifically, Alphanumeric Sender IDs are only supported through pre-registration."
+          }
+        },
+        {
+          "field": "Best practices",
+          "description": "",
+          "values": {
+            "Global Pre-registration": "Please refrain from requesting the registration of generic sender IDs to avoid being blocked by network operators.",
+            "Dynamic": "N/A"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Phone Numbers & Sender ID",
+      "section": "Long codes and short codes",
+      "type": "matrix",
+      "columns": [
+        "Long code domestic",
+        "Long code international",
+        "Short code"
+      ],
+      "items": [
+        {
+          "field": "Operator network capability",
+          "description": "Whether mobile operators in the given country support the feature.",
+          "values": {
+            "Long code domestic": "---",
+            "Long code international": "Not Supported",
+            "Short code": "Not Supported"
+          }
+        },
+        {
+          "field": "Twilio supported",
+          "description": "Whether Twilio supports the feature for the given country.",
+          "values": {
+            "Long code domestic": "Not Supported",
+            "Long code international": "Supported",
+            "Short code": "---"
+          }
+        },
+        {
+          "field": "Sender ID preserved",
+          "description": "In some countries sender IDs for certain sender types are not preserved and are changed for compliance and/or deliverability reasons. In these countries mobile subscribers will see a different ‘from sender ID’ than the one sent by you.",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "No",
+            "Short code": "---"
+          }
+        },
+        {
+          "field": "Provisioning time",
+          "description": "Provisioning is the process of getting the sender ID approved and registered with mobile networks (depending on country requirements). Provisioning time is how long this process takes in the given country.",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "N/A",
+            "Short code": "N/A"
+          }
+        },
+        {
+          "field": "UCS-2 support",
+          "description": "",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "Supported",
+            "Short code": "N/A"
+          }
+        },
+        {
+          "field": "Use case restrictions",
+          "description": "",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "Dynamic Numeric Sender IDs are not supported by the networks Airtel and MTN. Sender IDs of this type will be overwritten with a generic Alphanumeric Sender ID outside the Twilio platform or filtered/blocked by network operator.",
+            "Short code": "N/A"
+          }
+        },
+        {
+          "field": "Best practices",
+          "description": "",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "Twilio suggests using a pre-registered alphanumeric Sender ID in Congo",
+            "Short code": "N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

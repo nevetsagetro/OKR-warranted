@@ -1,0 +1,639 @@
+{
+  "document_title": "Reviewed SMS Regulatory FAQ Source Facts",
+  "content_type": "faq_source_facts",
+  "source_facts": [
+    {
+      "fact_id": "albania-political-content-prohibited",
+      "field": "political content",
+      "fact_type": "content_restriction",
+      "topic": "political content",
+      "value": "political content is strictly prohibited",
+      "country_iso2": "AL",
+      "applies_to": "Albania",
+      "structured_fields": {
+        "question": "Is political content allowed in SMS messages in Albania?",
+        "answer": "No, political content is strictly prohibited.",
+        "support_status": "Prohibited",
+        "sender_type": "",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Albania"
+      ],
+      "source_anchor": "Political content",
+      "source_quote": "political content is strictly prohibited"
+    },
+    {
+      "fact_id": "andorra-default-account-setup-time-1-day",
+      "field": "provisioning time",
+      "fact_type": "provisioning",
+      "topic": "provisioning time",
+      "value": "1 day",
+      "country_iso2": "AD",
+      "applies_to": "Andorra default account",
+      "structured_fields": {
+        "question": "How long does it usually take to set up a default account in Andorra?",
+        "answer": "The default account setup time is 1 day.",
+        "support_status": "Supported",
+        "sender_type": "",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Andorra"
+      ],
+      "source_anchor": "Default account setup time",
+      "source_quote": "The default account setup time is 1 day."
+    },
+    {
+      "fact_id": "australia-dynamic-alphanumeric-sender-id-unregistered-no-longer-allowed-2023-04-25",
+      "field": "unregistered sender id",
+      "fact_type": "registration",
+      "topic": "unregistered sender id",
+      "value": "From April 25, 2023",
+      "country_iso2": "AU",
+      "applies_to": "Australia",
+      "structured_fields": {
+        "question": "In Australia, from what date were dynamic alphanumeric Sender IDs without prior registration no longer allowed?",
+        "answer": "From April 25, 2023. All alphanumeric senders must be pre-registered to avoid being blocked.",
+        "support_status": "Prohibited",
+        "sender_type": "dynamic alphanumeric Sender ID",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Australia"
+      ],
+      "source_anchor": "Unregistered sender id",
+      "source_quote": "From April 25, 2023."
+    },
+    {
+      "fact_id": "australia-alphanumeric-sender-id-pre-registration-required",
+      "field": "pre-registration",
+      "fact_type": "registration",
+      "topic": "sender id registration",
+      "value": "All alphanumeric senders must be pre-registered to avoid being blocked",
+      "country_iso2": "AU",
+      "applies_to": "Australia",
+      "structured_fields": {
+        "question": "In Australia, from what date were dynamic alphanumeric Sender IDs without prior registration no longer allowed?",
+        "answer": "From April 25, 2023. All alphanumeric senders must be pre-registered to avoid being blocked.",
+        "support_status": "Required",
+        "sender_type": "alphanumeric sender id",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Australia"
+      ],
+      "source_anchor": "Pre-registration",
+      "source_quote": "All alphanumeric senders must be pre-registered to avoid being blocked."
+    },
+    {
+      "fact_id": "austria-mno-name-in-text-or-sender-blocked",
+      "field": "content restriction",
+      "fact_type": "content_restriction",
+      "topic": "content restriction",
+      "value": "Traffic containing mobile network operator (MNO) names will be blocked",
+      "country_iso2": "AT",
+      "applies_to": "Austria",
+      "structured_fields": {
+        "question": "What happens if a message in Austria includes the name of a mobile network operator (MNO) in the text or sender?",
+        "answer": "Traffic containing mobile network operator (MNO) names will be blocked.",
+        "support_status": "Prohibited",
+        "sender_type": "",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Austria",
+        "MNO"
+      ],
+      "source_anchor": "MNO names",
+      "source_quote": "Traffic containing mobile network operator (MNO) names will be blocked."
+    },
+    {
+      "fact_id": "bangladesh-local-promotional-traffic-bengali-required",
+      "field": "promotional content",
+      "fact_type": "content_restriction",
+      "topic": "promotional content",
+      "value": "Local promotional traffic must be sent in Bengali",
+      "country_iso2": "BD",
+      "applies_to": "Bangladesh local promotional traffic",
+      "structured_fields": {
+        "question": "In which language must local promotional traffic be sent in Bangladesh?",
+        "answer": "Local promotional traffic must be sent in Bengali.",
+        "support_status": "Required",
+        "sender_type": "",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Bangladesh",
+        "Bengali"
+      ],
+      "source_anchor": "Local promotional traffic",
+      "source_quote": "Local promotional traffic must be sent in Bengali."
+    },
+    {
+      "fact_id": "belgium-alphanumeric-sender-ids-blocked-all-networks",
+      "field": "alphanumeric sender id",
+      "fact_type": "sender_capability",
+      "topic": "alphanumeric sender id",
+      "value": "Authorities in Belgium block all alphanumeric sender IDs across all networks",
+      "country_iso2": "BE",
+      "applies_to": "Belgium all networks",
+      "structured_fields": {
+        "question": "How do regulatory authorities in Belgium handle alphanumeric senders?",
+        "answer": "Authorities in Belgium block all alphanumeric sender IDs across all networks, modifying them and converting them into short codes.",
+        "support_status": "Not supported",
+        "sender_type": "alphanumeric sender id",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Belgium"
+      ],
+      "source_anchor": "Alphanumeric sender id",
+      "source_quote": "Authorities in Belgium block all alphanumeric sender IDs across all networks"
+    },
+    {
+      "fact_id": "belgium-alphanumeric-sender-ids-converted-to-short-codes",
+      "field": "routing",
+      "fact_type": "routing",
+      "topic": "routing",
+      "value": "Alphanumeric sender IDs are modified and converted into short codes",
+      "country_iso2": "BE",
+      "applies_to": "Belgium all networks",
+      "structured_fields": {
+        "question": "How do regulatory authorities in Belgium handle alphanumeric senders?",
+        "answer": "Authorities in Belgium block all alphanumeric sender IDs across all networks, modifying them and converting them into short codes.",
+        "support_status": "Supported",
+        "sender_type": "alphanumeric sender id",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Belgium"
+      ],
+      "source_anchor": "Short code conversion",
+      "source_quote": "modifying them and converting them into short codes"
+    },
+    {
+      "fact_id": "benin-phone-number-format-10-digit-2024-11-30",
+      "field": "routing",
+      "fact_type": "routing",
+      "topic": "routing",
+      "value": "The old format of 8 digits after the country code changed to a new 10-digit format",
+      "country_iso2": "BJ",
+      "applies_to": "Benin",
+      "structured_fields": {
+        "question": "What was the change in the phone number format in Benin implemented on November 30, 2024?",
+        "answer": "The old format of 8 digits after the country code changed to a new 10-digit format (for example, by adding \"01\" after the country code).",
+        "support_status": "Supported",
+        "sender_type": "",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Benin"
+      ],
+      "source_anchor": "Phone number format",
+      "source_quote": "The old format of 8 digits after the country code changed to a new 10-digit format"
+    },
+    {
+      "fact_id": "benin-phone-number-format-add-01-after-country-code",
+      "field": "routing",
+      "fact_type": "routing",
+      "topic": "routing",
+      "value": "by adding \"01\" after the country code",
+      "country_iso2": "BJ",
+      "applies_to": "Benin",
+      "structured_fields": {
+        "question": "What was the change in the phone number format in Benin implemented on November 30, 2024?",
+        "answer": "The old format of 8 digits after the country code changed to a new 10-digit format (for example, by adding \"01\" after the country code).",
+        "support_status": "Supported",
+        "sender_type": "",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Benin"
+      ],
+      "source_anchor": "Phone number format example",
+      "source_quote": "by adding \"01\" after the country code"
+    },
+    {
+      "fact_id": "brazil-nextel-character-limit-140-per-segment",
+      "field": "character limit",
+      "fact_type": "encoding",
+      "topic": "character limit",
+      "value": "140 characters per segment for NEXTEL",
+      "country_iso2": "BR",
+      "applies_to": "Brazil NEXTEL network",
+      "structured_fields": {
+        "question": "What is the character limit per segment for SMS messages sent to the NEXTEL network in Brazil?",
+        "answer": "The limit is 140 characters per segment for NEXTEL, instead of the usual 160 characters on other networks.",
+        "support_status": "Supported",
+        "sender_type": "",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Brazil",
+        "NEXTEL"
+      ],
+      "source_anchor": "NEXTEL character limit",
+      "source_quote": "The limit is 140 characters per segment for NEXTEL"
+    },
+    {
+      "fact_id": "brazil-other-networks-character-limit-160-per-segment",
+      "field": "character limit",
+      "fact_type": "encoding",
+      "topic": "character limit",
+      "value": "160 characters on other networks",
+      "country_iso2": "BR",
+      "applies_to": "Brazil other networks",
+      "structured_fields": {
+        "question": "What is the character limit per segment for SMS messages sent to the NEXTEL network in Brazil?",
+        "answer": "The limit is 140 characters per segment for NEXTEL, instead of the usual 160 characters on other networks.",
+        "support_status": "Supported",
+        "sender_type": "",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Brazil"
+      ],
+      "source_anchor": "Other networks character limit",
+      "source_quote": "the usual 160 characters on other networks"
+    },
+    {
+      "fact_id": "bulgaria-gambling-direct-advertising-unsolicited-electronic-messages-prohibited",
+      "field": "content restriction",
+      "fact_type": "content_restriction",
+      "topic": "content restriction",
+      "value": "direct advertising of gambling through unsolicited electronic messages inviting users to play",
+      "country_iso2": "BG",
+      "applies_to": "Bulgaria",
+      "structured_fields": {
+        "question": "What does the 2014 Gambling Act in Bulgaria specifically prohibit regarding SMS?",
+        "answer": "It prohibits direct advertising of gambling through unsolicited electronic messages inviting users to play. However, sending lottery results or game names is allowed.",
+        "support_status": "Prohibited",
+        "sender_type": "",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Bulgaria",
+        "2014 Gambling Act"
+      ],
+      "source_anchor": "2014 Gambling Act",
+      "source_quote": "It prohibits direct advertising of gambling through unsolicited electronic messages inviting users to play."
+    },
+    {
+      "fact_id": "bulgaria-lottery-results-or-game-names-allowed",
+      "field": "content restriction",
+      "fact_type": "content_restriction",
+      "topic": "content restriction",
+      "value": "sending lottery results or game names is allowed",
+      "country_iso2": "BG",
+      "applies_to": "Bulgaria",
+      "structured_fields": {
+        "question": "What does the 2014 Gambling Act in Bulgaria specifically prohibit regarding SMS?",
+        "answer": "It prohibits direct advertising of gambling through unsolicited electronic messages inviting users to play. However, sending lottery results or game names is allowed.",
+        "support_status": "Supported",
+        "sender_type": "",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Bulgaria",
+        "2014 Gambling Act"
+      ],
+      "source_anchor": "Lottery results or game names",
+      "source_quote": "sending lottery results or game names is allowed"
+    },
+    {
+      "fact_id": "cambodia-smart-axiata-blocks-unregistered-alphanumeric-sender-ids-since-august-2023",
+      "field": "unregistered sender id",
+      "fact_type": "registration",
+      "topic": "unregistered sender id",
+      "value": "The Smart Axiata network",
+      "country_iso2": "KH",
+      "applies_to": "Cambodia Smart Axiata network",
+      "structured_fields": {
+        "question": "Which specific network in Cambodia blocks all SMS sent from unregistered alphanumeric Sender IDs since August 2023?",
+        "answer": "The Smart Axiata network.",
+        "support_status": "Prohibited",
+        "sender_type": "unregistered alphanumeric Sender ID",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Cambodia",
+        "Smart Axiata"
+      ],
+      "source_anchor": "Smart Axiata",
+      "source_quote": "The Smart Axiata network."
+    },
+    {
+      "fact_id": "canada-promotional-marketing-recommended-hours-0900-2100",
+      "field": "quiet hours",
+      "fact_type": "quiet_hours",
+      "topic": "quiet hours",
+      "value": "between 9:00 a.m. and 9:00 p.m.",
+      "country_iso2": "CA",
+      "applies_to": "Canada promotional or marketing messages",
+      "structured_fields": {
+        "question": "During what hours is it recommended to send promotional or marketing messages in Canada?",
+        "answer": "It is recommended to send promotional messages only between 9:00 a.m. and 9:00 p.m.",
+        "support_status": "Supported",
+        "sender_type": "",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Canada"
+      ],
+      "source_anchor": "Promotional message recommended hours",
+      "source_quote": "between 9:00 a.m. and 9:00 p.m."
+    },
+    {
+      "fact_id": "china-ucs2-concatenated-message-recommended-500-characters",
+      "field": "message encoding",
+      "fact_type": "encoding",
+      "topic": "message encoding",
+      "value": "A maximum of 500 characters",
+      "country_iso2": "CN",
+      "applies_to": "China UCS2-encoded concatenated messages",
+      "structured_fields": {
+        "question": "What is the recommendation to improve delivery rates when sending UCS2-encoded messages to China?",
+        "answer": "A maximum of 500 characters or the equivalent of 8 segments for concatenated messages is recommended.",
+        "support_status": "Supported",
+        "sender_type": "",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "China",
+        "UCS2"
+      ],
+      "source_anchor": "UCS2 delivery recommendation",
+      "source_quote": "A maximum of 500 characters"
+    },
+    {
+      "fact_id": "china-ucs2-concatenated-message-recommended-8-segments",
+      "field": "message encoding",
+      "fact_type": "encoding",
+      "topic": "message encoding",
+      "value": "the equivalent of 8 segments for concatenated messages",
+      "country_iso2": "CN",
+      "applies_to": "China UCS2-encoded concatenated messages",
+      "structured_fields": {
+        "question": "What is the recommendation to improve delivery rates when sending UCS2-encoded messages to China?",
+        "answer": "A maximum of 500 characters or the equivalent of 8 segments for concatenated messages is recommended.",
+        "support_status": "Supported",
+        "sender_type": "",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "China",
+        "UCS2"
+      ],
+      "source_anchor": "UCS2 delivery recommendation",
+      "source_quote": "the equivalent of 8 segments for concatenated messages"
+    },
+    {
+      "fact_id": "colombia-crc-enforces-marketing-and-debt-collection-time-restrictions",
+      "field": "quiet hours",
+      "fact_type": "quiet_hours",
+      "topic": "quiet hours",
+      "value": "CRC (Communications Regulation Commission) in Colombia",
+      "country_iso2": "CO",
+      "applies_to": "Colombia marketing and debt collection messages",
+      "structured_fields": {
+        "question": "Who enforces the time restrictions (8:00 AM to 9:00 PM) for marketing and debt collection messages in Colombia?",
+        "answer": "The restrictions are enforced by the CRC (Communications Regulation Commission) in Colombia.",
+        "support_status": "Supported",
+        "sender_type": "",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Colombia",
+        "CRC",
+        "Communications Regulation Commission"
+      ],
+      "source_anchor": "CRC time restrictions",
+      "source_quote": "enforced by the CRC (Communications Regulation Commission) in Colombia"
+    },
+    {
+      "fact_id": "cuba-twilio-permanently-stop-sending-sms-2025-09-15",
+      "field": "routing",
+      "fact_type": "routing",
+      "topic": "routing",
+      "value": "September 15, 2025",
+      "country_iso2": "CU",
+      "applies_to": "Twilio SMS to Cuba",
+      "structured_fields": {
+        "question": "On what date will Twilio permanently stop sending SMS messages to Cuba?",
+        "answer": "September 15, 2025.",
+        "support_status": "Not supported",
+        "sender_type": "",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Cuba",
+        "Twilio"
+      ],
+      "source_anchor": "Twilio stop sending SMS",
+      "source_quote": "September 15, 2025."
+    },
+    {
+      "fact_id": "denmark-gambling-traffic-danish-gambling-authority-approval-required",
+      "field": "content restriction",
+      "fact_type": "content_restriction",
+      "topic": "content restriction",
+      "value": "explicitly approved and licensed by the Danish Gambling Authority (Danske Spil)",
+      "country_iso2": "DK",
+      "applies_to": "Denmark gambling-related SMS traffic",
+      "structured_fields": {
+        "question": "In Denmark, who must approve gambling-related traffic before it can be sent via SMS?",
+        "answer": "It must be explicitly approved and licensed by the Danish Gambling Authority (Danske Spil).",
+        "support_status": "Required",
+        "sender_type": "",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Denmark",
+        "Danish Gambling Authority",
+        "Danske Spil"
+      ],
+      "source_anchor": "Danish Gambling Authority",
+      "source_quote": "explicitly approved and licensed by the Danish Gambling Authority (Danske Spil)"
+    },
+    {
+      "fact_id": "egypt-generic-alphanumeric-sender-ids-avoided",
+      "field": "alphanumeric sender id",
+      "fact_type": "sender_capability",
+      "topic": "alphanumeric sender id",
+      "value": "local operators, particularly the Etisalat network, tend to reject or block requests and messages with generic senders",
+      "country_iso2": "EG",
+      "applies_to": "Egypt generic alphanumeric Sender IDs",
+      "structured_fields": {
+        "question": "Why should generic alphanumeric Sender IDs be avoided in Egypt (such as \"InfoSMS\" or \"Verify\")?",
+        "answer": "Because local operators, particularly the Etisalat network, tend to reject or block requests and messages with generic senders.",
+        "support_status": "Not supported",
+        "sender_type": "generic alphanumeric Sender ID",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Egypt",
+        "Etisalat",
+        "\"InfoSMS\"",
+        "\"Verify\""
+      ],
+      "source_anchor": "Generic alphanumeric sender id",
+      "source_quote": "local operators, particularly the Etisalat network, tend to reject or block requests and messages with generic senders"
+    },
+    {
+      "fact_id": "france-telemarketing-home-energy-renewable-aging-disability-services-prohibited-2025-07-01",
+      "field": "content restriction",
+      "fact_type": "content_restriction",
+      "topic": "content restriction",
+      "value": "services, sell equipment, or perform work related to home energy savings, renewable energy production, or adaptations for aging and disability",
+      "country_iso2": "FR",
+      "applies_to": "France telemarketing law effective July 1, 2025",
+      "structured_fields": {
+        "question": "According to the new telemarketing law in France (effective July 1, 2025), what type of services are prohibited from being promoted via SMS?",
+        "answer": "It is prohibited to contact customers to offer services, sell equipment, or perform work related to home energy savings, renewable energy production, or adaptations for aging and disability.",
+        "support_status": "Prohibited",
+        "sender_type": "",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "France"
+      ],
+      "source_anchor": "Telemarketing law",
+      "source_quote": "home energy savings, renewable energy production, or adaptations for aging and disability"
+    },
+    {
+      "fact_id": "germany-cannabis-related-content-prohibited",
+      "field": "content restriction",
+      "fact_type": "content_restriction",
+      "topic": "content restriction",
+      "value": "sending cannabis-related content is strictly prohibited",
+      "country_iso2": "DE",
+      "applies_to": "Germany",
+      "structured_fields": {
+        "question": "Is cannabis-related content allowed via SMS in Germany?",
+        "answer": "No, sending cannabis-related content is strictly prohibited.",
+        "support_status": "Prohibited",
+        "sender_type": "",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Germany"
+      ],
+      "source_anchor": "Cannabis-related content",
+      "source_quote": "sending cannabis-related content is strictly prohibited"
+    },
+    {
+      "fact_id": "hong-kong-ofca-registry-hash-prefix-required",
+      "field": "sender id registration",
+      "fact_type": "registration",
+      "topic": "sender id registration",
+      "value": "They must use the \"#\" (hash) prefix",
+      "country_iso2": "HK",
+      "applies_to": "Hong Kong OFCA registry",
+      "structured_fields": {
+        "question": "In Hong Kong, what prefix must organizations use when registering their Sender IDs in the OFCA registry?",
+        "answer": "They must use the \"#\" (hash) prefix, for example, \"#Nevetscorp\".",
+        "support_status": "Required",
+        "sender_type": "Sender ID",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Hong Kong",
+        "OFCA",
+        "\"#\"",
+        "\"#Nevetscorp\""
+      ],
+      "source_anchor": "OFCA registry",
+      "source_quote": "They must use the \"#\" (hash) prefix"
+    },
+    {
+      "fact_id": "hong-kong-ofca-registry-hash-nevetscorp-example",
+      "field": "sender id registration",
+      "fact_type": "registration",
+      "topic": "sender id registration",
+      "value": "\"#Nevetscorp\"",
+      "country_iso2": "HK",
+      "applies_to": "Hong Kong OFCA registry",
+      "structured_fields": {
+        "question": "In Hong Kong, what prefix must organizations use when registering their Sender IDs in the OFCA registry?",
+        "answer": "They must use the \"#\" (hash) prefix, for example, \"#Nevetscorp\".",
+        "support_status": "Supported",
+        "sender_type": "Sender ID",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "Hong Kong",
+        "OFCA",
+        "\"#Nevetscorp\""
+      ],
+      "source_anchor": "OFCA registry example",
+      "source_quote": "for example, \"#Nevetscorp\""
+    },
+    {
+      "fact_id": "india-international-sms-sender-id-overwritten-random-short-number",
+      "field": "routing",
+      "fact_type": "routing",
+      "topic": "routing",
+      "value": "overwritten with a random short number between five and nine digits",
+      "country_iso2": "IN",
+      "applies_to": "International SMS to India",
+      "structured_fields": {
+        "question": "When sending international SMS to India, how is the numeric or alphanumeric Sender ID overwritten?",
+        "answer": "It is overwritten with a random short number between five and nine digits in the format 5NNNN to 5NNNNNNNN (for example, 54321).",
+        "support_status": "Supported",
+        "sender_type": "numeric or alphanumeric Sender ID",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "India"
+      ],
+      "source_anchor": "International SMS sender id overwrite",
+      "source_quote": "overwritten with a random short number between five and nine digits"
+    },
+    {
+      "fact_id": "india-international-sms-sender-id-overwritten-format-5nnnn-to-5nnnnnnnn",
+      "field": "routing",
+      "fact_type": "routing",
+      "topic": "routing",
+      "value": "5NNNN to 5NNNNNNNN",
+      "country_iso2": "IN",
+      "applies_to": "International SMS to India",
+      "structured_fields": {
+        "question": "When sending international SMS to India, how is the numeric or alphanumeric Sender ID overwritten?",
+        "answer": "It is overwritten with a random short number between five and nine digits in the format 5NNNN to 5NNNNNNNN (for example, 54321).",
+        "support_status": "Supported",
+        "sender_type": "numeric or alphanumeric Sender ID",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "India"
+      ],
+      "source_anchor": "International SMS sender id overwrite format",
+      "source_quote": "in the format 5NNNN to 5NNNNNNNN"
+    },
+    {
+      "fact_id": "india-international-sms-sender-id-overwritten-example-54321",
+      "field": "routing",
+      "fact_type": "routing",
+      "topic": "routing",
+      "value": "54321",
+      "country_iso2": "IN",
+      "applies_to": "International SMS to India",
+      "structured_fields": {
+        "question": "When sending international SMS to India, how is the numeric or alphanumeric Sender ID overwritten?",
+        "answer": "It is overwritten with a random short number between five and nine digits in the format 5NNNN to 5NNNNNNNN (for example, 54321).",
+        "support_status": "Supported",
+        "sender_type": "numeric or alphanumeric Sender ID",
+        "question_pattern": "faq"
+      },
+      "local_aliases": [
+        "India"
+      ],
+      "source_anchor": "International SMS sender id overwrite example",
+      "source_quote": "for example, 54321"
+    }
+  ],
+  "notes": [
+    "Human review required before promotion."
+  ]
+}

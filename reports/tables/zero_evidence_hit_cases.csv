@@ -1,0 +1,38 @@
+question,question_type,iso_code,answer_correct,failure_stage,failure_reasons,expected_source_paths,retrieved_document_ids
+What is the sender provisioning process in Canada?,procedural,CA,False,ingestion,expected block metadata was not retrieved,data/raw/canada_ca.md,canada_ca
+Does Chad support alphanumeric sender IDs?,binary,TD,False,ingestion,expected block metadata was not retrieved,data/raw/chad_td.md,chad_td
+What is the sender provisioning process in Colombia?,procedural,CO,False,ingestion,expected block metadata was not retrieved,data/raw/colombia_co.md,colombia_co
+What is the sender provisioning process in Ecuador?,procedural,EC,False,ingestion,expected block metadata was not retrieved,data/raw/ecuador_ec.md,ecuador_ec
+What is the sender provisioning process in Mexico?,procedural,MX,False,ingestion,expected block metadata was not retrieved,data/raw/mexico_mx.md,mexico_mx
+What is the sender provisioning process in Montenegro?,procedural,ME,False,ingestion,expected block metadata was not retrieved,data/raw/montenegro_me.md,montenegro_me
+What is the sender provisioning process in Saudi Arabia?,procedural,SA,False,ingestion,expected block metadata was not retrieved,data/raw/saudi_arabia_sa.md,saudi_arabia_sa
+Does Sudan support alphanumeric sender IDs?,binary,SD,False,ingestion,expected block metadata was not retrieved,data/raw/sudan_sd.md,sudan_sd
+What is the sender provisioning process in United Arab Emirates?,procedural,AE,False,ingestion,expected block metadata was not retrieved,data/raw/united_arab_emirates_ae.md,united_arab_emirates_ae
+What is the sender provisioning process in United Kingdom?,procedural,GB,False,ingestion,expected block metadata was not retrieved,data/raw/united_kingdom_gb.md,united_kingdom_gb
+What is the dialing code for United States?,factoid,US,False,retrieval,expected document was not retrieved,data/raw/united_states_us.md,
+Does United States support alphanumeric sender IDs?,binary,US,False,retrieval,expected document was not retrieved,data/raw/united_states_us.md,
+Are alphanumeric sender IDs preserved in United States?,sender_type_policy,US,True,retrieval,expected document was not retrieved,data/raw/united_states_us.md,
+Are short codes supported in United States?,binary,US,False,retrieval,expected document was not retrieved,data/raw/united_states_us.md,
+Are long codes supported in United States?,binary,US,False,retrieval,expected document was not retrieved,data/raw/united_states_us.md,
+Are long-code sender IDs preserved in United States?,sender_type_policy,US,True,retrieval,expected document was not retrieved,data/raw/united_states_us.md,
+What is the sender provisioning process in United States?,procedural,US,False,ingestion,expected block metadata was not retrieved,data/raw/united_states_us.md,united_states_us
+What compliance considerations apply to SMS in United States?,policy_rule,US,False,retrieval,expected document was not retrieved,data/raw/united_states_us.md,
+What is the provisioning time and cost for an alphanumeric sender ID in the United Kingdom?,table_extraction,GB,False,grounding,retrieved evidence did not contain expected terms,data/raw/united_kingdom_gb.md,united_kingdom_gb
+"Are short codes supported in Spain, and what is the provisioning time?",table_extraction,ES,False,grounding,retrieved evidence did not contain expected terms,data/raw/spain_es.md,spain_es
+Is two-way SMS supported for toll-free numbers in Canada?,table_extraction,CA,False,retrieval,expected section context was not retrieved,data/raw/canada_ca.md,canada_ca
+Is number portability supported for short codes in the United States?,table_extraction,US,False,retrieval,expected document was not retrieved,data/raw/united_states_us.md,
+What is the exact provisioning time for an alphanumeric sender ID in Saudi Arabia?,table_extraction,SA,False,grounding,retrieved evidence did not contain expected terms,data/raw/saudi_arabia_sa.md,saudi_arabia_sa
+What kind of sender ID can I use in Afghanistan if I don't pre-register?,table_extraction,AF,False,grounding,retrieved evidence did not contain expected terms,data/raw/afghanistan_af.md,afghanistan_af
+What is the default sender ID in Albania if dynamic sender is not used?,table_extraction,AL,False,grounding,retrieved evidence did not contain expected terms,data/raw/albania_al.md,albania_al
+Are there any content restrictions for SMS in France regarding marketing during nighttime?,policy_rule,FR,False,retrieval,expected document was not retrieved,data/raw/france_fr.md,quiet-hours
+What happens if I send a marketing message in India using an unregistered DLT template?,policy_rule,IN,False,retrieval,expected section context was not retrieved,data/raw/india_in.md,india_in
+Is it permitted to send cryptocurrency related traffic to the United States?,policy_rule,US,False,retrieval,expected document was not retrieved,data/raw/united_states_us.md,
+Can I send religious content via SMS in Saudi Arabia?,policy_rule,SA,False,retrieval,expected section context was not retrieved,data/raw/saudi_arabia_sa.md,saudi_arabia_sa
+What happens if a sender ID in China is not pre-registered?,policy_rule,CN,False,retrieval,expected section context was not retrieved,data/raw/china_cn.md,china_cn
+Does Twilio support Unicode messages in Japan?,policy_rule,JP,False,retrieval,expected section context was not retrieved,data/raw/japan_jp.md,japan_jp
+Can I use special characters in my sender ID in Germany?,policy_rule,DE,False,retrieval,expected section context was not retrieved,data/raw/germany_de.md,germany_de
+How long does it take to register a short code in the United States?,duration,US,False,retrieval,expected document was not retrieved,data/raw/united_states_us.md,
+What are the steps to opt out of marketing messages in Australia?,procedural,AU,False,retrieval,expected section context was not retrieved,data/raw/australia_au.md,australia_au
+How do I register a Sender ID in Saudi Arabia?,procedural,SA,False,retrieval,expected section context was not retrieved,data/raw/saudi_arabia_sa.md,saudi_arabia_sa
+What should I do if my SMS is rejected in India?,procedural,IN,False,retrieval,expected document was not retrieved,data/raw/india_in.md,quiet-hours
+Are there any exceptions to the nighttime marketing ban in France?,binary,FR,False,retrieval,expected section context was not retrieved,data/raw/france_fr.md,france_fr

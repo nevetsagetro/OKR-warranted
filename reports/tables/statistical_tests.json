@@ -1,0 +1,122 @@
+[
+  {
+    "label": "binary_vs_all_other_question_types",
+    "table": [
+      [
+        538,
+        75
+      ],
+      [
+        2088,
+        98
+      ]
+    ],
+    "chi2": 49.6114,
+    "p_value": 1.874171880129154e-12,
+    "degrees_of_freedom": 1,
+    "rate_a": 0.8777,
+    "rate_b": 0.9552,
+    "bonferroni_alpha": 0.008333,
+    "significant_after_bonferroni": true
+  },
+  {
+    "label": "iso_US_vs_all_other_iso_segments",
+    "table": [
+      [
+        8,
+        9
+      ],
+      [
+        2618,
+        164
+      ]
+    ],
+    "chi2": 64.4935,
+    "p_value": 9.685051996238006e-16,
+    "degrees_of_freedom": 1,
+    "rate_a": 0.4706,
+    "rate_b": 0.941,
+    "bonferroni_alpha": 0.008333,
+    "significant_after_bonferroni": true
+  },
+  {
+    "label": "iso_IN_vs_all_other_iso_segments",
+    "table": [
+      [
+        10,
+        5
+      ],
+      [
+        2616,
+        168
+      ]
+    ],
+    "chi2": 19.1739,
+    "p_value": 1.193316375671967e-05,
+    "degrees_of_freedom": 1,
+    "rate_a": 0.6667,
+    "rate_b": 0.9397,
+    "bonferroni_alpha": 0.008333,
+    "significant_after_bonferroni": true
+  },
+  {
+    "label": "iso_SA_vs_all_other_iso_segments",
+    "table": [
+      [
+        12,
+        5
+      ],
+      [
+        2614,
+        168
+      ]
+    ],
+    "chi2": 15.9182,
+    "p_value": 6.61383868765259e-05,
+    "degrees_of_freedom": 1,
+    "rate_a": 0.7059,
+    "rate_b": 0.9396,
+    "bonferroni_alpha": 0.008333,
+    "significant_after_bonferroni": true
+  },
+  {
+    "label": "iso_DM_vs_all_other_iso_segments",
+    "table": [
+      [
+        11,
+        3
+      ],
+      [
+        2615,
+        170
+      ]
+    ],
+    "chi2": 5.6414,
+    "p_value": 0.01754148547631711,
+    "degrees_of_freedom": 1,
+    "rate_a": 0.7857,
+    "rate_b": 0.939,
+    "bonferroni_alpha": 0.008333,
+    "significant_after_bonferroni": false
+  },
+  {
+    "label": "iso_IT_vs_all_other_iso_segments",
+    "table": [
+      [
+        11,
+        3
+      ],
+      [
+        2615,
+        170
+      ]
+    ],
+    "chi2": 5.6414,
+    "p_value": 0.01754148547631711,
+    "degrees_of_freedom": 1,
+    "rate_a": 0.7857,
+    "rate_b": 0.939,
+    "bonferroni_alpha": 0.008333,
+    "significant_after_bonferroni": false
+  }
+]

@@ -1,0 +1,221 @@
+{
+  "source_url": "https://www.twilio.com/en-us/guidelines/tr/sms",
+  "locale_code": "tr",
+  "locale_name": "Turkey (TR)",
+  "tables": [
+    {
+      "title": "Locale Summary",
+      "type": "key_value",
+      "items": [
+        {
+          "field": "Locale name",
+          "description": "",
+          "value": "Turkey"
+        },
+        {
+          "field": "ISO code",
+          "description": "The International Organization for Standardization two character representation for the given locale.",
+          "value": "TR"
+        },
+        {
+          "field": "Region",
+          "description": "",
+          "value": "Middle East & Africa"
+        },
+        {
+          "field": "Mobile country code",
+          "description": "A three digit code associated with the given locale and used in conjunction with a Mobile Network Code to uniquely identify mobile networks.",
+          "value": "286"
+        },
+        {
+          "field": "Dialing code",
+          "description": "The dialing prefix used to establish a call or send an SMS from one locale to the given locale.",
+          "value": "+90"
+        }
+      ]
+    },
+    {
+      "title": "Guidelines",
+      "type": "key_value",
+      "items": [
+        {
+          "field": "Two-way SMS supported",
+          "description": "Whether Twilio supports two-way SMS in the given locale.",
+          "value": "No"
+        },
+        {
+          "field": "Number portability available",
+          "description": "Whether number portability is available in the given locale.",
+          "value": "Yes"
+        },
+        {
+          "field": "Twilio concatenated message support",
+          "description": "Concatenation refers to the capability of splitting a message that is too long to be sent in one SMS into smaller pieces and then joining the pieces at the receiving end so that the receiver sees the message as one.",
+          "value": "Yes* For certain sender ID types this may not be supported. Where messages are split and rejoined may vary based on character encoding."
+        },
+        {
+          "field": "Message length",
+          "description": "How many characters can be sent given a particular message encoding before the message will be split into concatenated segments.",
+          "value": "GSM7 Encoding: 155 characters instead of 160 characters. UCS2 Encoding: 65 characters instead of 70 characters. (In Turkey, messages have an additional 5 characters reserved for operator identifiers, effectively reducing the character limit by 5)."
+        },
+        {
+          "field": "Twilio MMS support",
+          "description": "Multimedia Messaging Service (MMS) provides a standards-based means to send pictures and video to mobile phones.",
+          "value": "Converted to SMS with embedded URL"
+        },
+        {
+          "field": "Sending SMS to landline numbers",
+          "description": "How Twilio handles an SMS message destined for landline telephone number.",
+          "value": "You cannot send SMS to a landline destination number: the Twilio REST API will throw a 400 response with error code 21614, the message will not appear in the logs, and the account will not be charged."
+        },
+        {
+          "field": "Compliance considerations",
+          "description": "Twilio strongly encourages customers to review proposed use cases with qualified legal counsel to make sure that they comply with all applicable laws. This table lists some general best practices.",
+          "value": "Effective April 1 2026 companies WITHOUT a local entity in Turkey can no longer send messages with URLs in their content to Turkish numbers. Because Turkish carriers filter traffic with Numeric and unregistered Alphanumeric Sender IDs, be sure to pre-register your Alphanumeric Sender ID to ensure message delivery. Person-to-person (P2P) traffic, as well as content related to gambling, politics, and religion are prohibited. From February 15, 2021 — and until further notice — submission of promotional traffic to Turkey will be prohibited. Please do not submit such traffic as it may result in your messages and your registered Sender ID being blocked. It may also result in financial penalties. Message delivery to M2M numbers is on best-effort basis only."
+        }
+      ]
+    },
+    {
+      "title": "Phone Numbers & Sender ID",
+      "section": "Alphanumeric",
+      "type": "matrix",
+      "columns": [
+        "Global Pre-registration",
+        "Dynamic"
+      ],
+      "items": [
+        {
+          "field": "Operator network capability",
+          "description": "Whether mobile operators in the given country support the feature.",
+          "values": {
+            "Global Pre-registration": "Required",
+            "Dynamic": "Not Supported"
+          }
+        },
+        {
+          "field": "Twilio supported",
+          "description": "Whether Twilio supports the feature for the given country.",
+          "values": {
+            "Global Pre-registration": "Supported Learn more and register via the Console",
+            "Dynamic": "Supported"
+          }
+        },
+        {
+          "field": "Sender ID preserved",
+          "description": "In some countries sender IDs for certain sender types are not preserved and are changed for compliance and/or deliverability reasons. In these countries mobile subscribers will see a different ‘from sender ID’ than the one sent by you.",
+          "values": {
+            "Global Pre-registration": "Yes",
+            "Dynamic": "No"
+          }
+        },
+        {
+          "field": "Provisioning time",
+          "description": "Provisioning is the process of getting the sender ID approved and registered with mobile networks (depending on country requirements). Provisioning time is how long this process takes in the given country.",
+          "values": {
+            "Global Pre-registration": "2 weeks",
+            "Dynamic": "N/A"
+          }
+        },
+        {
+          "field": "UCS-2 support",
+          "description": "",
+          "values": {
+            "Global Pre-registration": "Supported",
+            "Dynamic": "Supported"
+          }
+        },
+        {
+          "field": "Use case restrictions",
+          "description": "",
+          "values": {
+            "Global Pre-registration": "P2P, gambling, political, or religious content is prohibited. Unsolicited messages will not be sent to end-users. SMS delivery to the Turkish Republic of Northern Cyprus is not supported.",
+            "Dynamic": "Sender ID Registration is required in Turkey. Messages sent from unregistered alphanumeric Sender IDs will be delivered on a best effort basis."
+          }
+        },
+        {
+          "field": "Best practices",
+          "description": "",
+          "values": {
+            "Global Pre-registration": "N/A",
+            "Dynamic": "Twilio suggests using a pre-registered alphanumeric Sender ID in Turkey."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Phone Numbers & Sender ID",
+      "section": "Long codes and short codes",
+      "type": "matrix",
+      "columns": [
+        "Long code domestic",
+        "Long code international",
+        "Short code"
+      ],
+      "items": [
+        {
+          "field": "Operator network capability",
+          "description": "Whether mobile operators in the given country support the feature.",
+          "values": {
+            "Long code domestic": "Not Supported",
+            "Long code international": "Not Supported",
+            "Short code": "Not Supported"
+          }
+        },
+        {
+          "field": "Twilio supported",
+          "description": "Whether Twilio supports the feature for the given country.",
+          "values": {
+            "Long code domestic": "Not Supported",
+            "Long code international": "Supported",
+            "Short code": "Not Supported"
+          }
+        },
+        {
+          "field": "Sender ID preserved",
+          "description": "In some countries sender IDs for certain sender types are not preserved and are changed for compliance and/or deliverability reasons. In these countries mobile subscribers will see a different ‘from sender ID’ than the one sent by you.",
+          "values": {
+            "Long code domestic": "---",
+            "Long code international": "No",
+            "Short code": "---"
+          }
+        },
+        {
+          "field": "Provisioning time",
+          "description": "Provisioning is the process of getting the sender ID approved and registered with mobile networks (depending on country requirements). Provisioning time is how long this process takes in the given country.",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "N/A",
+            "Short code": "N/A"
+          }
+        },
+        {
+          "field": "UCS-2 support",
+          "description": "",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "Supported",
+            "Short code": "N/A"
+          }
+        },
+        {
+          "field": "Use case restrictions",
+          "description": "",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "SMS delivery to the Turkish Republic of Northern Cyprus is not supported. Sender ID Registration is required in Turkey. Messages sent from international longcodes will be delivered on a best effort basis.",
+            "Short code": "N/A"
+          }
+        },
+        {
+          "field": "Best practices",
+          "description": "",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "Twilio suggests using a pre-registered alphanumeric Sender ID in Turkey.",
+            "Short code": "N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

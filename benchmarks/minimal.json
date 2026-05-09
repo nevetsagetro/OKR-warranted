@@ -1,0 +1,14 @@
+[
+  {
+    "question": "Sender in Spain?",
+    "expected_document_ids": ["spain_es"],
+    "expected_terms": ["twilio supported", "dynamic=supported"],
+    "should_refuse": false
+  },
+  {
+    "question": "What is the moon made of in this corpus?",
+    "expected_document_ids": [],
+    "expected_terms": [],
+    "should_refuse": true
+  }
+]

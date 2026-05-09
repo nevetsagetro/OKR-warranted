@@ -1,0 +1,23 @@
+[
+  {
+    "question": "Does Kiribati support two-way SMS?",
+    "expected_document_ids": [
+      "kiribati"
+    ],
+    "expected_source_paths": [],
+    "expected_terms": [
+      "WhatsApp",
+      "two-way"
+    ],
+    "expected_section_terms": [],
+    "expected_anchor_terms": [],
+    "expected_block_types": [],
+    "expected_sender_types": [],
+    "expected_metadata": {},
+    "expected_iso_code": "KI",
+    "forbid_document_ids": [],
+    "must_not_mix_documents": true,
+    "question_type": "country_precision",
+    "should_refuse": false
+  }
+]

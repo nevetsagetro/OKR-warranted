@@ -1,0 +1,221 @@
+{
+  "source_url": "https://www.twilio.com/en-us/guidelines/fr/sms",
+  "locale_code": "fr",
+  "locale_name": "France (FR)",
+  "tables": [
+    {
+      "title": "Locale Summary",
+      "type": "key_value",
+      "items": [
+        {
+          "field": "Locale name",
+          "description": "",
+          "value": "France"
+        },
+        {
+          "field": "ISO code",
+          "description": "The International Organization for Standardization two character representation for the given locale.",
+          "value": "FR"
+        },
+        {
+          "field": "Region",
+          "description": "",
+          "value": "Europe"
+        },
+        {
+          "field": "Mobile country code",
+          "description": "A three digit code associated with the given locale and used in conjunction with a Mobile Network Code to uniquely identify mobile networks.",
+          "value": "208"
+        },
+        {
+          "field": "Dialing code",
+          "description": "The dialing prefix used to establish a call or send an SMS from one locale to the given locale.",
+          "value": "+33"
+        }
+      ]
+    },
+    {
+      "title": "Guidelines",
+      "type": "key_value",
+      "items": [
+        {
+          "field": "Two-way SMS supported",
+          "description": "Whether Twilio supports two-way SMS in the given locale.",
+          "value": "Yes"
+        },
+        {
+          "field": "Number portability available",
+          "description": "Whether number portability is available in the given locale.",
+          "value": "Yes"
+        },
+        {
+          "field": "Twilio concatenated message support",
+          "description": "Concatenation refers to the capability of splitting a message that is too long to be sent in one SMS into smaller pieces and then joining the pieces at the receiving end so that the receiver sees the message as one.",
+          "value": "Yes* For certain sender ID types this may not be supported. Where messages are split and rejoined may vary based on character encoding."
+        },
+        {
+          "field": "Message length",
+          "description": "How many characters can be sent given a particular message encoding before the message will be split into concatenated segments.",
+          "value": "Inbound: GSM 3.38=160, Unicode=70 Outbound: GSM 3.38=160, Unicode=70"
+        },
+        {
+          "field": "Twilio MMS support",
+          "description": "Multimedia Messaging Service (MMS) provides a standards-based means to send pictures and video to mobile phones.",
+          "value": "Converted to SMS with embedded URL"
+        },
+        {
+          "field": "Sending SMS to landline numbers",
+          "description": "How Twilio handles an SMS message destined for landline telephone number.",
+          "value": "You cannot send SMS to a landline destination number: the Twilio REST API will throw a 400 response with error code 21614, the message will not appear in the logs, and the account will not be charged."
+        },
+        {
+          "field": "Compliance considerations",
+          "description": "Twilio strongly encourages customers to review proposed use cases with qualified legal counsel to make sure that they comply with all applicable laws. This table lists some general best practices.",
+          "value": "Message delivery to M2M numbers is on best effort basis only. Marketing SMS traffic can be sent between 8am and 10pm on working days. If messages are sent outside these times they will be queued and sent at an appropriate time The use of URL shorteners such as bit.ly or tiny.url is strictly forbidden in France, and may trigger SMS filtering and fines from the operator for non compliance. Twilio recommends that customers use the full, unshortened form of URLs to ensure message delivery. Sending adult content, controlled substance, and cannabis related content is strictly prohibited. As part of the new Telemarketing law in France, from July 1, 2025, organizations are prohibited from contacting customers by SMS for the aim of offering services, selling equipment or carrying out work relating to housing with a view to achieving energy savings, producing renewable energy or adapting them to aging or disability. Twilio strongly encourages customers to review proposed use cases with qualified legal counsel to ensure compliance with all applicable laws and the requirements of AF2M's Code of Conduct (https://af2m.org/charte-business-messaging/). The table below provides some general best practices: Get opt-in consent from each end-user before sending any communication to them, particularly for marketing or other non-essential communications.SMS marketing campaigns must support HELP/STOP messages and similar keywords in the end-user’s local language. In France, including a web link in the message is also an acceptable method for OPT-OUT. The use of a mobile phone number as an opt-out mechanism is strictly forbidden and may result in fines from operators for non-compliance.Do not contact end-users on do-not-call or do-not-disturb registries."
+        }
+      ]
+    },
+    {
+      "title": "Phone Numbers & Sender ID",
+      "section": "Alphanumeric",
+      "type": "matrix",
+      "columns": [
+        "Pre-registration",
+        "Dynamic"
+      ],
+      "items": [
+        {
+          "field": "Operator network capability",
+          "description": "Whether mobile operators in the given country support the feature.",
+          "values": {
+            "Pre-registration": "Not Required",
+            "Dynamic": "Supported"
+          }
+        },
+        {
+          "field": "Twilio supported",
+          "description": "Whether Twilio supports the feature for the given country.",
+          "values": {
+            "Pre-registration": "---",
+            "Dynamic": "Supported Learn more"
+          }
+        },
+        {
+          "field": "Sender ID preserved",
+          "description": "In some countries sender IDs for certain sender types are not preserved and are changed for compliance and/or deliverability reasons. In these countries mobile subscribers will see a different ‘from sender ID’ than the one sent by you.",
+          "values": {
+            "Pre-registration": "---",
+            "Dynamic": "Yes"
+          }
+        },
+        {
+          "field": "Provisioning time",
+          "description": "Provisioning is the process of getting the sender ID approved and registered with mobile networks (depending on country requirements). Provisioning time is how long this process takes in the given country.",
+          "values": {
+            "Pre-registration": "N/A",
+            "Dynamic": "N/A"
+          }
+        },
+        {
+          "field": "UCS-2 support",
+          "description": "",
+          "values": {
+            "Pre-registration": "N/A",
+            "Dynamic": "Supported"
+          }
+        },
+        {
+          "field": "Use case restrictions",
+          "description": "",
+          "values": {
+            "Pre-registration": "N/A",
+            "Dynamic": "Alphanumeric sender IDs containing special characters are strictly forbidden and may result in non delivery and fines from operators for non-compliance. For some sensitive Sender IDs, French mobile operators may ask for Letter Of Authorization to prove the legitimacy of traffic coming in from Twilio. Messages submitted to the NRJ Mobile and Truephone networks will be overwritten with random shortcodes outside the Twilio platform."
+          }
+        },
+        {
+          "field": "Best practices",
+          "description": "",
+          "values": {
+            "Pre-registration": "N/A",
+            "Dynamic": "You must use Alphanumeric Sender IDs to send A2P messages."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Phone Numbers & Sender ID",
+      "section": "Long codes and short codes",
+      "type": "matrix",
+      "columns": [
+        "Long code domestic",
+        "Long code international",
+        "Short code"
+      ],
+      "items": [
+        {
+          "field": "Operator network capability",
+          "description": "Whether mobile operators in the given country support the feature.",
+          "values": {
+            "Long code domestic": "Supported",
+            "Long code international": "Not Supported",
+            "Short code": "Supported"
+          }
+        },
+        {
+          "field": "Twilio supported",
+          "description": "Whether Twilio supports the feature for the given country.",
+          "values": {
+            "Long code domestic": "Supported",
+            "Long code international": "Supported",
+            "Short code": "Supported"
+          }
+        },
+        {
+          "field": "Sender ID preserved",
+          "description": "In some countries sender IDs for certain sender types are not preserved and are changed for compliance and/or deliverability reasons. In these countries mobile subscribers will see a different ‘from sender ID’ than the one sent by you.",
+          "values": {
+            "Long code domestic": "Yes",
+            "Long code international": "No",
+            "Short code": "Yes"
+          }
+        },
+        {
+          "field": "Provisioning time",
+          "description": "Provisioning is the process of getting the sender ID approved and registered with mobile networks (depending on country requirements). Provisioning time is how long this process takes in the given country.",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "N/A",
+            "Short code": "8-10"
+          }
+        },
+        {
+          "field": "UCS-2 support",
+          "description": "",
+          "values": {
+            "Long code domestic": "Supported",
+            "Long code international": "Supported",
+            "Short code": "Supported"
+          }
+        },
+        {
+          "field": "Use case restrictions",
+          "description": "",
+          "values": {
+            "Long code domestic": "Refer to our Regulatory Guidelines for Prescribed/Prohibited use cases.",
+            "Long code international": "French mobile operators do not support message delivery via international Numeric Sender ID. Submission by International Long Codes will be attempted on a best-effort basis. The Long Code will be overwritten with a generic Alphanumeric Sender ID or Short Code outside the Twilio platform.",
+            "Short code": "Refer to our FAQs for short code best practices."
+          }
+        },
+        {
+          "field": "Best practices",
+          "description": "",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "You must use Alphanumeric Sender IDs to send A2P messages",
+            "Short code": "Refer to our FAQs for short code best practices."
+          }
+        }
+      ]
+    }
+  ]
+}

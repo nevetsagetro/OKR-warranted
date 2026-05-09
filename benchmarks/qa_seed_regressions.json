@@ -1,0 +1,575 @@
+[
+  {
+    "question": "Is political content allowed in SMS messages in Albania?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "political content is strictly prohibited",
+      "No, political content is strictly prohibited."
+    ],
+    "expected_metadata": {
+      "row_key": "political content",
+      "structured_value": "political content is strictly prohibited"
+    },
+    "expected_anchor_terms": [
+      "Political content",
+      "political content is strictly prohibited"
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "AL",
+    "question_type": "faq",
+    "should_refuse": false
+  },
+  {
+    "question": "How long does it usually take to set up a default account in Andorra?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "1 day",
+      "The default account setup time is 1 day."
+    ],
+    "expected_metadata": {
+      "row_key": "provisioning time",
+      "structured_value": "1 day"
+    },
+    "expected_anchor_terms": [
+      "Default account setup time",
+      "The default account setup time is 1 day.",
+      "1 day"
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "AD",
+    "question_type": "faq",
+    "should_refuse": false
+  },
+  {
+    "question": "In Australia, from what date were dynamic alphanumeric Sender IDs without prior registration no longer allowed?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "From April 25, 2023",
+      "From April 25, 2023.",
+      "From April 25, 2023. All alphanumeric senders must be pre-registered to avoid being blocked."
+    ],
+    "expected_metadata": {
+      "row_key": "unregistered sender id",
+      "structured_value": "From April 25, 2023"
+    },
+    "expected_anchor_terms": [
+      "Unregistered sender id",
+      "From April 25, 2023.",
+      "From April 25, 2023"
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "AU",
+    "question_type": "faq",
+    "should_refuse": false,
+    "expected_sender_types": [
+      "dynamic alphanumeric Sender ID"
+    ]
+  },
+  {
+    "question": "What happens if a message in Austria includes the name of a mobile network operator (MNO) in the text or sender?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "Traffic containing mobile network operator (MNO) names will be blocked",
+      "Traffic containing mobile network operator (MNO) names will be blocked."
+    ],
+    "expected_metadata": {
+      "row_key": "content restriction",
+      "structured_value": "Traffic containing mobile network operator (MNO) names will be blocked"
+    },
+    "expected_anchor_terms": [
+      "MNO names",
+      "Traffic containing mobile network operator (MNO) names will be blocked.",
+      "Traffic containing mobile network operator (MNO) names will be blocked"
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "AT",
+    "question_type": "faq",
+    "should_refuse": false
+  },
+  {
+    "question": "In which language must local promotional traffic be sent in Bangladesh?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "Local promotional traffic must be sent in Bengali",
+      "Local promotional traffic must be sent in Bengali."
+    ],
+    "expected_metadata": {
+      "row_key": "promotional content",
+      "structured_value": "Local promotional traffic must be sent in Bengali"
+    },
+    "expected_anchor_terms": [
+      "Local promotional traffic",
+      "Local promotional traffic must be sent in Bengali.",
+      "Local promotional traffic must be sent in Bengali"
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "BD",
+    "question_type": "faq",
+    "should_refuse": false
+  },
+  {
+    "question": "How do regulatory authorities in Belgium handle alphanumeric senders?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "Authorities in Belgium block all alphanumeric sender IDs across all networks",
+      "Authorities in Belgium block all alphanumeric sender IDs across all networks, modifying them and converting them into short codes."
+    ],
+    "expected_metadata": {
+      "row_key": "alphanumeric sender id",
+      "structured_value": "Authorities in Belgium block all alphanumeric sender IDs across all networks"
+    },
+    "expected_anchor_terms": [
+      "Alphanumeric sender id",
+      "Authorities in Belgium block all alphanumeric sender IDs across all networks"
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "BE",
+    "question_type": "faq",
+    "should_refuse": false,
+    "expected_sender_types": [
+      "alphanumeric sender id"
+    ]
+  },
+  {
+    "question": "What was the change in the phone number format in Benin implemented on November 30, 2024?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "The old format of 8 digits after the country code changed to a new 10-digit format",
+      "The old format of 8 digits after the country code changed to a new 10-digit format (for example, by adding \"01\" after the country code)."
+    ],
+    "expected_metadata": {
+      "row_key": "routing",
+      "structured_value": "The old format of 8 digits after the country code changed to a new 10-digit format"
+    },
+    "expected_anchor_terms": [
+      "Phone number format",
+      "The old format of 8 digits after the country code changed to a new 10-digit format"
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "BJ",
+    "question_type": "faq",
+    "should_refuse": false
+  },
+  {
+    "question": "What is the character limit per segment for SMS messages sent to the NEXTEL network in Brazil?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "140 characters per segment for NEXTEL",
+      "The limit is 140 characters per segment for NEXTEL",
+      "The limit is 140 characters per segment for NEXTEL, instead of the usual 160 characters on other networks."
+    ],
+    "expected_metadata": {
+      "row_key": "character limit",
+      "structured_value": "140 characters per segment for NEXTEL"
+    },
+    "expected_anchor_terms": [
+      "NEXTEL character limit",
+      "The limit is 140 characters per segment for NEXTEL",
+      "140 characters per segment for NEXTEL"
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "BR",
+    "question_type": "faq",
+    "should_refuse": false
+  },
+  {
+    "question": "What does the 2014 Gambling Act in Bulgaria specifically prohibit regarding SMS?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "direct advertising of gambling through unsolicited electronic messages inviting users to play",
+      "It prohibits direct advertising of gambling through unsolicited electronic messages inviting users to play.",
+      "It prohibits direct advertising of gambling through unsolicited electronic messages inviting users to play. However, sending lottery results or game names is allowed."
+    ],
+    "expected_metadata": {
+      "row_key": "content restriction",
+      "structured_value": "direct advertising of gambling through unsolicited electronic messages inviting users to play"
+    },
+    "expected_anchor_terms": [
+      "2014 Gambling Act",
+      "It prohibits direct advertising of gambling through unsolicited electronic messages inviting users to play.",
+      "direct advertising of gambling through unsolicited electronic messages inviting users to play"
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "BG",
+    "question_type": "faq",
+    "should_refuse": false
+  },
+  {
+    "question": "Which specific network in Cambodia blocks all SMS sent from unregistered alphanumeric Sender IDs since August 2023?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "The Smart Axiata network",
+      "The Smart Axiata network."
+    ],
+    "expected_metadata": {
+      "row_key": "unregistered sender id",
+      "structured_value": "The Smart Axiata network"
+    },
+    "expected_anchor_terms": [
+      "Smart Axiata",
+      "The Smart Axiata network.",
+      "The Smart Axiata network"
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "KH",
+    "question_type": "faq",
+    "should_refuse": false,
+    "expected_sender_types": [
+      "unregistered alphanumeric Sender ID"
+    ]
+  },
+  {
+    "question": "During what hours is it recommended to send promotional or marketing messages in Canada?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "between 9:00 a.m. and 9:00 p.m.",
+      "It is recommended to send promotional messages only between 9:00 a.m. and 9:00 p.m."
+    ],
+    "expected_metadata": {
+      "row_key": "quiet hours",
+      "structured_value": "between 9:00 a.m. and 9:00 p.m."
+    },
+    "expected_anchor_terms": [
+      "Promotional message recommended hours",
+      "between 9:00 a.m. and 9:00 p.m."
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "CA",
+    "question_type": "faq",
+    "should_refuse": false
+  },
+  {
+    "question": "What is the recommendation to improve delivery rates when sending UCS2-encoded messages to China?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "A maximum of 500 characters",
+      "A maximum of 500 characters or the equivalent of 8 segments for concatenated messages is recommended."
+    ],
+    "expected_metadata": {
+      "row_key": "message encoding",
+      "structured_value": "A maximum of 500 characters"
+    },
+    "expected_anchor_terms": [
+      "UCS2 delivery recommendation",
+      "A maximum of 500 characters"
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "CN",
+    "question_type": "faq",
+    "should_refuse": false
+  },
+  {
+    "question": "Who enforces the time restrictions (8:00 AM to 9:00 PM) for marketing and debt collection messages in Colombia?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "CRC (Communications Regulation Commission) in Colombia",
+      "enforced by the CRC (Communications Regulation Commission) in Colombia",
+      "The restrictions are enforced by the CRC (Communications Regulation Commission) in Colombia."
+    ],
+    "expected_metadata": {
+      "row_key": "quiet hours",
+      "structured_value": "CRC (Communications Regulation Commission) in Colombia"
+    },
+    "expected_anchor_terms": [
+      "CRC time restrictions",
+      "enforced by the CRC (Communications Regulation Commission) in Colombia",
+      "CRC (Communications Regulation Commission) in Colombia"
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "CO",
+    "question_type": "faq",
+    "should_refuse": false
+  },
+  {
+    "question": "On what date will Twilio permanently stop sending SMS messages to Cuba?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "September 15, 2025",
+      "September 15, 2025."
+    ],
+    "expected_metadata": {
+      "row_key": "routing",
+      "structured_value": "September 15, 2025"
+    },
+    "expected_anchor_terms": [
+      "Twilio stop sending SMS",
+      "September 15, 2025.",
+      "September 15, 2025"
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "CU",
+    "question_type": "faq",
+    "should_refuse": false
+  },
+  {
+    "question": "In Denmark, who must approve gambling-related traffic before it can be sent via SMS?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "explicitly approved and licensed by the Danish Gambling Authority (Danske Spil)",
+      "It must be explicitly approved and licensed by the Danish Gambling Authority (Danske Spil)."
+    ],
+    "expected_metadata": {
+      "row_key": "content restriction",
+      "structured_value": "explicitly approved and licensed by the Danish Gambling Authority (Danske Spil)"
+    },
+    "expected_anchor_terms": [
+      "Danish Gambling Authority",
+      "explicitly approved and licensed by the Danish Gambling Authority (Danske Spil)"
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "DK",
+    "question_type": "faq",
+    "should_refuse": false
+  },
+  {
+    "question": "Why should generic alphanumeric Sender IDs be avoided in Egypt (such as \"InfoSMS\" or \"Verify\")?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "local operators, particularly the Etisalat network, tend to reject or block requests and messages with generic senders",
+      "Because local operators, particularly the Etisalat network, tend to reject or block requests and messages with generic senders."
+    ],
+    "expected_metadata": {
+      "row_key": "alphanumeric sender id",
+      "structured_value": "local operators, particularly the Etisalat network, tend to reject or block requests and messages with generic senders"
+    },
+    "expected_anchor_terms": [
+      "Generic alphanumeric sender id",
+      "local operators, particularly the Etisalat network, tend to reject or block requests and messages with generic senders"
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "EG",
+    "question_type": "faq",
+    "should_refuse": false,
+    "expected_sender_types": [
+      "generic alphanumeric Sender ID"
+    ]
+  },
+  {
+    "question": "According to the new telemarketing law in France (effective July 1, 2025), what type of services are prohibited from being promoted via SMS?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "services, sell equipment, or perform work related to home energy savings, renewable energy production, or adaptations for aging and disability",
+      "home energy savings, renewable energy production, or adaptations for aging and disability",
+      "It is prohibited to contact customers to offer services, sell equipment, or perform work related to home energy savings, renewable energy production, or adaptations for aging and disability."
+    ],
+    "expected_metadata": {
+      "row_key": "content restriction",
+      "structured_value": "services, sell equipment, or perform work related to home energy savings, renewable energy production, or adaptations for aging and disability"
+    },
+    "expected_anchor_terms": [
+      "Telemarketing law",
+      "home energy savings, renewable energy production, or adaptations for aging and disability",
+      "services, sell equipment, or perform work related to home energy savings, renewable energy production, or adaptations for aging and disability"
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "FR",
+    "question_type": "faq",
+    "should_refuse": false
+  },
+  {
+    "question": "Is cannabis-related content allowed via SMS in Germany?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "sending cannabis-related content is strictly prohibited",
+      "No, sending cannabis-related content is strictly prohibited."
+    ],
+    "expected_metadata": {
+      "row_key": "content restriction",
+      "structured_value": "sending cannabis-related content is strictly prohibited"
+    },
+    "expected_anchor_terms": [
+      "Cannabis-related content",
+      "sending cannabis-related content is strictly prohibited"
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "DE",
+    "question_type": "faq",
+    "should_refuse": false
+  },
+  {
+    "question": "In Hong Kong, what prefix must organizations use when registering their Sender IDs in the OFCA registry?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "They must use the \"#\" (hash) prefix",
+      "They must use the \"#\" (hash) prefix, for example, \"#Nevetscorp\"."
+    ],
+    "expected_metadata": {
+      "row_key": "sender id registration",
+      "structured_value": "They must use the \"#\" (hash) prefix"
+    },
+    "expected_anchor_terms": [
+      "OFCA registry",
+      "They must use the \"#\" (hash) prefix"
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "HK",
+    "question_type": "faq",
+    "should_refuse": false,
+    "expected_sender_types": [
+      "Sender ID"
+    ]
+  },
+  {
+    "question": "When sending international SMS to India, how is the numeric or alphanumeric Sender ID overwritten?",
+    "expected_document_ids": [
+      "FAQ-question"
+    ],
+    "expected_terms": [
+      "overwritten with a random short number between five and nine digits",
+      "It is overwritten with a random short number between five and nine digits in the format 5NNNN to 5NNNNNNNN (for example, 54321)."
+    ],
+    "expected_metadata": {
+      "row_key": "routing",
+      "structured_value": "overwritten with a random short number between five and nine digits"
+    },
+    "expected_anchor_terms": [
+      "International SMS sender id overwrite",
+      "overwritten with a random short number between five and nine digits"
+    ],
+    "expected_source_paths": [
+      "data/raw/FAQ-question.json"
+    ],
+    "expected_block_types": [
+      "structured_fact"
+    ],
+    "expected_iso_code": "IN",
+    "question_type": "faq",
+    "should_refuse": false,
+    "expected_sender_types": [
+      "numeric or alphanumeric Sender ID"
+    ]
+  }
+]

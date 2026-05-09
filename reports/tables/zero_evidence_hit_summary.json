@@ -1,0 +1,36 @@
+{
+  "zero_evidence_hit_cases": 37,
+  "share_of_benchmark": 0.0132,
+  "answer_correctness": 0.0541,
+  "question_type_counts": {
+    "procedural": 12,
+    "policy_rule": 8,
+    "table_extraction": 7,
+    "binary": 6,
+    "sender_type_policy": 2,
+    "factoid": 1,
+    "duration": 1
+  },
+  "iso_counts": {
+    "US": 11,
+    "SA": 4,
+    "CA": 2,
+    "GB": 2,
+    "FR": 2,
+    "IN": 2,
+    "TD": 1,
+    "CO": 1,
+    "EC": 1,
+    "MX": 1,
+    "ME": 1,
+    "SD": 1,
+    "AE": 1,
+    "ES": 1,
+    "AF": 1
+  },
+  "failure_stage_counts": {
+    "retrieval": 21,
+    "ingestion": 11,
+    "grounding": 5
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "metrics": {
+    "total_cases": 2799,
+    "retrieval_recall_at_k": 0.9957,
+    "evidence_hit_rate": 0.9868,
+    "citation_accuracy": 0.8975,
+    "document_precision_at_k": 0.9957,
+    "answer_correctness": 0.9382,
+    "country_match_at_1": 0.9961,
+    "foreign_evidence_rate": 0.0014,
+    "wrong_country_answer_rate": 0.0039
+  },
+  "failure_stage_counts": {
+    "pass": 2431,
+    "citation": 227,
+    "ingestion": 33,
+    "answer_synthesis": 80,
+    "geo_precision": 2,
+    "retrieval": 21,
+    "grounding": 5
+  },
+  "top_failure_reasons": [
+    [
+      "returned citations did not match the expected source anchor",
+      227
+    ],
+    [
+      "answer did not express expected terms",
+      80
+    ],
+    [
+      "expected block type was not retrieved",
+      21
+    ],
+    [
+      "expected block metadata was not retrieved",
+      12
+    ],
+    [
+      "expected document was not retrieved",
+      12
+    ],
+    [
+      "expected section context was not retrieved",
+      9
+    ],
+    [
+      "retrieved evidence did not contain expected terms",
+      5
+    ],
+    [
+      "top retrieved result did not match the expected country",
+      1
+    ],
+    [
+      "answer evidence included a foreign-country document",
+      1
+    ]
+  ],
+  "question_type_correctness": {
+    "binary": {
+      "correct": 538,
+      "total": 613,
+      "rate": 0.8777
+    },
+    "capability": {
+      "correct": 427,
+      "total": 431,
+      "rate": 0.9907
+    },
+    "duration": {
+      "correct": 204,
+      "total": 205,
+      "rate": 0.9951
+    },
+    "factoid": {
+      "correct": 196,
+      "total": 204,
+      "rate": 0.9608
+    },
+    "policy_rule": {
+      "correct": 539,
+      "total": 584,
+      "rate": 0.9229
+    },
+    "procedural": {
+      "correct": 175,
+      "total": 189,
+      "rate": 0.9259
+    },
+    "sender_type_capability": {
+      "correct": 145,
+      "total": 156,
+      "rate": 0.9295
+    },
+    "sender_type_policy": {
+      "correct": 401,
+      "total": 407,
+      "rate": 0.9853
+    },
+    "table_extraction": {
+      "correct": 1,
+      "total": 10,
+      "rate": 0.1
+    }
+  },
+  "worst_iso_segments": [
+    {
+      "iso_code": "US",
+      "correct": 8,
+      "total": 17,
+      "rate": 0.4706
+    },
+    {
+      "iso_code": "IN",
+      "correct": 10,
+      "total": 15,
+      "rate": 0.6667
+    },
+    {
+      "iso_code": "SA",
+      "correct": 12,
+      "total": 17,
+      "rate": 0.7059
+    },
+    {
+      "iso_code": "DM",
+      "correct": 11,
+      "total": 14,
+      "rate": 0.7857
+    },
+    {
+      "iso_code": "IT",
+      "correct": 11,
+      "total": 14,
+      "rate": 0.7857
+    },
+    {
+      "iso_code": "LK",
+      "correct": 11,
+      "total": 14,
+      "rate": 0.7857
+    },
+    {
+      "iso_code": "MY",
+      "correct": 11,
+      "total": 14,
+      "rate": 0.7857
+    },
+    {
+      "iso_code": "SG",
+      "correct": 11,
+      "total": 14,
+      "rate": 0.7857
+    },
+    {
+      "iso_code": "VN",
+      "correct": 11,
+      "total": 14,
+      "rate": 0.7857
+    },
+    {
+      "iso_code": "GB",
+      "correct": 12,
+      "total": 15,
+      "rate": 0.8
+    },
+    {
+      "iso_code": "AU",
+      "correct": 13,
+      "total": 16,
+      "rate": 0.8125
+    },
+    {
+      "iso_code": "JP",
+      "correct": 13,
+      "total": 16,
+      "rate": 0.8125
+    },
+    {
+      "iso_code": "FR",
+      "correct": 14,
+      "total": 17,
+      "rate": 0.8235
+    },
+    {
+      "iso_code": "AE",
+      "correct": 11,
+      "total": 13,
+      "rate": 0.8462
+    },
+    {
+      "iso_code": "BY",
+      "correct": 12,
+      "total": 14,
+      "rate": 0.8571
+    },
+    {
+      "iso_code": "CD",
+      "correct": 12,
+      "total": 14,
+      "rate": 0.8571
+    },
+    {
+      "iso_code": "CF",
+      "correct": 12,
+      "total": 14,
+      "rate": 0.8571
+    },
+    {
+      "iso_code": "CM",
+      "correct": 12,
+      "total": 14,
+      "rate": 0.8571
+    },
+    {
+      "iso_code": "CR",
+      "correct": 12,
+      "total": 14,
+      "rate": 0.8571
+    },
+    {
+      "iso_code": "GQ",
+      "correct": 12,
+      "total": 14,
+      "rate": 0.8571
+    }
+  ]
+}

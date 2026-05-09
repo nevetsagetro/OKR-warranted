@@ -1,0 +1,233 @@
+[
+  {
+    "fact_id": "brazil_quiet_hours_001",
+    "fact_type": "content_restriction",
+    "topic": "Promotional SMS sending hours",
+    "value": "In Brazil, promotional SMS is allowed Monday to Friday from 8:00 AM to 8:00 PM, and Saturdays from 8:00 AM to 2:00 PM. SMS sending is not allowed on Sundays.",
+    "structured_fields": {
+      "country": "Brazil",
+      "country_iso2": "BR",
+      "traffic_type": ["promotional_sms"],
+      "allowed_start_time": "08:00",
+      "allowed_end_time": "20:00",
+      "timezone": "local_time",
+      "weekend_variation": {
+        "saturday_end_time": "14:00",
+        "sunday_allowed": false
+      }
+    },
+    "applies_to": ["Brazil"],
+    "conditions": [],
+    "exceptions": [],
+    "source_anchor": "brazil.time_restrictions"
+  },
+  {
+    "fact_id": "mexico_quiet_hours_001",
+    "fact_type": "content_restriction",
+    "topic": "Promotional SMS sending hours",
+    "value": "In Mexico, promotional SMS is only allowed from 8:00 AM to 6:00 PM local time.",
+    "structured_fields": {
+      "country": "Mexico",
+      "country_iso2": "MX",
+      "traffic_type": ["promotional_sms"],
+      "allowed_start_time": "08:00",
+      "allowed_end_time": "18:00",
+      "timezone": "local_time"
+    },
+    "applies_to": ["Mexico"],
+    "conditions": [],
+    "exceptions": [],
+    "source_anchor": "mexico.time_restrictions"
+  },
+  {
+    "fact_id": "peru_quiet_hours_001",
+    "fact_type": "content_restriction",
+    "topic": "Marketing SMS sending hours",
+    "value": "In Peru, marketing SMS is allowed Monday to Friday from 8:00 AM to 8:00 PM, Saturdays from 9:00 AM to 1:00 PM, and prohibited on Sundays.",
+    "structured_fields": {
+      "country": "Peru",
+      "country_iso2": "PE",
+      "traffic_type": ["promotional_sms"],
+      "allowed_start_time": "08:00",
+      "allowed_end_time": "20:00",
+      "timezone": "local_time",
+      "weekend_variation": {
+        "saturday_start_time": "09:00",
+        "saturday_end_time": "13:00",
+        "sunday_allowed": false
+      }
+    },
+    "applies_to": ["Peru"],
+    "conditions": [],
+    "exceptions": [],
+    "source_anchor": "peru.time_restrictions"
+  },
+  {
+    "fact_id": "colombia_quiet_hours_001",
+    "fact_type": "content_restriction",
+    "topic": "Promotional SMS sending hours",
+    "value": "In Colombia, promotional and debt collection SMS can only be sent from 8:00 AM to 9:00 PM.",
+    "structured_fields": {
+      "country": "Colombia",
+      "country_iso2": "CO",
+      "traffic_type": ["promotional_sms", "debt_collection_sms"],
+      "allowed_start_time": "08:00",
+      "allowed_end_time": "21:00",
+      "timezone": "local_time"
+    },
+    "applies_to": ["Colombia"],
+    "conditions": [],
+    "exceptions": [],
+    "source_anchor": "colombia.time_restrictions"
+  },
+  {
+    "fact_id": "chile_quiet_hours_001",
+    "fact_type": "content_restriction",
+    "topic": "SMS sending hours",
+    "value": "In Chile, SMS can only be sent between 8:30 AM and 7:30 PM local time.",
+    "structured_fields": {
+      "country": "Chile",
+      "country_iso2": "CL",
+      "traffic_type": ["promotional_sms"],
+      "allowed_start_time": "08:30",
+      "allowed_end_time": "19:30",
+      "timezone": "local_time"
+    },
+    "applies_to": ["Chile"],
+    "conditions": [],
+    "exceptions": [],
+    "source_anchor": "chile.time_restrictions"
+  },
+  {
+    "fact_id": "ecuador_quiet_hours_001",
+    "fact_type": "content_restriction",
+    "topic": "Promotional SMS sending hours",
+    "value": "In Ecuador, promotional SMS is allowed Monday to Friday from 9:00 AM to 6:00 PM and Saturdays from 9:00 AM to 12:00 PM.",
+    "structured_fields": {
+      "country": "Ecuador",
+      "country_iso2": "EC",
+      "traffic_type": ["promotional_sms"],
+      "allowed_start_time": "09:00",
+      "allowed_end_time": "18:00",
+      "timezone": "local_time",
+      "weekend_variation": {
+        "saturday_end_time": "12:00"
+      }
+    },
+    "applies_to": ["Ecuador"],
+    "conditions": [],
+    "exceptions": [],
+    "source_anchor": "ecuador.time_restrictions"
+  },
+  {
+    "fact_id": "costa_rica_quiet_hours_001",
+    "fact_type": "content_restriction",
+    "topic": "Promotional SMS sending hours",
+    "value": "In Costa Rica, promotional SMS can be sent from 8:00 AM to 8:00 PM.",
+    "structured_fields": {
+      "country": "Costa Rica",
+      "country_iso2": "CR",
+      "traffic_type": ["promotional_sms"],
+      "allowed_start_time": "08:00",
+      "allowed_end_time": "20:00",
+      "timezone": "local_time"
+    },
+    "applies_to": ["Costa Rica"],
+    "conditions": [],
+    "exceptions": [],
+    "source_anchor": "costa_rica.time_restrictions"
+  },
+  {
+    "fact_id": "united_states_quiet_hours_001",
+    "fact_type": "content_restriction",
+    "topic": "SMS quiet hours",
+    "value": "In United States, SMS quiet hours are generally from 8:00 PM to 8:00 or 9:00 AM.",
+    "structured_fields": {
+      "country": "United States",
+      "country_iso2": "US",
+      "traffic_type": ["promotional_sms"],
+      "restricted_start_time": "20:00",
+      "restricted_end_time": "08:00-09:00",
+      "timezone": "local_time"
+    },
+    "applies_to": ["United States"],
+    "conditions": [],
+    "exceptions": [],
+    "source_anchor": "us.time_restrictions"
+  },
+  {
+    "fact_id": "france_quiet_hours_001",
+    "fact_type": "content_restriction",
+    "topic": "SMS quiet hours and restrictions",
+    "value": "In France, SMS cannot be sent from 10:00 PM to 8:00 AM and campaigns are prohibited on Sundays and national holidays.",
+    "structured_fields": {
+      "country": "France",
+      "country_iso2": "FR",
+      "traffic_type": ["promotional_sms"],
+      "restricted_start_time": "22:00",
+      "restricted_end_time": "08:00",
+      "timezone": "local_time",
+      "sunday_allowed": false,
+      "holiday_allowed": false
+    },
+    "applies_to": ["France"],
+    "conditions": [],
+    "exceptions": [],
+    "source_anchor": "france.time_restrictions"
+  },
+  {
+    "fact_id": "italy_quiet_hours_001",
+    "fact_type": "content_restriction",
+    "topic": "Marketing SMS restrictions",
+    "value": "In Italy, marketing SMS cannot be sent between 10:00 PM and 8:00 AM and are prohibited on Sundays.",
+    "structured_fields": {
+      "country": "Italy",
+      "country_iso2": "IT",
+      "traffic_type": ["promotional_sms"],
+      "restricted_start_time": "22:00",
+      "restricted_end_time": "08:00",
+      "timezone": "local_time",
+      "sunday_allowed": false
+    },
+    "applies_to": ["Italy"],
+    "conditions": [],
+    "exceptions": [],
+    "source_anchor": "italy.time_restrictions"
+  },
+  {
+    "fact_id": "spain_quiet_hours_001",
+    "fact_type": "content_restriction",
+    "topic": "Promotional SMS sending hours",
+    "value": "In Spain, promotional SMS is only allowed from 8:00 AM to 6:00 PM local time.",
+    "structured_fields": {
+      "country": "Spain",
+      "country_iso2": "ES",
+      "traffic_type": ["promotional_sms"],
+      "allowed_start_time": "08:00",
+      "allowed_end_time": "18:00",
+      "timezone": "local_time"
+    },
+    "applies_to": ["Spain"],
+    "conditions": [],
+    "exceptions": [],
+    "source_anchor": "spain.time_restrictions"
+  },
+  {
+    "fact_id": "india_quiet_hours_001",
+    "fact_type": "content_restriction",
+    "topic": "Do Not Disturb restrictions",
+    "value": "In India, SMS sending is restricted under Do Not Disturb rules from 9:00 PM to 10:00 AM.",
+    "structured_fields": {
+      "country": "India",
+      "country_iso2": "IN",
+      "traffic_type": ["promotional_sms"],
+      "restricted_start_time": "21:00",
+      "restricted_end_time": "10:00",
+      "timezone": "local_time"
+    },
+    "applies_to": ["India"],
+    "conditions": [],
+    "exceptions": [],
+    "source_anchor": "india.time_restrictions"
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "document_title": "Exampleland Q&A Seeds",
+  "qa_seeds": [
+    {
+      "seed_id": "exampleland-alpha-support-q1",
+      "question": "Does Exampleland support alphanumeric sender IDs?",
+      "expected_document_ids": [
+        "exampleland_sms_regulatory_facts"
+      ],
+      "expected_terms": [
+        "supported"
+      ],
+      "expected_metadata": {
+        "row_key": "Twilio supported"
+      },
+      "expected_anchor_terms": [
+        "Twilio supported",
+        "Supported"
+      ],
+      "question_type": "binary",
+      "should_refuse": false,
+      "source_fact_id": "exampleland-alpha-support",
+      "review_status": "pending"
+    },
+    {
+      "seed_id": "exampleland-alpha-support-q2",
+      "question": "Can I use an alphanumeric sender ID in Exampleland?",
+      "expected_document_ids": [
+        "exampleland_sms_regulatory_facts"
+      ],
+      "expected_terms": [
+        "alphanumeric sender ID",
+        "supported"
+      ],
+      "expected_metadata": {
+        "row_key": "Twilio supported",
+        "sender_type": "alphanumeric sender ID"
+      },
+      "expected_anchor_terms": [
+        "Twilio supported",
+        "Alphanumeric sender IDs are supported",
+        "Exampleland",
+        "Supported"
+      ],
+      "question_type": "paraphrase",
+      "should_refuse": false,
+      "source_fact_id": "exampleland-alpha-support",
+      "review_status": "pending"
+    },
+    {
+      "seed_id": "exampleland-alpha-support-q3",
+      "question": "What is the sender ID support status for Exampleland?",
+      "expected_document_ids": [
+        "exampleland_sms_regulatory_facts"
+      ],
+      "expected_terms": [
+        "Supported",
+        "alphanumeric sender ID"
+      ],
+      "expected_metadata": {
+        "row_key": "Twilio supported",
+        "support_status": "Supported"
+      },
+      "expected_anchor_terms": [
+        "Twilio supported",
+        "support_status",
+        "sender_type",
+        "Supported",
+        "alphanumeric sender ID"
+      ],
+      "question_type": "factoid",
+      "should_refuse": false,
+      "source_fact_id": "exampleland-alpha-support",
+      "review_status": "pending"
+    }
+  ],
+  "notes": [
+    "Q&A seeds are benchmark and training candidates. They are not source truth unless linked to a source fact.",
+    "Prefer multiple reviewed question variants per source fact. Anchor terms should mix source labels, canonical values, useful aliases, and short source-quote phrases."
+  ]
+}

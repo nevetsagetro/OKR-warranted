@@ -1,0 +1,53 @@
+{
+  "vector_count": 18734,
+  "block_count": 18734,
+  "paired_count": 18734,
+  "sample_size": 2500,
+  "random_seed": 42,
+  "label": "block_type",
+  "metric": "cosine",
+  "global_silhouette_score": -0.0561,
+  "by_block_type": {
+    "faq": {
+      "sample_count": 3,
+      "mean_silhouette": 0.5202,
+      "median_silhouette": 0.4805
+    },
+    "list_item": {
+      "sample_count": 20,
+      "mean_silhouette": -0.0496,
+      "median_silhouette": -0.0299
+    },
+    "narrative": {
+      "sample_count": 214,
+      "mean_silhouette": -0.0213,
+      "median_silhouette": -0.0069
+    },
+    "policy_rule": {
+      "sample_count": 154,
+      "mean_silhouette": -0.0545,
+      "median_silhouette": -0.0104
+    },
+    "structured_fact": {
+      "sample_count": 825,
+      "mean_silhouette": -0.0351,
+      "median_silhouette": -0.044
+    },
+    "table_fact": {
+      "sample_count": 1284,
+      "mean_silhouette": -0.0771,
+      "median_silhouette": -0.0415
+    }
+  },
+  "block_type_counts_in_sample": {
+    "faq": 3,
+    "list_item": 20,
+    "narrative": 214,
+    "policy_rule": 154,
+    "structured_fact": 825,
+    "table_fact": 1284
+  },
+  "anomalous_block_count": 100,
+  "anomalous_block_artifact": "reports/tables/embedding_anomalous_blocks.csv",
+  "warning": ""
+}

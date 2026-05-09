@@ -1,0 +1,5 @@
+group_id,canonical_suggestion,variant,variant_count,group_total_count,group_variant_count,review_status
+1,sender id preserved,sender id preserved,898,900,2,candidate
+1,sender id preserved,senderid preserved,2,900,2,candidate
+2,content restriction,content_restriction,12,19,2,candidate
+2,content restriction,content restrictions,7,19,2,candidate

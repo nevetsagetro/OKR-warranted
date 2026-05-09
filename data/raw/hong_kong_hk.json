@@ -1,0 +1,221 @@
+{
+  "source_url": "https://www.twilio.com/en-us/guidelines/hk/sms",
+  "locale_code": "hk",
+  "locale_name": "Hong Kong (HK)",
+  "tables": [
+    {
+      "title": "Locale Summary",
+      "type": "key_value",
+      "items": [
+        {
+          "field": "Locale name",
+          "description": "",
+          "value": "Hong Kong"
+        },
+        {
+          "field": "ISO code",
+          "description": "The International Organization for Standardization two character representation for the given locale.",
+          "value": "HK"
+        },
+        {
+          "field": "Region",
+          "description": "",
+          "value": "Asia"
+        },
+        {
+          "field": "Mobile country code",
+          "description": "A three digit code associated with the given locale and used in conjunction with a Mobile Network Code to uniquely identify mobile networks.",
+          "value": "454"
+        },
+        {
+          "field": "Dialing code",
+          "description": "The dialing prefix used to establish a call or send an SMS from one locale to the given locale.",
+          "value": "+852"
+        }
+      ]
+    },
+    {
+      "title": "Guidelines",
+      "type": "key_value",
+      "items": [
+        {
+          "field": "Two-way SMS supported",
+          "description": "Whether Twilio supports two-way SMS in the given locale.",
+          "value": "Yes"
+        },
+        {
+          "field": "Number portability available",
+          "description": "Whether number portability is available in the given locale.",
+          "value": "Yes"
+        },
+        {
+          "field": "Twilio concatenated message support",
+          "description": "Concatenation refers to the capability of splitting a message that is too long to be sent in one SMS into smaller pieces and then joining the pieces at the receiving end so that the receiver sees the message as one.",
+          "value": "Yes* For certain sender ID types this may not be supported. Where messages are split and rejoined may vary based on character encoding."
+        },
+        {
+          "field": "Message length",
+          "description": "How many characters can be sent given a particular message encoding before the message will be split into concatenated segments.",
+          "value": "-----"
+        },
+        {
+          "field": "Twilio MMS support",
+          "description": "Multimedia Messaging Service (MMS) provides a standards-based means to send pictures and video to mobile phones.",
+          "value": "Converted to SMS with embedded URL"
+        },
+        {
+          "field": "Sending SMS to landline numbers",
+          "description": "How Twilio handles an SMS message destined for landline telephone number.",
+          "value": "You cannot send SMS to a landline destination number: the Twilio REST API will throw a 400 response with error code 21614, the message will not appear in the logs, and the account will not be charged."
+        },
+        {
+          "field": "Compliance considerations",
+          "description": "Twilio strongly encourages customers to review proposed use cases with qualified legal counsel to make sure that they comply with all applicable laws. This table lists some general best practices.",
+          "value": "Effective February 21, 2024, all customers can start using registered Alphanumeric Sender IDs with a hash (#) prefix, such as #twiliocorp, to send SMS messages to Hong Kong (see press release from the Office of the Communications Authority or OFCA). Please note that this does not impact SMS messages sent from Hong Kong domestic longcodes. To use Alphanumeric Sender IDs with a hash (#) prefix, you need to register it first by going on OFCA's website. After registering with OFCA, you need to register it with Twilio by following this link. Sending firearms, gambling, adult content, money/loan, political, religious, controlled substance, cannabis, and alcohol related content is strictly prohibited. Twilio strongly encourages customers to review proposed use cases with qualified legal counsel to make sure that they comply with all applicable laws. The following are some general best practices: Get opt-in consent from each end user before sending any communication to them, particular for marketing or other non-essential communications.Only communicate during an end user's daytime hours unless it is urgent.SMS campaigns should support HELP/STOP messages, and similar messages, in the end user's local language.Do not contact end users on do-not-call or do-not-disturb registries."
+        }
+      ]
+    },
+    {
+      "title": "Phone Numbers & Sender ID",
+      "section": "Alphanumeric",
+      "type": "matrix",
+      "columns": [
+        "Global Pre-registration",
+        "Dynamic"
+      ],
+      "items": [
+        {
+          "field": "Operator network capability",
+          "description": "Whether mobile operators in the given country support the feature.",
+          "values": {
+            "Global Pre-registration": "Required for Alphanumeric Sender IDs without a hash (#) prefix There is no segregation between International and Domestic Traffic",
+            "Dynamic": "Not Supported for China Mobile Hong Kong Supported for the rest of Hong Kong networks"
+          }
+        },
+        {
+          "field": "Twilio supported",
+          "description": "Whether Twilio supports the feature for the given country.",
+          "values": {
+            "Global Pre-registration": "Supported Learn more and register via the Console",
+            "Dynamic": "Not Supported for China Mobile Hong Kong Supported for the rest of Hong Kong networks Learn more"
+          }
+        },
+        {
+          "field": "Sender ID preserved",
+          "description": "In some countries sender IDs for certain sender types are not preserved and are changed for compliance and/or deliverability reasons. In these countries mobile subscribers will see a different ‘from sender ID’ than the one sent by you.",
+          "values": {
+            "Global Pre-registration": "Yes",
+            "Dynamic": "Yes for the networks that Dynamic Alphanumeric is supported"
+          }
+        },
+        {
+          "field": "Provisioning time",
+          "description": "Provisioning is the process of getting the sender ID approved and registered with mobile networks (depending on country requirements). Provisioning time is how long this process takes in the given country.",
+          "values": {
+            "Global Pre-registration": "18 days",
+            "Dynamic": "N/A"
+          }
+        },
+        {
+          "field": "UCS-2 support",
+          "description": "",
+          "values": {
+            "Global Pre-registration": "Supported",
+            "Dynamic": "Supported for the networks that Dynamic is supported"
+          }
+        },
+        {
+          "field": "Use case restrictions",
+          "description": "",
+          "values": {
+            "Global Pre-registration": "For Alphanumeric Sender IDs without a hash (#) prefix, registration is only required on mobile operator China Mobile Hong Kong, while other Hong Kong mobile operators support dynamic Alphanumeric Sender IDs. All customers can use registered Alphanumeric Sender IDs with a hash (#) prefix to send to all HK mobile operators starting on February 21, 2024.",
+            "Dynamic": "The Hong Kong network China Mobile requires Sender ID registration. We advise Twilio's customers to register an Alpha Sender ID in Hong Kong for full country coverage."
+          }
+        },
+        {
+          "field": "Best practices",
+          "description": "",
+          "values": {
+            "Global Pre-registration": "Register your Alphanumeric Sender IDs without a hash (#) prefix with Twilio. Additionally, in an effort to combat SMS spoofing and phishing attacks, the Office of the Communications Authority (OFCA) in Hong Kong now recommends all customers to register their Alphanumeric Sender IDs with a hash (#) prefix. We’ve updated our registration process to comply with this recommendation.",
+            "Dynamic": "Twilio advises customers to use a registered Alpha Sender ID in Hong Kong."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Phone Numbers & Sender ID",
+      "section": "Long codes and short codes",
+      "type": "matrix",
+      "columns": [
+        "Long code domestic",
+        "Long code international",
+        "Short code"
+      ],
+      "items": [
+        {
+          "field": "Operator network capability",
+          "description": "Whether mobile operators in the given country support the feature.",
+          "values": {
+            "Long code domestic": "Supported",
+            "Long code international": "Not Supported",
+            "Short code": "Not Supported"
+          }
+        },
+        {
+          "field": "Twilio supported",
+          "description": "Whether Twilio supports the feature for the given country.",
+          "values": {
+            "Long code domestic": "Supported",
+            "Long code international": "Not Supported for China Mobile Hong Kong Supported for the rest of Hong Kong networks",
+            "Short code": "---"
+          }
+        },
+        {
+          "field": "Sender ID preserved",
+          "description": "In some countries sender IDs for certain sender types are not preserved and are changed for compliance and/or deliverability reasons. In these countries mobile subscribers will see a different ‘from sender ID’ than the one sent by you.",
+          "values": {
+            "Long code domestic": "Yes",
+            "Long code international": "No",
+            "Short code": "---"
+          }
+        },
+        {
+          "field": "Provisioning time",
+          "description": "Provisioning is the process of getting the sender ID approved and registered with mobile networks (depending on country requirements). Provisioning time is how long this process takes in the given country.",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "N/A",
+            "Short code": "N/A"
+          }
+        },
+        {
+          "field": "UCS-2 support",
+          "description": "",
+          "values": {
+            "Long code domestic": "Supported",
+            "Long code international": "Supported for the networks that Dynamic is supported",
+            "Short code": "N/A"
+          }
+        },
+        {
+          "field": "Use case restrictions",
+          "description": "",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "Numeric Sender ID is not supported by mobile operators in Hong Kong and would be overwritten with either a generic Alphanumeric Sender ID or a random domestic Numeric Sender ID.",
+            "Short code": "N/A"
+          }
+        },
+        {
+          "field": "Best practices",
+          "description": "",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "Twilio advises customers to use a registered Alpha Sender ID in Hong Kong.",
+            "Short code": "N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1308 @@
+<html lang="en">
+  <!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Own Knowledge RAG</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/gui.css">
+</head>
+<body class="sidebar-collapsed mode-{{mode}}" data-mode="{{mode}}">
+  
+  <!-- ==========================================================================
+       APP SHELL: SIDEBAR NAVIGATION
+       Brand, primary navigation, and runtime status indicator.
+       ========================================================================== -->
+  <aside class="sidebar">
+    <!-- Sidebar: Brand and Collapse Control -->
+    <div class="sidebar-header">
+      <div class="sidebar-title">
+        <h1>Own Knowledge RAG</h1>
+        <p class="subtle">RAG Research Workspace</p>
+      </div>
+      <button id="sidebar-toggle" class="secondary sidebar-toggle" type="button" title="Expand navigation" aria-label="Expand navigation">
+        <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path id="sidebar-toggle-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+      </button>
+    </div>
+
+    <!-- Sidebar: Primary Navigation Items -->
+    <nav class="sidebar-nav" id="sidebar-nav">
+      <div class="nav-item active" data-target="tab-home" title="Home">
+        <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10.5L12 3l9 7.5V21a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1V10.5z"></path></svg>
+        <span class="nav-label">Home</span>
+      </div>
+      <div class="nav-item" data-target="tab-query" title="Ask">
+        <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>
+        <span class="nav-label">Ask</span>
+      </div>
+      <div class="nav-item" data-target="tab-library" title="Library">
+        <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 19.5A2.5 2.5 0 016.5 17H20M4 4.5A2.5 2.5 0 016.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15z"></path></svg>
+        <span class="nav-label">Library</span>
+      </div>
+      <div class="nav-item" data-target="tab-eval" title="Evaluation" data-visible-in="tech">
+        <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+        <span class="nav-label">Evaluation</span>
+      </div>
+      <div class="nav-item" data-target="tab-ml-ds" title="Experiments">
+        <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3h6M10 3v5.5l-5.2 8.7A2.5 2.5 0 007 21h10a2.5 2.5 0 002.2-3.8L14 8.5V3M8.5 14h7M10 18h4"></path></svg>
+        <span class="nav-label">Experiments</span>
+      </div>
+      <div class="nav-item" data-target="tab-system" title="Settings" data-visible-in="tech">
+        <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+        <span class="nav-label">Settings</span>
+      </div>
+    </nav>
+
+    <!-- Sidebar: Runtime Status -->
+    <div class="sidebar-footer">
+      <div id="status-chip" class="badge">Initializing...</div>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       APP SHELL: MAIN CONTENT
+       Each direct child with .tab-pane is a navigable workspace view.
+       ========================================================================== -->
+  <main class="main-content">
+
+    <!-- ========================================================================
+         TAB: HOME
+         Landing dashboard with workspace readiness and recent ingestion summary.
+         ======================================================================== -->
+    <div id="tab-home" class="tab-pane active">
+      <!-- Home: Workspace Overview Hero -->
+      <div class="workspace-hero">
+        <span class="badge success">Local-first workspace</span>
+        <h1 style="margin-top:12px;">RAG Research Workspace</h1>
+        <p class="subtle">Ask grounded questions, inspect evidence, add documents, and improve the system through benchmarked experiments.</p>
+        <div class="quick-actions">
+          <button class="nav-shortcut" data-target="tab-query">Ask a question</button>
+          <button class="secondary nav-shortcut" data-target="tab-ml-ds">Add knowledge</button>
+          <a class="button-link secondary" href="/tech" data-visible-in="user">Open Technical Mode</a>
+          <a class="button-link secondary" href="/" data-visible-in="tech">Simple Mode</a>
+          <button class="secondary nav-shortcut" data-target="tab-eval" data-visible-in="tech">Run evaluation</button>
+        </div>
+        <div class="stat-grid">
+          <div class="stat-card"><span>Status</span><strong id="home-status">Checking</strong></div>
+          <div class="stat-card"><span>Documents</span><strong id="home-documents">0</strong></div>
+          <div class="stat-card"><span>Chunks</span><strong id="home-blocks">0</strong></div>
+          <div class="stat-card">
+            <span>Vector backend</span>
+            <strong id="home-backend">none</strong>
+            <div class="local-note" title="Data remains on your device when local providers are selected.">
+              <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12a8 8 0 0114.3-4.9M20 12a8 8 0 01-14.3 4.9M7 7H4V4M17 17h3v3"></path></svg>
+              <span>Local sync</span>
+            </div>
+          </div>
+        </div>
+        <p class="local-note" title="Local-first mode uses local index artifacts and local providers unless you choose external services.">
+          <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3l7 4v5c0 4.5-2.7 7.8-7 9-4.3-1.2-7-4.5-7-9V7l7-4z"></path></svg>
+          <span>Data remains on your device when local providers are selected.</span>
+        </p>
+      </div>
+
+      <!-- Home: Health and Latest Ingestion Summary -->
+      <div class="grid-2 home-dashboard-grid">
+        <div class="dashboard-card">
+          <h2>Workspace Health</h2>
+          <p class="subtle">A quick read on whether your research workspace is ready for questions.</p>
+          <div id="home-warnings" class="home-health-list"></div>
+          <a class="card-footer-link nav-shortcut" data-target="tab-system" href="#">View workspace settings</a>
+        </div>
+        <div class="dashboard-card">
+          <h2>Last Ingestion Summary</h2>
+          <p class="subtle">The latest index manifest, shown in plain language.</p>
+          <div id="home-ingestion-summary" class="kv-list values-quiet" style="margin-top:16px;"></div>
+          <a class="card-footer-link nav-shortcut" data-target="tab-ingest" href="#">View full log</a>
+        </div>
+      </div>
+    </div>
+    <!-- END TAB: HOME -->
+    
+    <!-- ========================================================================
+         TAB: ASK / QUERY
+         Chat interface, suggested templates, Top K control, and question composer.
+         ======================================================================== -->
+    <div id="tab-query" class="tab-pane">
+      <div class="dashboard-header" style="margin-bottom: 16px;">
+        <h1>Ask</h1>
+        <p class="subtle">Ask natural-language questions and review the exact sources behind every answer.</p>
+      </div>
+      
+      <div class="chat-layout">
+        <!-- Ask: Chat Session Shell -->
+        <div class="chat-window">
+          <!-- Ask: Header Actions -->
+          <div class="flex-between" style="padding: 12px 20px; border-bottom: 1px solid var(--border); background: var(--bg); gap:12px; flex-wrap:wrap;">
+            <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+              <strong style="font-size: 0.9rem;">Chat Session</strong>
+              <span id="ask-environment-flag" class="badge success">Test environment: baseline</span>
+              <button class="secondary" style="padding: 6px 12px; font-size: 0.8rem;" id="clear-chat-btn">Clear Log</button>
+              <button class="secondary" style="padding: 6px 12px; font-size: 0.8rem;" id="download-chat-btn" type="button">Download Transcript</button>
+            </div>
+          </div>
+
+          <!-- Ask: Suggested Starter Questions -->
+          <div class="soft-panel suggestion-panel">
+            <strong>Try a question</strong>
+            <div class="quick-actions" style="margin-top:10px;">
+              <button class="secondary sample-question suggestion-chip">Does Spain support two-way SMS?</button>
+              <button class="secondary sample-question suggestion-chip">What is the MCC for Afghanistan?</button>
+              <button class="secondary sample-question suggestion-chip">What is the dialing code for Kuwait?</button>
+              <button class="secondary sample-question suggestion-chip">What is the sender availability in Colombia?</button>
+            </div>
+          </div>
+
+          <!-- Ask: Transcript Output -->
+          <div id="chat-log" class="chat-messages">
+            <div class="chat-message system">
+              <div class="chat-meta">System Status</div>
+              <div class="chat-body">Ready. Answers include citations and inspectable evidence.</div>
+            </div>
+          </div>
+
+          <!-- Ask: Question Composer -->
+          <div class="chat-input-area">
+            <div class="top-k-control">
+              <label for="top-k-answer" style="margin:0;">Top K</label>
+              <div class="top-k-slider-wrap">
+                <input id="top-k-answer" type="range" min="0" max="10" value="5" title="Number of evidence blocks to retrieve">
+                <div class="top-k-scale"><span>0</span><span>10</span></div>
+              </div>
+              <span id="top-k-answer-value" class="top-k-value">0</span>
+            </div>
+            <div class="ask-input-shell">
+              <textarea id="question" rows="1" placeholder="Ask a question about your knowledge base..." style="font-size:1rem;"></textarea>
+              <button id="ask-button" class="send-button" type="button" aria-label="Ask question" title="Ask question (Ctrl+Enter)">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M13 6l6 6-6 6"></path></svg>
+              </button>
+            </div>
+            <input id="work-dir-answer" type="hidden" title="Directory containing the index">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END TAB: ASK / QUERY -->
+
+    <!-- ========================================================================
+         DRAWER: SOURCE EVIDENCE
+         Side panel opened from an answer to inspect citations and save reviews.
+         ======================================================================== -->
+    <div class="drawer-overlay" id="drawer-overlay"></div>
+    <div class="drawer" id="evidence-drawer">
+      <div class="drawer-header">
+        <h2 style="margin:0; font-size: 1.25rem;">Source Evidence</h2>
+        <button class="drawer-close" id="drawer-close">&times;</button>
+      </div>
+      <div class="drawer-content">
+        <div class="dashboard-card" style="margin-bottom: 16px; padding: 16px;">
+          <h3 style="font-size: 1rem; margin-bottom: 12px;">Answer Context</h3>
+          <div id="answer-badges" style="margin-bottom: 12px; display:flex; gap:8px;">
+            <span class="badge">Tier: pending</span>
+          </div>
+          <div id="answer-detail-list" class="kv-list">
+            <div class="kv"><span>Confidence</span><strong>pending</strong></div>
+            <div class="kv"><span>Intent</span><strong>pending</strong></div>
+            <div class="kv"><span>Cache</span><strong>pending</strong></div>
+          </div>
+        </div>
+
+        <div class="dashboard-card" style="margin-bottom: 16px; padding: 16px;">
+          <h3 style="font-size: 1rem; margin-bottom: 8px;">Rate This Answer</h3>
+          <p class="help-note" style="margin-bottom: 14px;">Use this to capture real product issues like foreign-country evidence, wrong-country answers, or cases that should refuse. Saved reviews can later be exported into regression benchmarks.</p>
+          <div class="grid-2" style="gap:16px;">
+            <div>
+              <label>Rating</label>
+              <select id="review-rating">
+                <option value="correct">Correct</option>
+                <option value="correct_with_foreign_evidence">Correct with foreign evidence</option>
+                <option value="wrong_country">Wrong country</option>
+                <option value="incomplete">Incomplete</option>
+                <option value="should_refuse">Should refuse</option>
+              </select>
+            </div>
+            <div>
+              <label>Expected Document ID</label>
+              <input id="review-expected-document-id" placeholder="colombia_co">
+            </div>
+            <div>
+              <label>Expected ISO Code</label>
+              <input id="review-expected-iso-code" placeholder="CO">
+            </div>
+            <div>
+              <label>Expected Terms</label>
+              <input id="review-expected-terms" placeholder="sender, short code">
+            </div>
+          </div>
+          <div style="margin-top:16px;">
+            <label>Reviewer Notes</label>
+            <textarea id="review-notes" placeholder="Example: Answer is correct, but Angola appears as evidence for a Colombia query." style="min-height: 90px;"></textarea>
+          </div>
+          <div class="review-actions">
+            <button class="secondary" id="submit-review-button" style="border-color: var(--accent); color: var(--accent);">Save Review</button>
+            <button class="secondary" id="review-to-faq-prompt-button" type="button">Create FAQ Source Template</button>
+            <button class="secondary" id="aggregate-fix-prompt-button" type="button">Fix Aggregate Answer Template</button>
+            <span id="review-save-status" class="help-note review-status">No review saved yet.</span>
+          </div>
+        </div>
+        
+        <div style="margin-top: 24px;">
+          <h3 style="font-size: 1.1rem; margin-bottom: 8px;">Retrieved Blocks</h3>
+          <div id="evidence-list">
+            <div class="chat-message system" style="margin:0;">No evidence yet.</div>
+          </div>
+        </div>
+
+        <div id="block-inspection-section" style="margin-top: 32px; display:none; border-top: 2px solid var(--border); padding-top: 24px;">
+          <h3 style="font-size: 1.1rem; margin-bottom: 16px; display:flex; align-items:center; gap:8px;">
+            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            Block Deep Inspection
+          </h3>
+          <div id="block-detail-content"></div>
+        </div>
+      </div>
+    </div>
+    <!-- END DRAWER: SOURCE EVIDENCE -->
+
+    <!-- ========================================================================
+         TAB: LIBRARY
+         Corpus inventory, template tools, and source curation workflows.
+         ======================================================================== -->
+    <div id="tab-library" class="tab-pane">
+      <!-- Library: Page Header -->
+      <div class="dashboard-header">
+        <div class="library-breadcrumb">Library <span>/</span> Document Management</div>
+        <h1>Library</h1>
+        <p class="subtle">Review what is currently indexed and whether the corpus is ready for reliable retrieval.</p>
+      </div>
+
+      <!-- Library: Index Metrics -->
+      <div class="grid-3">
+        <div class="library-metric-card">
+          <h2>Documents</h2>
+          <strong id="library-documents">0</strong>
+          <p class="subtle">Parsed source documents in the active workspace.</p>
+        </div>
+        <div class="library-metric-card">
+          <h2>Chunks</h2>
+          <strong id="library-blocks">0</strong>
+          <p class="subtle">Knowledge blocks available for retrieval.</p>
+        </div>
+        <div class="library-metric-card">
+          <h2>Metadata <span class="info-icon" title="Available means the active index has manifest data, semantic summaries, and retrieval metadata loaded.">i</span></h2>
+          <strong id="library-metadata-status" class="status-pill warning">Checking</strong>
+          <p class="subtle">Country, tag, enrichment, and vector metadata health.</p>
+        </div>
+      </div>
+
+      <!-- Library: Active Workspace Inventory -->
+      <div class="dashboard-card library-section-spaced">
+        <div class="flex-between" style="gap:16px;">
+          <div>
+            <h2>Document Management</h2>
+            <p class="subtle">A friendly overview of the active library. Add new curated knowledge through experiments; use baseline ingestion only for maintenance rebuilds.</p>
+          </div>
+          <button class="secondary nav-shortcut" data-target="tab-ml-ds">Add knowledge</button>
+        </div>
+        <table class="data-table" style="margin-top:16px;">
+          <thead>
+            <tr>
+              <th>Workspace</th>
+              <th>File types</th>
+              <th>Parse status</th>
+              <th>Metadata completeness <span class="info-icon" title="Shows whether the current workspace has usable manifest and semantic metadata.">i</span></th>
+              <th>Chunks</th>
+              <th>Last indexed</th>
+            </tr>
+          </thead>
+          <tbody id="library-table-body">
+            <tr>
+              <td>Active workspace</td>
+              <td id="library-file-types">—</td>
+              <td><span class="badge">Checking</span></td>
+              <td id="library-metadata-cell">—</td>
+              <td id="library-chunk-cell">0</td>
+              <td>Manifest summary</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Library: Human Review to Curated Knowledge Workflow -->
+      <div class="dashboard-card library-section-spaced">
+        <h2>Knowledge Improvement Workflow</h2>
+        <p class="subtle">Use this library area to turn reviewed answers into cleaner curated JSON, then validate the new knowledge through an experiment.</p>
+        <div class="mode-grid" style="margin-bottom:0;">
+          <div class="mode-card workflow-card review default-mode">
+            <span class="badge success">Review</span>
+            <h3 style="margin-top:10px;">Check an answer</h3>
+            <p class="help-note">Ask a real user question, inspect evidence, and mark whether the answer is correct, incomplete, or missing a source fact.</p>
+            <button class="secondary nav-shortcut" data-target="tab-query" type="button">Ask</button>
+          </div>
+          <div class="mode-card workflow-card curate">
+            <span class="badge">Curate</span>
+            <h3 style="margin-top:10px;">Create source JSON</h3>
+            <p class="help-note">Paste reviewed notes below and generate a template that preserves country, ISO, operator, policy, and exact fact fields.</p>
+            <button id="library-focus-curated-prompt-button" class="secondary" type="button">Open Template Box</button>
+          </div>
+          <div class="mode-card workflow-card validate">
+            <span class="badge">Validate</span>
+            <h3 style="margin-top:10px;">Build an experiment</h3>
+            <p class="help-note">Stage the curated Markdown or JSON, build a separate index, ask questions against it, then decide whether to accept it.</p>
+            <button class="secondary nav-shortcut" data-target="tab-ml-ds" type="button">Experiments</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Library: Prose Source Template Builder -->
+      <div class="dashboard-card">
+        <h2>Prose Source Ingestion Enrichment Template</h2>
+        <p class="subtle">Use this for narrative or prose source data that must be enriched into retrieval-ready ingestion metadata.</p>
+        <div class="grid-2" style="gap:16px; margin-top:16px;">
+          <div class="template-pane">
+            <label>Input · Prose Source Data</label>
+            <textarea id="curated-source-data" placeholder="Paste narrative source text, policy prose, or curated notes to enrich for ingestion." style="min-height:220px;"></textarea>
+          </div>
+          <div class="template-pane">
+            <label>Output · Ready Prose Ingestion Template</label>
+            <textarea id="curated-ready-prompt" readonly placeholder="Generated template appears here." style="min-height:220px;"></textarea>
+          </div>
+        </div>
+        <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
+          <label class="secondary ghost" for="curated-source-file" style="display:inline-flex; align-items:center; justify-content:center; cursor:pointer; margin:0;">Load Prose File</label>
+          <input id="curated-source-file" type="file" accept=".txt,.md,.json,text/plain,application/json" style="display:none;">
+          <button id="generate-curated-prompt-button" type="button">Generate Prose Ingestion Template</button>
+          <button id="copy-curated-prompt-button" class="secondary" type="button">Copy Prose Template</button>
+          <button id="refresh-curated-prompt-template-button" class="ghost" type="button">Refresh Prose Template</button>
+          <span id="curated-prompt-status" class="help-note"></span>
+        </div>
+      </div>
+
+      <!-- Library: FAQ Source-Fact Template Builder -->
+      <div class="dashboard-card">
+        <h2>FAQ Q&A Source-Fact Ingestion Template</h2>
+        <p class="subtle">Use this for reviewed Q/A files that must become ingestion-ready FAQ `source_facts` JSON, not Q&A seeds or enrichment batches.</p>
+        <div class="grid-2" style="gap:16px; margin-top:16px;">
+          <div class="template-pane">
+            <label>Input · Reviewed FAQ Q&A Source Data</label>
+            <textarea id="faq-source-data" placeholder="Paste or load plain Q/A pairs here, for example:
+Q: Is political content allowed in SMS messages in Albania?
+A: No, political content is strictly prohibited." style="min-height:220px;"></textarea>
+          </div>
+          <div class="template-pane">
+            <label>Output · Ready FAQ Source-Fact Ingestion Template</label>
+            <textarea id="faq-ready-prompt" readonly placeholder="Generated FAQ template appears here." style="min-height:220px;"></textarea>
+          </div>
+        </div>
+        <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
+          <label class="secondary ghost" for="faq-source-file" style="display:inline-flex; align-items:center; justify-content:center; cursor:pointer; margin:0;">Load Q/A File</label>
+          <input id="faq-source-file" type="file" accept=".txt,.md,.json,text/plain,application/json" style="display:none;">
+          <button id="generate-faq-prompt-button" type="button">Generate FAQ Ingestion Template</button>
+          <button id="copy-faq-prompt-button" class="secondary" type="button">Copy FAQ Ingestion Template</button>
+          <button id="refresh-faq-prompt-template-button" class="ghost" type="button">Refresh FAQ Ingestion Template</button>
+          <span id="faq-prompt-status" class="help-note"></span>
+        </div>
+      </div>
+    </div>
+    <!-- END TAB: LIBRARY -->
+
+    <!-- ========================================================================
+         TAB: INGESTION
+         Baseline rebuild controls and indexing diagnostics.
+         ======================================================================== -->
+    <div id="tab-ingest" class="tab-pane">
+      <!-- Ingestion: Page Header -->
+      <div class="dashboard-header">
+        <h1>Ingestion</h1>
+        <p class="subtle">Add or rebuild documents through a guided flow. Default settings are ready for most users.</p>
+      </div>
+
+      <!-- Ingestion: Baseline Build Form -->
+      <div class="dashboard-card">
+        <h2>Build Knowledge Index</h2>
+        <p class="subtle">Follow the steps below to validate files, choose a build mode, create embeddings, and review the ingestion report.</p>
+        
+        <div class="cli-box">
+          <span class="comment">Build recipe preview</span><br/>
+          <span id="build-command-preview">okr build-index --source-dir &lt;source&gt; --work-dir &lt;work&gt;</span>
+        </div>
+
+        <div class="status-banner">
+          Start with default mode. Advanced ingestion settings are available for engineers who need to tune cost, speed, recall, or reproducibility.
+        </div>
+
+        <div class="section-card" style="margin-top:18px;">
+          <h3>Quick Build Presets</h3>
+          <p class="help-note" style="margin-bottom:12px;">These buttons set only the Ingestion page controls. Use them before Start Indexing to avoid accidental enrichment or API calls.</p>
+          <div style="display:flex; gap:10px; flex-wrap:wrap;">
+            <button id="preset-build-no-enrichment" class="secondary" type="button">No Enrichment</button>
+            <button id="preset-build-cached-enrichment" class="secondary" type="button">Cached Enrichment</button>
+            <button id="preset-build-force-enrichment" class="secondary" type="button">Force Re-enrichment</button>
+            <button id="preset-build-local-only" class="secondary" type="button">Local Only</button>
+          </div>
+          <p id="build-preset-status" class="help-note" style="margin-top:10px;">No preset applied yet.</p>
+        </div>
+        <div id="build-risk" class="risk-banner safe" style="margin-top:14px;">
+          Checking build cost and provider usage...
+        </div>
+
+        <div class="wizard-steps">
+          <div class="wizard-step"><b>Step 1</b><span>Select source</span><p class="help-note">Choose the raw files folder.</p></div>
+          <div class="wizard-step"><b>Step 2</b><span>Validate files</span><p class="help-note">Check supported formats.</p></div>
+          <div class="wizard-step"><b>Step 3</b><span>Configure parsing</span><p class="help-note">Set file scope and chunking.</p></div>
+          <div class="wizard-step"><b>Step 4</b><span>Create embeddings</span><p class="help-note">Pick the retrieval index recipe.</p></div>
+          <div class="wizard-step"><b>Step 5</b><span>Build index</span><p class="help-note">Run the local workspace build.</p></div>
+          <div class="wizard-step"><b>Step 6</b><span>Review report</span><p class="help-note">Check documents, chunks, and warnings.</p></div>
+        </div>
+
+        <div class="mode-grid">
+          <div class="mode-card default-mode">
+            <span class="badge success">Default</span>
+            <h3 style="margin-top:10px;">Balanced research mode</h3>
+            <p class="help-note">Best default for normal rebuilds with cache reuse and stable retrieval settings.</p>
+          </div>
+          <div class="mode-card">
+            <span class="badge">High fidelity</span>
+            <h3 style="margin-top:10px;">Maximum review quality</h3>
+            <p class="help-note">Use richer mapping and review workflows when quality matters more than build time.</p>
+          </div>
+          <div class="mode-card">
+            <span class="badge">Fast test</span>
+            <h3 style="margin-top:10px;">Quick structure check</h3>
+            <p class="help-note">Use local or noop mapping when you only need to validate parsing and chunk structure.</p>
+          </div>
+        </div>
+
+        <div class="field-grid" style="margin-top: 24px;">
+          <div>
+            <label>Source Directory</label>
+            <input id="source-dir" placeholder="data/raw">
+            <p class="help-note">Folder containing the raw corpus files. Use this when you switch between snapshots or corpora.</p>
+          </div>
+          <div>
+            <label>Work Directory</label>
+            <input id="work-dir-build" placeholder="data/work">
+            <p class="help-note">Destination for `manifest.json`, `blocks.json`, vectors, analytics, and caches for this build.</p>
+          </div>
+        </div>
+
+        <details class="panel-details" style="margin-top: 18px;">
+          <summary>Advanced ingestion settings</summary>
+          <div class="panel-body">
+        <div class="advanced-grid">
+          <div class="section-card">
+            <h3>Cache Controls</h3>
+            <p class="help-note" style="margin-bottom: 14px;">These settings control whether the build is conservative or intentionally aggressive.</p>
+            <label class="inline-checkbox">
+              <input type="checkbox" id="allow-low-quality">
+              <span>
+                <strong>Allow low-quality blocks</strong><br>
+                <span class="help-note">Keep blocks that fail the quality gate. Useful for diagnostics, but it can increase noisy evidence at query time.</span>
+              </span>
+            </label>
+            <label class="inline-checkbox">
+              <input type="checkbox" id="force-reenrich">
+              <span>
+                <strong>Force re-enrichment</strong><br>
+                <span class="help-note">Ignore the enrichment cache and call the mapping provider again for every eligible block. Use this after template, provider, or canonicalization changes.</span>
+              </span>
+            </label>
+          </div>
+
+          <div class="section-card">
+            <h3>Corpus Scope and Chunking</h3>
+            <p class="help-note" style="margin-bottom: 14px;">Choose which file types enter the build, then tune how much local context each block carries into retrieval and answer extraction.</p>
+            <div style="margin-bottom:16px;">
+              <label>Source Type Filter</label>
+              <div class="choice-list">
+                <label class="choice-card">
+                  <input type="radio" name="suffix-preset" value="markdown_only" id="suffix-preset-markdown">
+                  <span>
+                    <strong>Markdown only</strong><br>
+                    <span class="help-note">Indexes just `.md` files. Best when you want the locale markdown corpus only.</span>
+                  </span>
+                </label>
+                <label class="choice-card">
+                  <input type="radio" name="suffix-preset" value="markdown_json" id="suffix-preset-markdown-json">
+                  <span>
+                    <strong>Markdown + JSON</strong><br>
+                    <span class="help-note">Indexes `.md` and `.json` together. Useful when your corpus mixes profiles and structured source exports.</span>
+                  </span>
+                </label>
+                <label class="choice-card">
+                  <input type="radio" name="suffix-preset" value="all_supported" id="suffix-preset-all">
+                  <span>
+                    <strong>All supported types</strong><br>
+                    <span class="help-note">Indexes `.md`, `.txt`, and `.json`.</span>
+                  </span>
+                </label>
+                <label class="choice-card">
+                  <input type="radio" name="suffix-preset" value="custom" id="suffix-preset-custom">
+                  <span style="flex:1;">
+                    <strong>Custom</strong><br>
+                    <span class="help-note">Use a manual suffix list only if you need a niche combination.</span>
+                    <input id="allowed-suffixes" placeholder=".md,.json" style="margin-top:8px;">
+                  </span>
+                </label>
+              </div>
+            </div>
+            <div class="grid-2" style="gap:16px;">
+              <div>
+                <label>Chunk Size</label>
+                <input id="chunk-size" type="number" min="100" step="50">
+                <p class="help-note">Higher values keep more context together but can blur precision.</p>
+              </div>
+              <div>
+                <label>Chunk Overlap</label>
+                <input id="chunk-overlap" type="number" min="0" step="10">
+                <p class="help-note">Overlap helps preserve facts that fall near chunk boundaries.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+        </details>
+
+        <details class="panel-details" style="margin-top: 18px;">
+          <summary>Engineer settings: models, vectors, reranking</summary>
+          <div class="panel-body">
+            <p class="help-note" style="margin-bottom:14px;">Formerly called Advanced Build Options. These controls are preserved for engineers and repeatable experiments.</p>
+            <div class="advanced-grid">
+              <div class="section-card">
+                <h3>Mapping and Enrichment</h3>
+                <p class="help-note" style="margin-bottom: 14px;">These settings control how raw text becomes English retrieval targets, tags, and hypothetical questions.</p>
+                <div class="grid-2" style="gap:16px;">
+                  <div>
+                    <label>Mapping Provider</label>
+                    <select id="mapping-provider">
+                      <option value="gemini">remote mapping A</option>
+                      <option value="openai">remote provider</option>
+                      <option value="local">local</option>
+                      <option value="noop">noop</option>
+                    </select>
+                    <p class="help-note">`noop` is fastest for debugging structure only. Provider-backed modes produce richer retrieval text.</p>
+                  </div>
+                  <div>
+                    <label>Mapping Model</label>
+                    <input id="mapping-model" placeholder="provider-model">
+                    <p class="help-note">Exact model name used by the mapping provider.</p>
+                  </div>
+                  <div>
+                    <label>Batch Size</label>
+                    <input id="mapping-batch-size" type="number" min="1">
+                    <p class="help-note">Larger batches reduce total calls but can be less stable on long runs.</p>
+                  </div>
+                  <div>
+                    <label>Batch Delay (ms)</label>
+                    <input id="mapping-batch-delay-ms" type="number" min="0">
+                    <p class="help-note">Optional pause between provider batches to reduce rate-limit pressure.</p>
+                  </div>
+                  <div>
+                    <label>Text Char Limit</label>
+                    <input id="mapping-text-char-limit" type="number" min="100">
+                    <p class="help-note">Caps the raw text length sent for enrichment. Lower is cheaper; higher preserves nuance.</p>
+                  </div>
+                  <div>
+                    <label>Template Mode</label>
+                    <select id="mapping-template-mode">
+                      <option value="full">full</option>
+                      <option value="pass1">pass1</option>
+                    </select>
+                    <p class="help-note">`pass1` is leaner and often more stable; `full` carries richer guidance.</p>
+                  </div>
+                </div>
+                <label class="inline-checkbox" style="margin-top:12px;">
+                  <input type="checkbox" id="mapping-retry-missing-results">
+                  <span>
+                    <strong>Retry missing enrichment results</strong><br>
+                    <span class="help-note">Re-ask the provider when a batch returns fewer mapped blocks than expected.</span>
+                  </span>
+                </label>
+              </div>
+
+              <div class="section-card">
+                <h3>Embeddings and Vector Store</h3>
+                <p class="help-note" style="margin-bottom: 14px;">These options define the index representation used during retrieval.</p>
+                <div class="grid-2" style="gap:16px;">
+                  <div>
+                    <label>Embedding Provider</label>
+                    <select id="embedding-provider">
+                      <option value="local">local</option>
+                      <option value="huggingface">huggingface</option>
+                      <option value="openai">remote provider</option>
+                    </select>
+                    <p class="help-note">Pick the embedding engine used to encode the retrieval text.</p>
+                  </div>
+                  <div>
+                    <label>Embedding Model</label>
+                    <input id="embedding-model" placeholder="BAAI/bge-small-en-v1.5">
+                    <p class="help-note">Model identifier for the chosen embedding provider.</p>
+                  </div>
+                  <div>
+                    <label>Embedding Device</label>
+                    <select id="embedding-device">
+                      <option value="cpu">cpu</option>
+                      <option value="cuda">cuda</option>
+                      <option value="mps">mps</option>
+                    </select>
+                    <p class="help-note">Execution device for local embedding models.</p>
+                  </div>
+                  <div>
+                    <label>Embedding Dimensions</label>
+                    <input id="embedding-dimensions" type="number" min="1" placeholder="Provider default">
+                    <p class="help-note">Leave blank unless the provider requires an explicit dimension count.</p>
+                  </div>
+                  <div>
+                    <label>Vector Backend</label>
+                    <select id="vector-backend">
+                      <option value="local">local</option>
+                      <option value="chromadb">chromadb</option>
+                      <option value="qdrant">qdrant</option>
+                    </select>
+                    <p class="help-note">Storage engine for vector snapshots and query-time retrieval.</p>
+                  </div>
+                  <div>
+                    <label>Vector Collection</label>
+                    <input id="vector-collection" placeholder="own-knowledge-rag">
+                    <p class="help-note">Collection or namespace used by the vector backend.</p>
+                  </div>
+                  <div style="grid-column: 1 / -1;">
+                    <label>Qdrant URL</label>
+                    <input id="qdrant-url" placeholder="http://localhost:6333">
+                    <p class="help-note">Only needed when the vector backend is `qdrant`.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="section-card">
+                <h3>Reranker Profile</h3>
+                <p class="help-note" style="margin-bottom: 14px;">This profile is saved in the build manifest and used later when the index is queried.</p>
+                <div class="grid-2" style="gap:16px;">
+                  <div>
+                    <label>Reranker Provider</label>
+                    <select id="reranker-provider">
+                      <option value="none">none</option>
+                      <option value="cross_encoder">cross_encoder</option>
+                    </select>
+                    <p class="help-note">Enable reranking when you want higher precision after lexical + vector fusion.</p>
+                  </div>
+                  <div>
+                    <label>Reranker Model</label>
+                    <input id="reranker-model" placeholder="cross-encoder/ms-marco-MiniLM-L-6-v2">
+                    <p class="help-note">Model used by the reranker provider.</p>
+                  </div>
+                  <div>
+                    <label>Reranker Top N</label>
+                    <input id="reranker-top-n" type="number" min="1">
+                    <p class="help-note">How many fused candidates get reranked before answer selection.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="section-card">
+                <h3>Default Usage</h3>
+                <div class="kv-list">
+                  <div class="kv"><span>Fast structural debug</span><strong>`noop` mapping + local vectors</strong></div>
+                  <div class="kv"><span>Safer production rebuild</span><strong>cached enrichment + default chunking</strong></div>
+                  <div class="kv"><span>Post-template recalibration</span><strong>force re-enrichment + benchmark rerun</strong></div>
+                  <div class="kv"><span>Country-precision validation</span><strong>rebuild, then run `country_regressions.json`</strong></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <div style="margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--border);">
+          <button id="build-button" style="width: 200px;">🚀 Start Indexing</button>
+          <button id="clear-build-lock-button" class="secondary" style="width: 200px; display:none;">Clear Stale Lock</button>
+          <div id="build-loading" class="loading-line" role="status" aria-live="polite">
+            <span class="spinner" aria-hidden="true"></span>
+            <span id="build-loading-text">Re-indexing...</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ingestion: Console Output -->
+      <div class="dashboard-card">
+        <h2>Console Output</h2>
+        <pre id="output">System ready.</pre>
+      </div>
+    </div>
+    <!-- END TAB: INGESTION -->
+
+    <!-- ========================================================================
+         TAB: EVALUATION LAB
+         Gates, benchmark runs, refusal calibration, and review readiness.
+         ======================================================================== -->
+    <div id="tab-eval" class="tab-pane">
+      <!-- Evaluation: Page Header -->
+      <div class="dashboard-header">
+        <h1>Evaluation</h1>
+        <p class="subtle">Understand whether answers are accurate, grounded, and improving over time.</p>
+      </div>
+
+      <!-- Evaluation: Phase Gate, Benchmark, and Calibration Controls -->
+      <div class="grid-2">
+        <div class="dashboard-card">
+          <h2>Phase Gate</h2>
+          <p class="subtle">Run the production gate against the promoted baseline and current benchmark.</p>
+          <div style="margin-bottom: 16px;">
+            <label>Benchmark Path</label>
+            <input id="gate-benchmark-path">
+          </div>
+          <div class="flex-row" style="margin-bottom:16px;">
+            <div style="flex:1"><label>Work Dir</label><input id="gate-work-dir"></div>
+            <div style="width: 80px"><label>Top K</label><input id="gate-top-k" type="number"></div>
+          </div>
+          <div class="flex-row" style="margin-bottom:24px;">
+            <div style="width: 120px"><label>Min Cases</label><input id="gate-min-cases" type="number" value="10"></div>
+            <div style="flex:1"><label>Allowed Low-count Segment</label><input id="gate-allow-low-count" value="sender_type:toll-free number"></div>
+          </div>
+          <button id="gate-run-button">Run Gate</button>
+          <div id="gate-summary" class="kv-list" style="margin-top: 16px;"></div>
+          <div id="gate-details" class="soft-panel" style="margin-top:16px; display:none;"></div>
+        </div>
+
+        <div class="dashboard-card">
+          <h2>Run Evaluation</h2>
+          <p class="subtle">Run a benchmark suite and review accuracy, retrieval quality, citations, and regression warnings.</p>
+          <div class="cli-box">
+            <span class="comment"># CLI</span><br/>okr evaluate --benchmark-path &lt;path&gt; ...
+          </div>
+          <div style="margin-bottom: 16px;">
+            <label>Benchmark Path</label>
+            <input id="benchmark-eval">
+          </div>
+          <div class="flex-row" style="margin-bottom:24px;">
+            <div style="flex:1"><label>Work Dir</label><input id="work-dir-eval"></div>
+            <div style="width: 80px"><label>Top K</label><input id="top-k-eval" type="number"></div>
+          </div>
+          <button id="evaluate-button">Run Benchmark</button>
+          <div id="evaluation-summary" class="kv-list" style="margin-top: 16px;"></div>
+          <div class="soft-panel" style="margin-top:16px;">
+            <strong>How to read this</strong>
+            <p class="help-note">Recall shows whether the right evidence was found. Hit rate and citation accuracy show whether the answer used grounded sources. Failed cases should become future regression benchmarks.</p>
+          </div>
+        </div>
+
+        <div class="dashboard-card">
+          <h2>Refusal Calibration</h2>
+          <p class="subtle">Tune confidence thresholds to prevent hallucinations.</p>
+          <div class="cli-box">
+            <span class="comment"># CLI</span><br/>okr calibrate-refusal --benchmark-path &lt;path&gt; ...
+          </div>
+          <div style="margin-bottom: 16px;">
+            <label>Benchmark Path</label>
+            <input id="benchmark-calibrate">
+          </div>
+          <div class="flex-row" style="margin-bottom:24px;">
+            <div style="flex:1"><label>Work Dir</label><input id="work-dir-calibrate"></div>
+            <div style="width: 80px"><label>Top K</label><input id="top-k-calibrate" type="number"></div>
+          </div>
+          <button id="calibrate-button">Calibrate Thresholds</button>
+          <div id="calibration-summary" class="kv-list" style="margin-top: 16px;"></div>
+        </div>
+      </div>
+
+      <!-- Evaluation: Human Review Benchmark Readiness -->
+      <div class="dashboard-card" style="margin-top: 24px;">
+        <div class="flex-between" style="gap:16px; align-items:flex-start;">
+          <div>
+            <h2>Human Review Readiness</h2>
+            <p class="subtle">Check whether saved answer reviews are ready to become the Phase 9 regression benchmark.</p>
+          </div>
+          <button id="human-review-refresh-button" class="secondary" type="button">Refresh</button>
+          <button id="human-review-collect-button" class="secondary" type="button">Collect Reviews</button>
+          <button id="human-review-export-button" type="button">Export Benchmark</button>
+        </div>
+        <div class="flex-row" style="margin-top:16px; margin-bottom:16px;">
+          <div style="flex:1">
+            <label>Work Dir</label>
+            <input id="human-review-work-dir">
+          </div>
+        </div>
+        <div id="human-review-summary" class="kv-list"></div>
+        <div id="human-review-export-status" class="help-note" style="margin-top:12px;">Export waits until review coverage is ready.</div>
+        <div id="human-review-checks" class="soft-panel" style="margin-top:16px;"></div>
+      </div>
+    </div>
+    <!-- END TAB: EVALUATION LAB -->
+
+    <!-- ========================================================================
+         TAB: EXPERIMENTS / ANALYSIS LAB
+         Isolated candidate builds, comparisons, promotion, and rollback records.
+         ======================================================================== -->
+    <div id="tab-ml-ds" class="tab-pane">
+      <!-- Experiments: Page Header -->
+      <div class="dashboard-header">
+        <h1>Experiments</h1>
+        <p class="subtle">Test a hypothesis in a candidate workspace, compare it to baseline, then promote only when metrics are clean.</p>
+      </div>
+
+      <!-- Experiments: Workflow Guidance Banner -->
+      <div class="status-banner">
+        This is the controlled research workflow. It reuses the current ingestion settings, but builds into a fresh candidate workspace so you can compare safely before promoting.
+      </div>
+
+      <!-- Experiments: Baseline and Rollback Status -->
+      <div class="dashboard-card">
+        <div class="flex-between" style="gap:16px; align-items:flex-start;">
+          <div>
+            <h2>Baseline Status</h2>
+            <p class="subtle">Promoted baseline and rollback readiness for the current experiment loop.</p>
+          </div>
+          <button id="refresh-baseline-status-button" class="secondary" type="button">Refresh</button>
+        </div>
+        <div id="baseline-status-summary" class="status-pair-grid">
+          <div class="status-tile"><span>Promoted baseline</span><strong>data/work</strong></div>
+          <div class="status-tile"><span>Index</span><strong>Checking...</strong></div>
+          <div class="status-tile"><span>Documents</span><strong>—</strong></div>
+          <div class="status-tile"><span>Blocks</span><strong>—</strong></div>
+          <div class="status-tile"><span>Rollback backups</span><strong>—</strong></div>
+        </div>
+        <div id="baseline-rollback-summary" class="soft-panel" style="margin-top:16px;">
+          <strong>Latest rollback</strong>
+          <p class="help-note">Checking rollback backups...</p>
+        </div>
+      </div>
+
+      <!-- Experiments: Candidate Setup and File Staging -->
+      <div class="dashboard-card">
+          <h2>Experiment Setup</h2>
+          <p class="subtle">Stage human-curated files, build a candidate index, and verify ingestion health before any optional benchmark comparison.</p>
+          <div class="section-card" style="margin-top:16px;">
+            <h3>What are you adding?</h3>
+            <div class="radio-card-grid">
+              <label class="radio-card active" for="exp-content-documents">
+                <input type="radio" name="exp-content-type" value="documents" id="exp-content-documents" checked>
+                <span><strong>Knowledge files</strong><br><span class="help-note">Markdown, JSON, or text source documents that should become searchable knowledge.</span></span>
+              </label>
+              <label class="radio-card" for="exp-content-faq">
+                <input type="radio" name="exp-content-type" value="faq" id="exp-content-faq">
+                <span><strong>FAQ / reviewed Q&A</strong><br><span class="help-note">Use this for reviewed FAQ JSON or Q&A seed files. The experiment will be flagged as FAQ work and can export/evaluate Q&A cases.</span></span>
+              </label>
+            </div>
+            <p id="exp-content-type-status" class="help-note" style="margin-top:10px;">Knowledge file experiment selected.</p>
+          </div>
+          <div class="experiment-path-grid">
+            <div>
+              <label>Hypothesis</label>
+              <input id="exp-hypothesis" placeholder="Example: Markdown-only corpus improves country precision for sender questions.">
+              <p class="help-note">Describe the one thing you are testing. This also drives the suggested experiment workspace name.</p>
+            </div>
+            <div class="experiment-path-field">
+              <label>Experiment Work Dir</label>
+              <input id="exp-work-dir" placeholder="data/work_exp_sender_v2">
+              <div style="margin-top:8px; display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
+                <button id="exp-suggest-workdir-button" class="secondary" style="padding:6px 12px; font-size:0.8rem;">Refresh Suggested Path</button>
+                <span id="exp-workdir-origin" class="badge">Path mode: suggested</span>
+              </div>
+              <p class="help-note">Use a fresh experimental workspace. Suggested names combine the hypothesis and a timestamp to avoid collisions.</p>
+            </div>
+            <div class="experiment-path-field">
+              <label>Experiment Source Dir</label>
+              <input id="exp-source-dir" placeholder="data/experiment_sources/exp_.../raw">
+              <p class="help-note">This staging source directory is where uploaded files for the experiment will be written.</p>
+            </div>
+            <div class="experiment-path-field">
+              <label>Baseline Work Dir</label>
+              <input id="exp-baseline-work-dir" placeholder="data/work_md_only">
+              <p class="help-note">This should be your stable comparison index. Keep questions pointed here while experiment builds run elsewhere.</p>
+            </div>
+          </div>
+          <div style="margin-top:16px;">
+            <label id="exp-upload-label">Experiment Files</label>
+            <label class="upload-zone" id="exp-upload-zone" for="exp-upload-files">
+              <span>
+                <span class="upload-zone-title">Drop files here or browse</span>
+                <span class="upload-zone-subtitle" id="exp-upload-zone-subtitle">Markdown, JSON, or text files for this experiment.</span>
+              </span>
+              <span class="badge">Browse</span>
+              <input id="exp-upload-files" type="file" multiple accept=".md,.json,.txt">
+            </label>
+            <div style="margin-top:8px; display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
+              <button id="exp-upload-button" class="secondary" style="padding:6px 12px; font-size:0.8rem;">Upload Files To Experiment Source</button>
+              <span id="exp-upload-status" class="badge">No staged files yet</span>
+              <span id="exp-upload-progress" class="upload-progress" aria-hidden="true"><span></span></span>
+            </div>
+            <p id="exp-upload-help" class="help-note">Use this when you want to test new raw files without writing directly into the shared `data/raw` baseline.</p>
+          </div>
+          <div style="margin-top:16px;">
+            <label>Experiment Notes</label>
+            <textarea id="exp-notes" placeholder="Document what changed in raw data, retrieval settings, templates, or thresholds." style="min-height: 100px;"></textarea>
+            <p class="help-note">Document what changed so later comparisons and promotions are easy to understand.</p>
+          </div>
+
+          <div class="section-card" style="margin-top:18px;">
+            <h3>Experiment Quick Presets</h3>
+            <p class="help-note" style="margin-bottom:12px;">These buttons set only the experiment controls. They do not change the Ingestion page or baseline workspace.</p>
+            <div class="toggle-chip-row">
+              <button id="preset-exp-no-enrichment" class="secondary toggle-chip" type="button">No Enrichment</button>
+              <button id="preset-exp-cached-enrichment" class="secondary toggle-chip" type="button">Cached Enrichment</button>
+              <button id="preset-exp-force-enrichment" class="secondary toggle-chip" type="button">Force Re-enrichment</button>
+              <button id="preset-exp-local-only" class="secondary toggle-chip" type="button">Local Only</button>
+            </div>
+            <p id="exp-preset-status" class="help-note" style="margin-top:10px;">No experiment preset applied yet.</p>
+          </div>
+
+          <details class="panel-details" style="margin-top:18px;">
+            <summary>Independent experiment build settings</summary>
+            <div class="panel-body">
+              <div class="status-banner">
+                These settings belong only to this Experiments page. They do not read from, change, or depend on the Ingestion page settings.
+              </div>
+              <div class="grid-2" style="gap:16px;">
+                <div>
+                  <label>Experiment File Types</label>
+                  <select id="exp-suffix-preset">
+                    <option value="markdown_only">Markdown only (.md)</option>
+                    <option value="markdown_json">Markdown + JSON (.md, .json)</option>
+                    <option value="all_supported">All supported (.md, .txt, .json)</option>
+                    <option value="custom">Custom</option>
+                  </select>
+                  <input id="exp-allowed-suffixes" placeholder=".md,.json" style="margin-top:8px;">
+                  <p class="help-note">Controls only the experiment build. The Ingestion page has its own separate file type filter.</p>
+                </div>
+                <div>
+                  <label>Experiment Controls</label>
+                  <label class="inline-checkbox">
+                    <input type="checkbox" id="exp-allow-low-quality">
+                    <span><strong>Allow low-quality blocks</strong><br><span class="help-note">Experiment-only override.</span></span>
+                  </label>
+                  <label class="inline-checkbox">
+                    <input type="checkbox" id="exp-force-reenrich">
+                    <span><strong>Force re-enrichment</strong><br><span class="help-note">Experiment-only setting. Can trigger provider/API calls.</span></span>
+                  </label>
+                </div>
+                <div>
+                  <label>Experiment Mapping Provider</label>
+                  <select id="exp-mapping-provider">
+                    <option value="noop">noop</option>
+                    <option value="local">local</option>
+                    <option value="openai">remote provider</option>
+                    <option value="gemini">remote mapping A</option>
+                  </select>
+                  <p class="help-note">Use `noop` for cheap parser/retrieval tests. Use external providers only when testing enrichment.</p>
+                </div>
+                <div>
+                  <label>Experiment Mapping Model</label>
+                  <input id="exp-mapping-model" placeholder="model name">
+                </div>
+                <div>
+                  <label>Experiment Chunk Size</label>
+                  <input id="exp-chunk-size" type="number" min="100" step="50">
+                </div>
+                <div>
+                  <label>Experiment Chunk Overlap</label>
+                  <input id="exp-chunk-overlap" type="number" min="0" step="10">
+                </div>
+                <div>
+                  <label>Experiment Embedding Provider</label>
+                  <select id="exp-embedding-provider">
+                    <option value="local">local</option>
+                    <option value="huggingface">huggingface</option>
+                    <option value="openai">remote provider</option>
+                  </select>
+                </div>
+                <div>
+                  <label>Experiment Embedding Model</label>
+                  <input id="exp-embedding-model" placeholder="BAAI/bge-small-en-v1.5">
+                </div>
+                <div>
+                  <label>Experiment Vector Backend</label>
+                  <select id="exp-vector-backend">
+                    <option value="local">local</option>
+                    <option value="chromadb">chromadb</option>
+                    <option value="qdrant">qdrant</option>
+                  </select>
+                </div>
+                <div>
+                  <label>Experiment Reranker Provider</label>
+                  <select id="exp-reranker-provider">
+                    <option value="none">none</option>
+                    <option value="cross_encoder">cross_encoder</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </details>
+
+          <div class="code-preview" style="margin-top:16px;">
+            <button id="copy-exp-build-preview-button" class="copy-code-button" type="button" title="Copy build command" aria-label="Copy build command">
+              <svg width="15" height="15" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2M10 8h8a2 2 0 012 2v8a2 2 0 01-2 2h-8a2 2 0 01-2-2v-8a2 2 0 012-2z"></path></svg>
+            </button>
+            <span class="comment"># Build preview using independent experiment settings</span><br/>
+            <code id="exp-build-preview">okr build-index --source-dir data/raw --work-dir data/work_experiment_candidate --allowed-suffixes .md</code>
+          </div>
+          <div id="exp-build-risk" class="risk-banner">
+            Checking build cost and provider usage...
+          </div>
+          <p class="help-note" style="margin-top:12px;">Create Experiment Record only saves metadata. Build Experiment Workspace uses the independent experiment build settings above.</p>
+          <div class="section-card" style="margin-top:16px;">
+            <h3>Optional Benchmark For Evaluation</h3>
+            <label class="inline-checkbox">
+              <input type="checkbox" id="exp-use-benchmark">
+              <span><strong>Use benchmark suite</strong><br><span class="help-note">Leave off for ingestion-health-only evaluation. This is the right mode for human-curated Markdown, JSON, or FAQ files that have no representative benchmark yet.</span></span>
+            </label>
+            <div style="margin-top:12px;">
+              <label>Benchmark Suite</label>
+              <input id="exp-benchmark-path" placeholder="benchmarks/my_curated_suite.json">
+              <p class="help-note">Only enable this after the benchmark file exists and explicitly covers the experiment files. FAQ Q&A seed benchmarks must be exported before evaluation.</p>
+            </div>
+          </div>
+          <div class="grid-2" style="gap:12px; margin-top:16px;">
+            <div class="section-card">
+              <h3>Stage 1 · Record</h3>
+              <p class="help-note">Cheap metadata step. Saves hypothesis, paths, optional benchmark, and notes only.</p>
+              <button id="exp-create-button" class="secondary" style="width:100%;">Create Experiment Record</button>
+            </div>
+            <div class="section-card">
+              <h3>Stage 2 · Build Isolated</h3>
+              <p class="help-note">Indexes only staged experiment files. Use this first to inspect parsing and structured facts.</p>
+              <button id="exp-build-button" style="width:100%;">Build Experiment Workspace</button>
+              <div id="exp-build-loading" class="loading-line" role="status" aria-live="polite">
+                <span class="spinner" aria-hidden="true"></span>
+                <span id="exp-build-loading-text">Building experiment index...</span>
+              </div>
+            </div>
+            <div class="section-card">
+              <h3>Stage 3 · Evaluate</h3>
+              <p class="help-note">Checks ingestion health first. Runs a benchmark only if one is selected.</p>
+              <button id="exp-evaluate-button" class="secondary" style="width:100%;">Run Evaluation</button>
+            </div>
+            <div class="section-card">
+              <h3>Stage 4 · Compare</h3>
+              <p class="help-note">Compares ingestion health by default, or benchmark metrics when a suite is selected.</p>
+              <button id="exp-compare-button" class="secondary" style="width:100%;">Compare With Baseline</button>
+            </div>
+          </div>
+          <div class="kv-list" style="margin-top:16px;">
+            <div class="kv"><span>Low-cost path</span><strong>Create record only</strong></div>
+            <div class="kv"><span>No external provider path</span><strong>`noop` or `local` mapping + force re-enrichment off</strong></div>
+            <div class="kv"><span>External provider path</span><strong>remote mapping or force re-enrichment</strong></div>
+            <div class="kv"><span>When to skip rebuild</span><strong>If only notes changed or the experiment index already exists</strong></div>
+          </div>
+          <pre id="exp-action-output" class="output-box" style="margin-top:16px;">No experiment action has run yet.</pre>
+          <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:12px;">
+            <button id="exp-review-low-quality-button" class="secondary" type="button">Review Low Quality Blocks</button>
+          </div>
+          <div id="exp-low-quality-review" class="choice-list" style="margin-top:12px;"></div>
+      </div>
+
+      <!-- Experiments: Post-Review Merge and Promotion Decisions -->
+      <div class="dashboard-card" style="margin-top:18px;">
+        <details class="panel-details">
+          <summary>Question Testing Workspace</summary>
+          <div class="panel-body">
+            <p class="subtle">After compare, choose which indexed workspace the clean Ask tab should query.</p>
+            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:12px; align-items:center;">
+              <button id="exp-ask-baseline-button" class="secondary" type="button">Use Baseline For Questions</button>
+              <select id="work-dir-answer-select" title="Choose any indexed workspace" style="max-width:420px;">
+                <option value="">Loading workspaces...</option>
+              </select>
+              <button id="refresh-workspaces-button" class="secondary" type="button">Refresh</button>
+              <button id="exp-ask-selected-workspace-button" class="secondary" type="button">Use Selected Workspace</button>
+              <span id="exp-ask-workspace-status" class="badge">Ask workspace: baseline default</span>
+            </div>
+          </div>
+        </details>
+      </div>
+
+      <!-- Experiments: Registry and Previous Runs -->
+      <div class="dashboard-card" style="margin-top:18px;">
+        <h2>Post-Review Decision Actions</h2>
+        <p class="subtle">Use these only after the isolated experiment has been built, evaluated, compared, and manually reviewed. They are merge decisions, not normal ingest stages.</p>
+        <div class="status-banner" style="margin-top:12px;">
+          Proper merge order: first build the merged candidate, then evaluate and compare that merged workspace, then accept source files, then promote the merged workspace to baseline. Do not promote the isolated workspace unless you intentionally want a baseline that contains only the staged experiment files.
+        </div>
+        <div class="grid-2" style="gap:12px; margin-top:12px;">
+          <div class="section-card">
+            <h3>Decision 1 · Build merged candidate</h3>
+            <button id="exp-build-merged-button" class="secondary" style="width:100%;">Build Baseline + Staged Files</button>
+            <p class="help-note">Creates a realistic candidate index from the current baseline plus staged experiment files. After this finishes, run Evaluation and Compare again on this merged workspace.</p>
+          </div>
+          <div class="section-card">
+            <h3>Decision 2 · Accept reviewed sources</h3>
+            <button id="exp-promote-sources-button" class="secondary" style="width:100%;">Accept Sources Into Library</button>
+            <p class="help-note">Copies reviewed staged source files into the baseline source directory. Existing files are backed up before overwrite. Use this only after merged-candidate review passes.</p>
+          </div>
+          <div class="section-card" style="grid-column:1 / -1;">
+            <h3>Decision 3 · Promote serving index</h3>
+            <button id="exp-promote-button" class="secondary" style="width:100%;">Promote To Baseline</button>
+            <p class="help-note">Backs up the current baseline workspace, then replaces it with the reviewed merged candidate workspace.</p>
+            <label class="inline-checkbox" style="margin-top:12px;">
+              <input id="exp-force-promote-without-sources" type="checkbox">
+              <span><strong>Override source-library check</strong><br><span class="help-note">Use only when you intentionally want to promote an index before accepting staged source files into the baseline library.</span></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experiments: Reference Lifecycle -->
+      <div class="dashboard-card" style="margin-top:18px;">
+        <details id="experiment-history-panel" class="panel-details">
+          <summary>Experiment History & Registry</summary>
+          <div class="panel-body">
+            <p class="subtle">Manage saved experiment records, reload previous runs, re-check candidate indexes, or clear old registered workspaces.</p>
+            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:12px;">
+              <button id="exp-refresh-registry-button" class="secondary" type="button">Refresh History</button>
+              <button id="exp-clear-registry-button" class="secondary" type="button">Delete Registry + Workspaces</button>
+            </div>
+            <p class="help-note">Clears experiment history records and deletes registered experiment workspaces after confirmation. Baseline data and staged source files are not deleted.</p>
+            <div id="exp-registry-list" class="choice-list" style="margin-top:16px;"></div>
+            <p id="exp-registry-status" class="help-note" style="margin-top:12px;">No experiment records loaded yet.</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="dashboard-card" style="margin-top:18px;">
+        <details class="panel-details">
+          <summary>Experiment Lifecycle</summary>
+          <div class="panel-body">
+            <p class="subtle">Reference flow for later. It is separate from ingestion setup so day-to-day indexing stays focused.</p>
+            <div class="kv-list" style="margin-top:16px;">
+              <div class="kv"><span>1. Dataset update</span><strong>curated files are staged</strong></div>
+              <div class="kv"><span>2. Derived artifact</span><strong>fresh experiment `work_dir`</strong></div>
+              <div class="kv"><span>3. Controlled build</span><strong>ingest + enrich + index</strong></div>
+              <div class="kv"><span>4. Health check</span><strong>agnostic ingestion health first</strong></div>
+              <div class="kv"><span>5. Optional benchmark</span><strong>only when the suite covers the new data</strong></div>
+              <div class="kv"><span>6. Merge rehearsal</span><strong>baseline + staged files candidate</strong></div>
+              <div class="kv"><span>7. Decision</span><strong>accept sources, promote, or keep iterating</strong></div>
+            </div>
+            <div class="cli-box" style="margin-top:16px;">
+              <span class="comment"># Experiment loop from the GUI</span><br/>
+              1. Create or update the experiment record.<br/>
+              2. Build into the experimental `work_dir`.<br/>
+              3. Evaluate ingestion health; add a benchmark only when it is representative.<br/>
+              4. Compare baseline vs isolated experiment.<br/>
+              5. If review passes, build a merged candidate from baseline plus staged files.<br/>
+              6. Evaluate and compare the merged candidate.<br/>
+              7. Accept sources into the library, then promote the merged candidate or keep iterating.
+            </div>
+            <div id="exp-lifecycle-summary" class="kv-list" style="margin-top:16px;"></div>
+          </div>
+        </details>
+      </div>
+    </div>
+    <!-- END TAB: EXPERIMENTS / ANALYSIS LAB -->
+
+    <!-- ========================================================================
+         TAB: SETTINGS / SYSTEM STATUS
+         Maintenance tools, storage metrics, model provenance, and diagnostics.
+         ======================================================================== -->
+    <div id="tab-system" class="tab-pane">
+      <!-- Settings: Page Header -->
+      <div class="dashboard-header">
+        <h1>Settings</h1>
+        <p class="subtle">Models, storage, ingestion defaults, evaluation defaults, and developer diagnostics.</p>
+      </div>
+
+      <!-- Settings: Maintenance Shortcut -->
+      <div class="dashboard-card">
+        <div class="flex-between" style="gap:16px;">
+          <div>
+            <h2>Maintenance Tools</h2>
+            <p class="subtle">Baseline ingestion is still available for full rebuilds and admin work. Day-to-day knowledge updates should use Experiments.</p>
+          </div>
+          <button class="secondary nav-shortcut" data-target="tab-ingest">Open Baseline Ingestion</button>
+        </div>
+      </div>
+
+      <!-- Settings: Baseline Rollback Tools -->
+      <div class="dashboard-card">
+        <details class="panel-details">
+          <summary>Rollback Baseline</summary>
+          <div class="panel-body">
+            <p class="help-note">Restore the baseline from a promotion backup. The current baseline is backed up first, so the rollback can be reversed.</p>
+            <div class="grid-2" style="gap:12px; margin-top:12px;">
+              <div>
+                <label>Available Backups</label>
+                <select id="exp-rollback-backup-select">
+                  <option value="">No backups loaded</option>
+                </select>
+                <p class="help-note">Backups are discovered from the selected Baseline Work Dir in Experiments.</p>
+              </div>
+              <div style="display:flex; align-items:flex-end; gap:8px; flex-wrap:wrap;">
+                <button id="exp-refresh-backups-button" class="secondary" type="button">Refresh Backups</button>
+                <button id="exp-rollback-button" class="secondary" type="button">Rollback Baseline</button>
+              </div>
+              <div style="grid-column:1 / -1;">
+                <label>Backup Work Dir</label>
+                <input id="exp-rollback-backup-dir" placeholder="data/work_backup_YYYYMMDD-HHMMSS">
+                <p class="help-note">Manual fallback. Selecting a backup above fills this path.</p>
+              </div>
+            </div>
+            <p id="exp-rollback-status" class="help-note" style="margin-top:10px;">Refresh backups or load a promoted experiment record.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- Settings: Storage, Readiness, and Model Provenance -->
+      <div class="grid-2">
+        <div class="dashboard-card">
+          <h2>Storage and Index</h2>
+          <div style="display:flex; gap:16px; margin-bottom:24px;">
+            <div style="flex:1; background:var(--bg); padding:16px; border-radius:6px; border:1px solid var(--border);">
+              <strong id="metric-documents" style="display:block; font-size:1.5rem;">0</strong>
+              <span class="subtle">Documents</span>
+            </div>
+            <div style="flex:1; background:var(--bg); padding:16px; border-radius:6px; border:1px solid var(--border);">
+              <strong id="metric-blocks" style="display:block; font-size:1.5rem;">0</strong>
+              <span class="subtle">Blocks</span>
+            </div>
+            <div style="flex:1; background:var(--bg); padding:16px; border-radius:6px; border:1px solid var(--border);">
+              <strong id="metric-backend" style="display:block; font-size:1.5rem;">none</strong>
+              <span class="subtle">Backend</span>
+            </div>
+          </div>
+          
+          <h2 style="font-size:1.1rem;">Readiness</h2>
+          <div id="testing-readiness" class="kv-list"></div>
+        </div>
+
+        <div class="dashboard-card">
+          <h2>Models</h2>
+          <div id="provenance-list" class="kv-list"></div>
+          <div id="model-probe-list" class="kv-list" style="margin-top:16px;"></div>
+          <div style="margin-top:24px;">
+            <button id="refresh-button" class="secondary" style="width:100%;">Refresh State</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="dashboard-card">
+        <h2>Where did the old tabs go?</h2>
+        <div class="kv-list">
+          <div class="kv"><span>Query</span><strong>Ask</strong></div>
+          <div class="kv"><span>Knowledge updates</span><strong>Experiments</strong></div>
+          <div class="kv"><span>Baseline rebuilds</span><strong>Settings → Maintenance Tools</strong></div>
+          <div class="kv"><span>Evaluation Lab</span><strong>Evaluation</strong></div>
+          <div class="kv"><span>Analysis Lab</span><strong>Experiments</strong></div>
+          <div class="kv"><span>System Status</span><strong>Settings</strong></div>
+        </div>
+      </div>
+    </div>
+    <!-- END TAB: SETTINGS / SYSTEM STATUS -->
+
+    <!-- ==========================================================================
+         APP FOOTER
+         Static product credit shown beneath the active workspace content.
+         ========================================================================== -->
+    <footer class="app-footer" aria-label="Application credit">
+      <span>Made with</span>
+      <svg class="footer-heart" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 21s-7.3-4.6-10-9.3C-.5 7.4 2.3 3 6.8 3c2 0 3.8 1 5.2 2.7C13.4 4 15.2 3 17.2 3c4.5 0 7.3 4.4 4.8 8.7C19.3 16.4 12 21 12 21z"></path>
+      </svg>
+      <span>by NevetsAgetro</span>
+    </footer>
+
+  </main>
+
+  <!-- ==========================================================================
+       BOOTSTRAP DATA AND JAVASCRIPT
+       Python injects runtime defaults before loading the modular GUI script.
+       ========================================================================== -->
+  <script id="okr-defaults" type="application/json">{{defaults_json}}</script>
+  <script src="/static/gui.js"></script>
+</body>
+</html>

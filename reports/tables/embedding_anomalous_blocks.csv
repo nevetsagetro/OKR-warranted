@@ -1,0 +1,101 @@
+block_id,document_id,source_path,block_type,neighbor_majority_block_type,neighbor_majority_share,nearest_neighbor_distance,row_key,quality_status,text_preview
+architecture-block-10,architecture,data/raw/docs/architecture.md,list_item,structured_fact,1.0,0.0,,LOW_QUALITY,- `section_path`
+architecture-block-12,architecture,data/raw/docs/architecture.md,list_item,structured_fact,1.0,0.0,,LOW_QUALITY,- `text`
+architecture-block-13,architecture,data/raw/docs/architecture.md,list_item,structured_fact,1.0,0.0,,LOW_QUALITY,- `source_path`
+architecture-block-14,architecture,data/raw/docs/architecture.md,list_item,structured_fact,1.0,0.0,,LOW_QUALITY,- `anchors`
+architecture-block-15,architecture,data/raw/docs/architecture.md,list_item,structured_fact,1.0,0.0,,LOW_QUALITY,- `metadata`
+congo__629-block-14,congo__629,data/raw/congo__629.md,narrative,structured_fact,1.0,0.0,,LOW_QUALITY,[congo] ---
+dominica_dm-block-55,dominica_dm,data/raw/dominica_dm.md,table_fact,structured_fact,1.0,0.0,---,ok,"For dominica, the --- is: ---."
+monaco_mc-block-42,monaco_mc,data/raw/monaco_mc.md,table_fact,structured_fact,1.0,0.0,MCC,ok,"For monaco, the MCC is: 212."
+roadmap-block-36,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,1.0,0.0,,LOW_QUALITY,- `hypothetical_questions`
+roadmap-block-38,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,1.0,0.0,,LOW_QUALITY,- `answer_signal`
+roadmap-block-7,roadmap,data/raw/docs/roadmap.md,narrative,structured_fact,1.0,0.0,,LOW_QUALITY,[Goal] ---
+roadmap-block-90,roadmap,data/raw/docs/roadmap.md,narrative,structured_fact,1.0,0.0,,LOW_QUALITY,[Deferred] ---
+ecuador_ec-block-9,ecuador_ec,data/raw/ecuador_ec.json,structured_fact,table_fact,1.0,0.0242,Twilio concatenated message support,ok,- Twilio concatenated message support: Description=Concatenation refers to the capability of splitting a message that is too long to be sent in one SMS into smaller pieces and the...
+sweden_se-block-29,sweden_se,data/raw/sweden_se.md,table_fact,narrative,1.0,0.04,Lottery,ok,"For Phone Numbers & Sender ID: Long codes and short codes, the Lottery is: ---."
+equatorial_guinea_gq-block-10,equatorial_guinea_gq,data/raw/equatorial_guinea_gq.json,structured_fact,table_fact,1.0,0.0501,Message length,ok,- Message length: Description=How many characters can be sent given a particular message encoding before the message will be split into concatenated segments.; Value=Message lengt...
+roadmap-block-21,roadmap,data/raw/docs/roadmap.md,narrative,structured_fact,1.0,0.0551,,LOW_QUALITY,[Current Phase] ---
+anguilla_ai-block-39,anguilla_ai,data/raw/anguilla_ai.md,narrative,table_fact,1.0,0.0577,,LOW_QUALITY,[Anguilla] ---
+venezuela_ve-block-50,venezuela_ve,data/raw/venezuela_ve.md,narrative,table_fact,1.0,0.0577,,LOW_QUALITY,[Venezuela] ---
+sweden_se-block-30,sweden_se,data/raw/sweden_se.md,table_fact,narrative,1.0,0.0599,Adult Content,ok,"For Phone Numbers & Sender ID: Long codes and short codes, the Adult Content is: ---."
+sweden_se-block-60,sweden_se,data/raw/sweden_se.md,policy_rule,table_fact,1.0,0.0675,Sender provisioning,ok,"For sweden, the Sender provisioning is: Sender registration is mandatory. The sender registration process can take up to 3 days.."
+kuwait_kw-block-55,kuwait_kw,data/raw/kuwait_kw.md,policy_rule,table_fact,1.0,0.0894,Sender provisioning,ok,"For kuwait, the Sender provisioning is: Sender registration is mandatory. The average sender registration process time depends solely on network providers. Usually lasts up to 7 d..."
+architecture-block-17,architecture,data/raw/docs/architecture.md,list_item,structured_fact,1.0,0.1056,,LOW_QUALITY,- parser/normalizer provenance
+architecture-block-19,architecture,data/raw/docs/architecture.md,list_item,structured_fact,1.0,0.1056,,LOW_QUALITY,- semantic intent
+architecture-block-57,architecture,data/raw/docs/architecture.md,list_item,structured_fact,1.0,0.1056,,LOW_QUALITY,- retrieval recall
+architecture-block-60,architecture,data/raw/docs/architecture.md,list_item,structured_fact,1.0,0.1056,,LOW_QUALITY,- answer correctness
+congo__629-block-25,congo__629,data/raw/congo__629.md,narrative,structured_fact,1.0,0.1056,,LOW_QUALITY,[Congo] Restrictions
+french-guiana-block-18,french-guiana,data/raw/french-guiana.md,table_fact,structured_fact,1.0,0.1056,MCC,LOW_QUALITY,"For french-guiana, the MCC is: 340 / 742."
+roadmap-block-14,roadmap,data/raw/docs/roadmap.md,narrative,structured_fact,1.0,0.1056,,LOW_QUALITY,[Product Contract] ---
+roadmap-block-83,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,1.0,0.1056,,LOW_QUALITY,- citation-aware evaluation
+saudi_arabia_sa-block-43,saudi_arabia_sa,data/raw/saudi_arabia_sa.md,list_item,structured_fact,1.0,0.1297,,ok,- Only international traffic supported
+architecture-block-7,architecture,data/raw/docs/architecture.md,list_item,structured_fact,1.0,0.134,,LOW_QUALITY,- `block_id`
+architecture-block-8,architecture,data/raw/docs/architecture.md,list_item,structured_fact,1.0,0.134,,LOW_QUALITY,- `document_id`
+architecture-block-9,architecture,data/raw/docs/architecture.md,list_item,structured_fact,1.0,0.134,,LOW_QUALITY,- `title`
+monaco_mc-block-10,monaco_mc,data/raw/monaco_mc.md,table_fact,structured_fact,1.0,0.1633,Message length,ok,"For Guidelines, the Message length is: Converted to SMS with embedded URL."
+united_kingdom_gb-block-44,united_kingdom_gb,data/raw/united_kingdom_gb.md,policy_rule,list_item,1.0,0.1807,,ok,- Short URLs not supported; URLs must be whitelisted to avoid being blocked
+architecture-block-32,architecture,data/raw/docs/architecture.md,table_fact,structured_fact,1.0,0.1835,embedding dimensions,LOW_QUALITY,- embedding dimensions: `OKR_EMBEDDING_DIMENSIONS`
+roadmap-block-114,roadmap,data/raw/docs/roadmap.md,narrative,structured_fact,1.0,0.1835,,LOW_QUALITY,[Cost Model Targets] ---
+roadmap-block-24,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,1.0,0.1835,,LOW_QUALITY,- Canonical knowledge-block schema
+roadmap-block-25,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,1.0,0.1835,,LOW_QUALITY,- Config-driven provider selection
+roadmap-block-45,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,1.0,0.1835,,LOW_QUALITY,- `[x]` Hybrid scoring with reranking
+roadmap-block-71,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,1.0,0.1835,,LOW_QUALITY,- `[ ]` Cross-section consistency checks
+kenya_ke-block-53,kenya_ke,data/raw/kenya_ke.md,policy_rule,table_fact,1.0,0.2006,Two-way provisioning,ok,"For kenya, the Two-way provisioning is: Local entity is required for the setup of Short Codes. It can take up to 2 weeks provisioning time."
+gibraltar__266-block-18,gibraltar__266,data/raw/gibraltar__266.md,table_fact,structured_fact,1.0,0.2094,Two-Way Conversations,LOW_QUALITY,- Two-Way Conversations: RCS / Mobile Numbers
+architecture-block-18,architecture,data/raw/docs/architecture.md,list_item,structured_fact,1.0,0.2119,,LOW_QUALITY,- mapping provider + mapping model
+zambia_zm-block-53,zambia_zm,data/raw/zambia_zm.md,policy_rule,table_fact,1.0,0.2266,Two-way provisioning,ok,"For zambia, the Two-way provisioning is: Proof of local company presence required.."
+architecture-block-35,architecture,data/raw/docs/architecture.md,table_fact,structured_fact,1.0,0.2441,reranker,LOW_QUALITY,"- reranker: `OKR_RERANKER_PROVIDER`, `OKR_RERANKER_MODEL`, `OKR_RERANKER_TOP_N`"
+architecture-block-40,architecture,data/raw/docs/architecture.md,list_item,structured_fact,1.0,0.2441,,LOW_QUALITY,- choose the best evidence blocks
+roadmap-block-18,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,1.0,0.2441,,LOW_QUALITY,- built-in browser UI with evidence inspection
+roadmap-block-51,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,1.0,0.2441,,LOW_QUALITY,- `[x]` Failure-stage analysis and fix recommendations
+roadmap-block-55,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,1.0,0.2441,,LOW_QUALITY,- `[x]` Query-intent detection and routed-tier visibility
+roadmap-block-56,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,1.0,0.2441,,LOW_QUALITY,- `[x]` Extractive answering and refusal handling
+architecture-block-45,architecture,data/raw/docs/architecture.md,narrative,structured_fact,1.0,0.2462,,LOW_QUALITY,[Answer Strategy] The current pipeline also records:
+pakistan_pk-block-53,pakistan_pk,data/raw/pakistan_pk.md,policy_rule,table_fact,1.0,0.254,Sender provisioning,ok,"For pakistan, the Sender provisioning is: The average sender registration process depends solely on network providers. For local SMS termination, it usually takes about 15 days. N..."
+yemen_ye-block-41,yemen_ye,data/raw/yemen_ye.md,list_item,policy_rule,1.0,0.2794,,ok,- Yemen Mobile requires registration otherwise sender ID will be overwritten to INFO
+architecture-block-22,architecture,data/raw/docs/architecture.md,list_item,structured_fact,1.0,0.2929,,LOW_QUALITY,- BM25-style lexical scoring for exact terminology
+roadmap-block-78,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,1.0,0.2929,,LOW_QUALITY,- strict tag normalization against `CANONICAL_TERMS`
+roadmap-block-81,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,1.0,0.2929,,LOW_QUALITY,- routed answer tiers with refusal support
+roadmap-block-88,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,1.0,0.2929,,LOW_QUALITY,- multilingual query support
+architecture-block-53,architecture,data/raw/docs/architecture.md,table_fact,structured_fact,1.0,0.3333,Tier 2 threshold,LOW_QUALITY,- Tier 2 threshold: escalation for lower-confidence multi-document cases
+roadmap-block-5,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,1.0,0.3333,,LOW_QUALITY,- answers with grounded citations while minimizing query-time LLM cost
+japan_jp-block-55,japan_jp,data/raw/japan_jp.md,policy_rule,table_fact,1.0,0.3555,Two-way provisioning,ok,"For japan, the Two-way provisioning is: 3-4 weeks for order + time for setup on our side and order form should be filled by your account manager or Support.."
+architecture-block-31,architecture,data/raw/docs/architecture.md,table_fact,structured_fact,1.0,0.3675,embedding model,LOW_QUALITY,"- embedding model: `OKR_EMBEDDING_PROVIDER`, `OKR_EMBEDDING_MODEL`, `OKR_EMBEDDING_DEVICE`"
+roadmap-block-104,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,1.0,0.3675,,LOW_QUALITY,- English normalization quality is validated on a dedicated benchmark slice
+roadmap-block-13,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,1.0,0.3675,,LOW_QUALITY,"- Keep retrieval behavior inspectable, benchmarkable, and cheap to operate"
+france_fr-block-61,france_fr,data/raw/france_fr.md,policy_rule,table_fact,1.0,0.381,Two-way provisioning,ok,"For france, the Two-way provisioning is: VLN and shared SC can be ready in a day or two. Dedicated SC setup can take up to 4 months (because the number needs to be registered on a..."
+roadmap-block-116,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,1.0,0.397,,LOW_QUALITY,- Do not hardwire a single provider or vector backend into the system
+lebanon_lb-block-46,lebanon_lb,data/raw/lebanon_lb.md,policy_rule,table_fact,1.0,0.4031,Service restrictions,ok,"For lebanon, the Service restrictions is: No specific restrictions. Local SMS termination is allowed only for local brands (registration is not mandatory, but can be asked for).."
+chile_cl-block-57,chile_cl,data/raw/chile_cl.md,policy_rule,table_fact,1.0,0.4336,Country regulations,ok,"For chile, the Country regulations is: In Chile, there's a differentiation between local and international traffic. Chile has DND, requested by end user. ASTW: 8:30 AM to 7:30 PM...."
+italy_it-block-13,italy_it,data/raw/italy_it.md,policy_rule,structured_fact,1.0,0.435,Compliance considerations,ok,"For Guidelines, the Compliance considerations is: Sending cannabis related content is strictly prohibited. Sending marketing and promotional messages between 10PM to 8AM, and all ..."
+architecture-block-38,architecture,data/raw/docs/architecture.md,list_item,structured_fact,1.0,0.4453,,LOW_QUALITY,- build manifests record the selected models so re-indexing and query behavior stay traceable
+roadmap-block-41,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,1.0,0.4453,,LOW_QUALITY,- `[ ]` Semantic expert review to confirm enriched narratives do not introduce factual drift
+japan_jp-block-13,japan_jp,data/raw/japan_jp.md,policy_rule,structured_fact,1.0,0.455,Compliance considerations,ok,"For Guidelines, the Compliance considerations is: Twilio provides SMS delivery services to Japan via two distinct gateways: International and Domestic. For the International gatew..."
+russian-federation__250-block-12,russian-federation__250,data/raw/russian-federation__250.md,policy_rule,table_fact,1.0,0.4769,Country restrictions,LOW_QUALITY,"For russian-federation, the Country restrictions is: SPAM is forbidden. Messages of offensive or defamatory nature or messages inciting ethnic, racial or religious hatred, politic..."
+philippines_ph-block-62,philippines_ph,data/raw/philippines_ph.md,policy_rule,table_fact,1.0,0.4825,Country recommendations,ok,"For philippines, the Country recommendations is: For specific sender ID's it should be indicated if its promotional or transactional traffic. Avoid forbidden words related to adul..."
+greece_gr-block-54,greece_gr,data/raw/greece_gr.md,table_fact,structured_fact,1.0,0.4876,Country restrictions,ok,"For greece, the Country restrictions is: Max. length for numeric senders is 11 digits (numbers longer than that will be cut). Allowed characters in the Sender ID field are: a-z, A..."
+architecture-block-11,architecture,data/raw/docs/architecture.md,list_item,structured_fact,0.9167,0.0,,LOW_QUALITY,- `block_type`
+bermuda__350-block-14,bermuda__350,data/raw/bermuda__350.md,narrative,structured_fact,0.9167,0.0,,LOW_QUALITY,[bermuda] ---
+canada_ca-block-50,canada_ca,data/raw/canada_ca.md,narrative,structured_fact,0.9167,0.0,,LOW_QUALITY,[Canada] ---
+gibraltar__266-block-14,gibraltar__266,data/raw/gibraltar__266.md,narrative,structured_fact,0.9167,0.0,,LOW_QUALITY,[gibraltar] ---
+greenland__290-block-14,greenland__290,data/raw/greenland__290.md,narrative,structured_fact,0.9167,0.0,,LOW_QUALITY,[greenland] ---
+martinique__340-block-14,martinique__340,data/raw/martinique__340.md,narrative,structured_fact,0.9167,0.0,,LOW_QUALITY,[martinique] ---
+montserrat__354-block-14,montserrat__354,data/raw/montserrat__354.md,narrative,structured_fact,0.9167,0.0,,LOW_QUALITY,[montserrat] ---
+kuwait_kw-block-15,kuwait_kw,data/raw/kuwait_kw.md,policy_rule,table_fact,0.9167,0.0191,Twilio supported,ok,"Regarding Phone Numbers & Sender ID: Alphanumeric for Twilio supported: the Description is Whether Twilio supports the feature for the given country., the International Pre-regist..."
+bhutan_bt-block-43,bhutan_bt,data/raw/bhutan_bt.md,policy_rule,structured_fact,0.9167,0.0531,Sender availability,ok,"For bhutan, the Sender availability is: Sender ID preregistration not required. Senders are dynamic and any acceptable alphanumeric term can be set.."
+maldives_mv-block-47,maldives_mv,data/raw/maldives_mv.md,policy_rule,structured_fact,0.9167,0.0531,Sender availability,ok,"For maldives, the Sender availability is: Sender ID preregistration not required. Senders are dynamic and any acceptable alphanumeric term can be set.."
+australia_au-block-43,australia_au,data/raw/australia_au.md,narrative,structured_fact,0.9167,0.0577,,LOW_QUALITY,[Australia] ---
+cook_islands_ck-block-52,cook_islands_ck,data/raw/cook_islands_ck.md,policy_rule,table_fact,0.9167,0.0691,Country restrictions,ok,"For cook-islands, the Country restrictions is: Spam, political, religious or adult content are strictly prohibited.."
+new-caledonia-block-29,new-caledonia,data/raw/new-caledonia.md,policy_rule,table_fact,0.9167,0.0691,Country restrictions,LOW_QUALITY,"For new-caledonia, the Country restrictions is: Spam, political, religious, and adult content is strictly prohibited.."
+france_fr-block-27,france_fr,data/raw/france_fr.md,policy_rule,table_fact,0.9167,0.0908,Best practices,ok,"Regarding Phone Numbers & Sender ID: Long codes and short codes for Best practices: the Long code international is You must use Alphanumeric Sender IDs to send A2P messages, the S..."
+roadmap-block-37,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,0.9167,0.1056,,LOW_QUALITY,- `enriched_text`
+roadmap-block-87,roadmap,data/raw/docs/roadmap.md,list_item,structured_fact,0.9167,0.1056,,LOW_QUALITY,- `PDF` ingestion
+malaysia_my-block-25,malaysia_my,data/raw/malaysia_my.md,policy_rule,table_fact,0.9167,0.1059,Use case restrictions,ok,Regarding Phone Numbers & Sender ID: Long codes and short codes for Use case restrictions: the Long code domestic is Malaysian long codes are limited to 200 messages per day per n...
+afghanistan_af-block-24,afghanistan_af,data/raw/afghanistan_af.md,policy_rule,table_fact,0.9167,0.1144,Use case restrictions,ok,"Regarding Phone Numbers & Sender ID: Long codes and short codes for Use case restrictions: the Long code international is Numeric sender IDs are prohibited for Etisalat, MTN and S..."
+south_africa_za-block-13,south_africa_za,data/raw/south_africa_za.json,structured_fact,table_fact,0.9167,0.1367,Compliance considerations,ok,- Compliance considerations: Description=Twilio strongly encourages customers to review proposed use cases with qualified legal counsel to make sure that they comply with all appl...
+indonesia_id-block-26,indonesia_id,data/raw/indonesia_id.md,policy_rule,table_fact,0.9167,0.1546,Use case restrictions,ok,Regarding Phone Numbers & Sender ID: Long codes and short codes for Use case restrictions: the Long code international is Delivery of messages submitted with Numeric Sender IDs is...
+nigeria_ng-block-42,nigeria_ng,data/raw/nigeria_ng.md,list_item,policy_rule,0.9167,0.158,,ok,- Local traffic requires registration
+chad_td-block-49,chad_td,data/raw/chad_td.md,policy_rule,table_fact,0.9167,0.1624,Sender availability,ok,"For chad, the Sender availability is: Sender registration is not required. Numeric or generic alpha senders are not allowed.."
+eswatini__653-block-7,eswatini__653,data/raw/eswatini__653.md,policy_rule,table_fact,0.9167,0.1624,Sender availability,ok,"For eswatini, the Sender availability is: Sender registration is required, alpha and numeric senders allowed.."
+congo__629-block-1,congo__629,data/raw/congo__629.md,table_fact,structured_fact,0.9167,0.1667,MCC,LOW_QUALITY,"For congo, the MCC is: 629."
+cote-divoire__612-block-1,cote-divoire__612,data/raw/cote-divoire__612.md,table_fact,structured_fact,0.9167,0.1667,MCC,LOW_QUALITY,"For cote-divoire, the MCC is: 612."

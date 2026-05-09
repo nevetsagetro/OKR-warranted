@@ -1,0 +1,7 @@
+block_type,blocks,with_row_key,missing_row_key,coverage_rate
+table_fact,9465,9465,0,1.0
+structured_fact,6252,6252,0,1.0
+narrative,1661,0,1661,0.0
+policy_rule,1134,796,338,0.7019
+list_item,210,0,210,0.0
+faq,12,0,12,0.0

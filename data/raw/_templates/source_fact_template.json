@@ -1,0 +1,23 @@
+{
+  "document_title": "Exampleland SMS Regulatory Facts",
+  "content_type": "messaging_rules",
+  "source_facts": [
+    {
+      "fact_id": "exampleland-alpha-support",
+      "field": "Twilio supported",
+      "fact_type": "sender_capability",
+      "value": "Supported",
+      "country_iso2": "EX",
+      "applies_to": "Exampleland",
+      "structured_fields": {
+        "sender_type": "alphanumeric sender ID",
+        "support_status": "Supported"
+      },
+      "source_anchor": "Twilio supported",
+      "source_quote": "Alphanumeric sender IDs are supported in Exampleland."
+    }
+  ],
+  "notes": [
+    "Replace Exampleland values with source-grounded facts before ingesting."
+  ]
+}

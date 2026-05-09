@@ -1,0 +1,178 @@
+[
+  {
+    "question": "Sender in Spain?",
+    "expected_document_ids": ["spain_es"],
+    "expected_source_paths": ["data/raw/spain_es.md"],
+    "expected_terms": ["twilio supported", "dynamic=supported"],
+    "expected_section_terms": ["alphanumeric"],
+    "expected_anchor_terms": ["twilio supported", "dynamic=supported"],
+    "question_type": "factoid",
+    "should_refuse": false
+  },
+  {
+    "question": "Is sender registration required in Sri Lanka?",
+    "expected_document_ids": ["sri_lanka_lk"],
+    "expected_source_paths": ["data/raw/sri_lanka_lk.md"],
+    "expected_terms": ["required"],
+    "expected_section_terms": ["alphanumeric"],
+    "expected_anchor_terms": ["operator network capability", "required"],
+    "question_type": "policy_rule",
+    "should_refuse": false
+  },
+  {
+    "question": "Does Sri Lanka support two-way SMS?",
+    "expected_document_ids": ["sri_lanka_lk"],
+    "expected_source_paths": ["data/raw/sri_lanka_lk.md"],
+    "expected_terms": ["two-way sms supported", "no"],
+    "expected_section_terms": ["guidelines"],
+    "expected_anchor_terms": ["two-way sms supported", "no"],
+    "question_type": "capability",
+    "should_refuse": false
+  },
+  {
+    "question": "How long does international pre-registration take in Sri Lanka?",
+    "expected_document_ids": ["sri_lanka_lk"],
+    "expected_source_paths": ["data/raw/sri_lanka_lk.md"],
+    "expected_terms": ["3 weeks"],
+    "expected_section_terms": ["alphanumeric"],
+    "expected_anchor_terms": ["provisioning time", "3 weeks"],
+    "question_type": "procedure",
+    "should_refuse": false
+  },
+  {
+    "question": "What is the dialing code for Nepal?",
+    "expected_document_ids": ["nepal_np"],
+    "expected_source_paths": ["data/raw/nepal_np.md"],
+    "expected_terms": ["dialing code", "+977"],
+    "expected_section_terms": ["locale summary"],
+    "expected_anchor_terms": ["dialing code", "+977"],
+    "question_type": "factoid",
+    "should_refuse": false
+  },
+  {
+    "question": "What happens to numeric sender IDs in Nepal?",
+    "expected_document_ids": ["nepal_np"],
+    "expected_source_paths": ["data/raw/nepal_np.md"],
+    "expected_terms": ["overwritten", "generic alphanumeric sender id"],
+    "expected_section_terms": ["long codes and short codes"],
+    "expected_anchor_terms": ["numeric sender id", "overwritten"],
+    "question_type": "restriction",
+    "should_refuse": false
+  },
+  {
+    "question": "What generic sender IDs should be avoided in Zambia?",
+    "expected_document_ids": ["zambia_zm"],
+    "expected_source_paths": ["data/raw/zambia_zm.md"],
+    "expected_terms": ["infosms", "verify", "notify"],
+    "expected_section_terms": ["alphanumeric"],
+    "expected_anchor_terms": ["generic alphanumeric sender ids", "infosms"],
+    "question_type": "restriction",
+    "should_refuse": false
+  },
+  {
+    "question": "How long does pre-registration take in Zambia?",
+    "expected_document_ids": ["zambia_zm"],
+    "expected_source_paths": ["data/raw/zambia_zm.md"],
+    "expected_terms": ["3 weeks"],
+    "expected_section_terms": ["alphanumeric"],
+    "expected_anchor_terms": ["provisioning time", "3 weeks"],
+    "question_type": "procedure",
+    "should_refuse": false
+  },
+  {
+    "question": "Is number portability available in Spain?",
+    "expected_document_ids": ["spain_es"],
+    "expected_source_paths": ["data/raw/spain_es.md"],
+    "expected_terms": ["number portability available", "yes"],
+    "expected_section_terms": ["guidelines"],
+    "expected_anchor_terms": ["number portability available", "yes"],
+    "question_type": "capability",
+    "should_refuse": false
+  },
+  {
+    "question": "How long does a short code take in Spain?",
+    "expected_document_ids": ["spain_es"],
+    "expected_source_paths": ["data/raw/spain_es.md"],
+    "expected_terms": ["12-14 weeks"],
+    "expected_section_terms": ["long codes and short codes"],
+    "expected_anchor_terms": ["provisioning time", "12-14 weeks"],
+    "question_type": "procedure",
+    "should_refuse": false
+  },
+  {
+    "question": "How many locales are listed in the Twilio SMS Guidelines Index?",
+    "expected_document_ids": ["all_twilio_sms_guidelines_index"],
+    "expected_source_paths": ["data/raw/all_twilio_sms_guidelines_index.md"],
+    "expected_terms": ["locale count", "222"],
+    "expected_anchor_terms": ["locale count", "222"],
+    "question_type": "index_fact",
+    "should_refuse": false
+  },
+  {
+    "question": "What JSON file is listed for Spain in the Twilio SMS Guidelines Index?",
+    "expected_document_ids": ["all_twilio_sms_guidelines_index"],
+    "expected_source_paths": ["data/raw/all_twilio_sms_guidelines_index.md"],
+    "expected_terms": ["spain_es.json"],
+    "expected_section_terms": ["twilio sms guidelines index"],
+    "expected_anchor_terms": ["spain_es.json"],
+    "question_type": "index_fact",
+    "should_refuse": false
+  },
+  {
+    "question": "Is two-way SMS supported in Afghanistan?",
+    "expected_document_ids": ["afghanistan_af"],
+    "expected_source_paths": ["data/raw/afghanistan_af.md"],
+    "expected_terms": ["two-way sms supported", "no"],
+    "expected_section_terms": ["guidelines"],
+    "expected_anchor_terms": ["two-way sms supported", "no"],
+    "question_type": "capability",
+    "should_refuse": false
+  },
+  {
+    "question": "What should be used for better deliverability in Afghanistan long code international traffic?",
+    "expected_document_ids": ["afghanistan_af"],
+    "expected_source_paths": ["data/raw/afghanistan_af.md"],
+    "expected_terms": ["alphanumeric sender id"],
+    "expected_section_terms": ["long codes and short codes"],
+    "expected_anchor_terms": ["use an alphanumeric sender id", "better deliverability"],
+    "question_type": "best_practice",
+    "should_refuse": false
+  },
+  {
+    "question": "Is domestic pre-registration required in Algeria?",
+    "expected_document_ids": ["algeria_dz"],
+    "expected_source_paths": ["data/raw/algeria_dz.md"],
+    "expected_terms": ["domestic pre-registration", "required"],
+    "expected_section_terms": ["alphanumeric"],
+    "expected_anchor_terms": ["domestic pre-registration", "required"],
+    "question_type": "policy_rule",
+    "should_refuse": false
+  },
+  {
+    "question": "How long does domestic pre-registration take in Algeria?",
+    "expected_document_ids": ["algeria_dz"],
+    "expected_source_paths": ["data/raw/algeria_dz.md"],
+    "expected_terms": ["2 weeks"],
+    "expected_section_terms": ["alphanumeric"],
+    "expected_anchor_terms": ["provisioning time", "2 weeks"],
+    "question_type": "procedure",
+    "should_refuse": false
+  },
+  {
+    "question": "Does Albania support dynamic alphanumeric sender IDs?",
+    "expected_document_ids": ["albania_al"],
+    "expected_source_paths": ["data/raw/albania_al.md"],
+    "expected_terms": ["dynamic", "supported"],
+    "expected_section_terms": ["alphanumeric"],
+    "expected_anchor_terms": ["twilio supported", "dynamic=supported"],
+    "question_type": "capability",
+    "should_refuse": false
+  },
+  {
+    "question": "Does this corpus document moon geology?",
+    "expected_document_ids": [],
+    "expected_terms": [],
+    "question_type": "refusal",
+    "should_refuse": true
+  }
+]

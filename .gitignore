@@ -1,0 +1,71 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+.python-version
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# Packaging and build artifacts
+dist/
+build/
+site/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Local environment and editor state
+.env
+.env.*
+!.env.example
+.codex
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and local debug output
+*.log
+final_print_log.txt
+final_test_log.txt
+ingest_log.txt
+last_ingest_debug.txt
+
+# Internal planning and prompt material
+docs/internal/
+
+# Project-generated data and experiment workspaces
+data/processed/
+data/demo_work/
+data/work/
+data/work_*/
+data/.work_*/
+data/test_work/
+data/work_md_only/
+data/work_experiment_candidate/
+data/experiment_sources/
+data/experiments/registry.json
+data/experiments/tmp/
+scratch/
+
+# Notebook and local service state
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+.jupyter/
+.qdrant/
+.chroma/
+chroma/
+qdrant_storage/

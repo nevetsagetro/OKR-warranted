@@ -1,0 +1,58 @@
+[
+  {
+    "question": "Sender in Spain?",
+    "expected_document_ids": ["spain_es"],
+    "expected_source_paths": ["data/raw/spain_es.md"],
+    "expected_terms": ["twilio supported", "dynamic=supported"],
+    "expected_section_terms": ["alphanumeric"],
+    "expected_anchor_terms": ["twilio supported", "dynamic=supported"],
+    "question_type": "factoid",
+    "should_refuse": false
+  },
+  {
+    "question": "Is sender registration required in Sri Lanka?",
+    "expected_document_ids": ["sri_lanka_lk"],
+    "expected_source_paths": ["data/raw/sri_lanka_lk.md"],
+    "expected_terms": ["required"],
+    "expected_section_terms": ["alphanumeric"],
+    "expected_anchor_terms": ["required"],
+    "question_type": "policy_rule",
+    "should_refuse": false
+  },
+  {
+    "question": "What generic sender can be used in Nepal until registration is finalized?",
+    "expected_document_ids": ["nepal_np"],
+    "expected_source_paths": ["data/raw/nepal_np.md"],
+    "expected_terms": ["generic alphanumeric sender id"],
+    "expected_section_terms": ["long codes and short codes"],
+    "expected_anchor_terms": ["generic alphanumeric sender id"],
+    "question_type": "factoid",
+    "should_refuse": false
+  },
+  {
+    "question": "How many locales are listed in the Twilio SMS Guidelines Index?",
+    "expected_document_ids": ["all_twilio_sms_guidelines_index"],
+    "expected_source_paths": ["data/raw/all_twilio_sms_guidelines_index.md"],
+    "expected_terms": ["locale count", "222"],
+    "expected_anchor_terms": ["locale count", "222"],
+    "question_type": "index_fact",
+    "should_refuse": false
+  },
+  {
+    "question": "What is the specific description for the table fact regarding Alphanumeric sender ID in Spain?",
+    "expected_document_ids": ["spain_es"],
+    "expected_source_paths": ["data/raw/spain_es.md"],
+    "expected_terms": ["twilio supported", "dynamic", "supported learn more"],
+    "expected_section_terms": ["alphanumeric"],
+    "expected_anchor_terms": ["| twilio supported | whether twilio supports the feature"],
+    "question_type": "table_extraction",
+    "should_refuse": false
+  },
+  {
+    "question": "Does the corpus describe moon geology?",
+    "expected_document_ids": [],
+    "expected_terms": [],
+    "question_type": "refusal",
+    "should_refuse": true
+  }
+]

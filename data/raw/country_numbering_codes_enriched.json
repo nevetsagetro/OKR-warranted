@@ -1,0 +1,6637 @@
+{
+  "document_id": "country_numbering_codes",
+  "title": "Country MCC and Dialing Codes",
+  "language": "en",
+  "source_type": "human_curated",
+  "domain": "telecommunications",
+  "use_cases": [
+    "country_numbering_plan",
+    "dialing_code_and_prefix",
+    "mcc_mnc_operator_data"
+  ],
+  "document_scope": "global",
+  "source_facts": [
+    {
+      "fact_id": "abkhazia_na_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Abkhazia dialing code and MCC",
+      "value": "Abkhazia has no ISO code provided, MCC 289, and dialing codes 7840, 940, +995 44.",
+      "structured_fields": {
+        "country": "Abkhazia",
+        "country_iso2": null,
+        "mcc": [
+          "289"
+        ],
+        "dialing_code": [
+          "7840",
+          "940",
+          "+995 44"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Abkhazia?",
+          "What is the MCC for Abkhazia?",
+          "What is Abkhazia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Abkhazia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": "One or more fields were not provided explicitly in the source data.",
+      "source_anchor": "country_numbering_codes.abkhazia"
+    },
+    {
+      "fact_id": "afghanistan_af_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Afghanistan dialing code and MCC",
+      "value": "Afghanistan has ISO code AF, MCC 412, and dialing codes +93, 93.",
+      "structured_fields": {
+        "country": "Afghanistan",
+        "country_iso2": "AF",
+        "mcc": [
+          "412"
+        ],
+        "dialing_code": [
+          "+93",
+          "93"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Afghanistan?",
+          "What is the MCC for Afghanistan?",
+          "What is Afghanistan's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Afghanistan"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.afghanistan"
+    },
+    {
+      "fact_id": "albania_al_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Albania dialing code and MCC",
+      "value": "Albania has ISO code AL, MCC 276, and dialing codes +355, 355.",
+      "structured_fields": {
+        "country": "Albania",
+        "country_iso2": "AL",
+        "mcc": [
+          "276"
+        ],
+        "dialing_code": [
+          "+355",
+          "355"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Albania?",
+          "What is the MCC for Albania?",
+          "What is Albania's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Albania"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.albania"
+    },
+    {
+      "fact_id": "algeria_dz_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Algeria dialing code and MCC",
+      "value": "Algeria has ISO code DZ, MCC 603, and dialing codes +213, 213.",
+      "structured_fields": {
+        "country": "Algeria",
+        "country_iso2": "DZ",
+        "mcc": [
+          "603"
+        ],
+        "dialing_code": [
+          "+213",
+          "213"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Algeria?",
+          "What is the MCC for Algeria?",
+          "What is Algeria's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Algeria"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.algeria"
+    },
+    {
+      "fact_id": "american_samoa_as_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "American Samoa dialing code and MCC",
+      "value": "American Samoa has ISO code AS, MCC 544, and dialing codes +1684, 1684.",
+      "structured_fields": {
+        "country": "American Samoa",
+        "country_iso2": "AS",
+        "mcc": [
+          "544"
+        ],
+        "dialing_code": [
+          "+1684",
+          "1684"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for American Samoa?",
+          "What is the MCC for American Samoa?",
+          "What is American Samoa's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "American Samoa"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.american_samoa"
+    },
+    {
+      "fact_id": "andorra_ad_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Andorra dialing code and MCC",
+      "value": "Andorra has ISO code AD, MCC 213, and dialing codes +376, 376.",
+      "structured_fields": {
+        "country": "Andorra",
+        "country_iso2": "AD",
+        "mcc": [
+          "213"
+        ],
+        "dialing_code": [
+          "+376",
+          "376"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Andorra?",
+          "What is the MCC for Andorra?",
+          "What is Andorra's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Andorra"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.andorra"
+    },
+    {
+      "fact_id": "angola_ao_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Angola dialing code and MCC",
+      "value": "Angola has ISO code AO, MCC 631, and dialing codes +244, 244.",
+      "structured_fields": {
+        "country": "Angola",
+        "country_iso2": "AO",
+        "mcc": [
+          "631"
+        ],
+        "dialing_code": [
+          "+244",
+          "244"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Angola?",
+          "What is the MCC for Angola?",
+          "What is Angola's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Angola"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.angola"
+    },
+    {
+      "fact_id": "anguilla_ai_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Anguilla dialing code and MCC",
+      "value": "Anguilla has ISO code AI, MCC 365, 342, and dialing codes +1264, 1246.",
+      "structured_fields": {
+        "country": "Anguilla",
+        "country_iso2": "AI",
+        "mcc": [
+          "365",
+          "342"
+        ],
+        "dialing_code": [
+          "+1264",
+          "1246"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Anguilla?",
+          "What is the MCC for Anguilla?",
+          "What is Anguilla's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Anguilla"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.anguilla"
+    },
+    {
+      "fact_id": "antigua_and_barbuda_ag_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Antigua and Barbuda dialing code and MCC",
+      "value": "Antigua and Barbuda has ISO code AG, MCC 344, and dialing codes +1268, 1268.",
+      "structured_fields": {
+        "country": "Antigua and Barbuda",
+        "country_iso2": "AG",
+        "mcc": [
+          "344"
+        ],
+        "dialing_code": [
+          "+1268",
+          "1268"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Antigua and Barbuda?",
+          "What is the MCC for Antigua and Barbuda?",
+          "What is Antigua and Barbuda's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Antigua and Barbuda"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.antigua_and_barbuda"
+    },
+    {
+      "fact_id": "argentina_ar_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Argentina dialing code and MCC",
+      "value": "Argentina has ISO code AR, MCC 722, and dialing codes +54, 54.",
+      "structured_fields": {
+        "country": "Argentina",
+        "country_iso2": "AR",
+        "mcc": [
+          "722"
+        ],
+        "dialing_code": [
+          "+54",
+          "54"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Argentina?",
+          "What is the MCC for Argentina?",
+          "What is Argentina's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Argentina"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.argentina"
+    },
+    {
+      "fact_id": "armenia_am_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Armenia dialing code and MCC",
+      "value": "Armenia has ISO code AM, MCC 283, and dialing codes +374, 374.",
+      "structured_fields": {
+        "country": "Armenia",
+        "country_iso2": "AM",
+        "mcc": [
+          "283"
+        ],
+        "dialing_code": [
+          "+374",
+          "374"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Armenia?",
+          "What is the MCC for Armenia?",
+          "What is Armenia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Armenia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.armenia"
+    },
+    {
+      "fact_id": "aruba_aw_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Aruba dialing code and MCC",
+      "value": "Aruba has ISO code AW, MCC 363, and dialing codes +297, 297.",
+      "structured_fields": {
+        "country": "Aruba",
+        "country_iso2": "AW",
+        "mcc": [
+          "363"
+        ],
+        "dialing_code": [
+          "+297",
+          "297"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Aruba?",
+          "What is the MCC for Aruba?",
+          "What is Aruba's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Aruba"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.aruba"
+    },
+    {
+      "fact_id": "australia_au_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Australia dialing code and MCC",
+      "value": "Australia has ISO code AU, MCC 505, and dialing codes +61.",
+      "structured_fields": {
+        "country": "Australia",
+        "country_iso2": "AU",
+        "mcc": [
+          "505"
+        ],
+        "dialing_code": [
+          "+61"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Australia?",
+          "What is the MCC for Australia?",
+          "What is Australia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Australia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.australia"
+    },
+    {
+      "fact_id": "austria_at_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Austria dialing code and MCC",
+      "value": "Austria has ISO code AT, MCC 232, and dialing codes +43, 43.",
+      "structured_fields": {
+        "country": "Austria",
+        "country_iso2": "AT",
+        "mcc": [
+          "232"
+        ],
+        "dialing_code": [
+          "+43",
+          "43"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Austria?",
+          "What is the MCC for Austria?",
+          "What is Austria's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Austria"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.austria"
+    },
+    {
+      "fact_id": "azerbaijan_az_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Azerbaijan dialing code and MCC",
+      "value": "Azerbaijan has ISO code AZ, MCC 400, and dialing codes +994, 994.",
+      "structured_fields": {
+        "country": "Azerbaijan",
+        "country_iso2": "AZ",
+        "mcc": [
+          "400"
+        ],
+        "dialing_code": [
+          "+994",
+          "994"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Azerbaijan?",
+          "What is the MCC for Azerbaijan?",
+          "What is Azerbaijan's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Azerbaijan"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.azerbaijan"
+    },
+    {
+      "fact_id": "bahamas_bs_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Bahamas dialing code and MCC",
+      "value": "Bahamas has ISO code BS, MCC 364, and dialing codes +1242, 1242.",
+      "structured_fields": {
+        "country": "Bahamas",
+        "country_iso2": "BS",
+        "mcc": [
+          "364"
+        ],
+        "dialing_code": [
+          "+1242",
+          "1242"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Bahamas?",
+          "What is the MCC for Bahamas?",
+          "What is Bahamas's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Bahamas"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.bahamas"
+    },
+    {
+      "fact_id": "bahrain_bh_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Bahrain dialing code and MCC",
+      "value": "Bahrain has ISO code BH, MCC 426, and dialing codes +973, 973.",
+      "structured_fields": {
+        "country": "Bahrain",
+        "country_iso2": "BH",
+        "mcc": [
+          "426"
+        ],
+        "dialing_code": [
+          "+973",
+          "973"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Bahrain?",
+          "What is the MCC for Bahrain?",
+          "What is Bahrain's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Bahrain"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.bahrain"
+    },
+    {
+      "fact_id": "bangladesh_bd_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Bangladesh dialing code and MCC",
+      "value": "Bangladesh has ISO code BD, MCC 470, and dialing codes +880, 880.",
+      "structured_fields": {
+        "country": "Bangladesh",
+        "country_iso2": "BD",
+        "mcc": [
+          "470"
+        ],
+        "dialing_code": [
+          "+880",
+          "880"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Bangladesh?",
+          "What is the MCC for Bangladesh?",
+          "What is Bangladesh's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Bangladesh"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.bangladesh"
+    },
+    {
+      "fact_id": "barbados_bb_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Barbados dialing code and MCC",
+      "value": "Barbados has ISO code BB, MCC 342, and dialing codes +1246, 1246.",
+      "structured_fields": {
+        "country": "Barbados",
+        "country_iso2": "BB",
+        "mcc": [
+          "342"
+        ],
+        "dialing_code": [
+          "+1246",
+          "1246"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Barbados?",
+          "What is the MCC for Barbados?",
+          "What is Barbados's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Barbados"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.barbados"
+    },
+    {
+      "fact_id": "belarus_by_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Belarus dialing code and MCC",
+      "value": "Belarus has ISO code BY, MCC 257, and dialing codes +375, 375.",
+      "structured_fields": {
+        "country": "Belarus",
+        "country_iso2": "BY",
+        "mcc": [
+          "257"
+        ],
+        "dialing_code": [
+          "+375",
+          "375"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Belarus?",
+          "What is the MCC for Belarus?",
+          "What is Belarus's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Belarus"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.belarus"
+    },
+    {
+      "fact_id": "belgium_be_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Belgium dialing code and MCC",
+      "value": "Belgium has ISO code BE, MCC 206, and dialing codes +32, 32.",
+      "structured_fields": {
+        "country": "Belgium",
+        "country_iso2": "BE",
+        "mcc": [
+          "206"
+        ],
+        "dialing_code": [
+          "+32",
+          "32"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Belgium?",
+          "What is the MCC for Belgium?",
+          "What is Belgium's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Belgium"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.belgium"
+    },
+    {
+      "fact_id": "belize_bz_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Belize dialing code and MCC",
+      "value": "Belize has ISO code BZ, MCC 702, and dialing codes +501, 501.",
+      "structured_fields": {
+        "country": "Belize",
+        "country_iso2": "BZ",
+        "mcc": [
+          "702"
+        ],
+        "dialing_code": [
+          "+501",
+          "501"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Belize?",
+          "What is the MCC for Belize?",
+          "What is Belize's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Belize"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.belize"
+    },
+    {
+      "fact_id": "benin_bj_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Benin dialing code and MCC",
+      "value": "Benin has ISO code BJ, MCC 616, and dialing codes +229, 229.",
+      "structured_fields": {
+        "country": "Benin",
+        "country_iso2": "BJ",
+        "mcc": [
+          "616"
+        ],
+        "dialing_code": [
+          "+229",
+          "229"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Benin?",
+          "What is the MCC for Benin?",
+          "What is Benin's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Benin"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.benin"
+    },
+    {
+      "fact_id": "bermuda_bm_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Bermuda / Bermuda (UK) dialing code and MCC",
+      "value": "Bermuda / Bermuda (UK) has ISO code BM, MCC 350, and dialing codes +1441, 1441.",
+      "structured_fields": {
+        "country": "Bermuda / Bermuda (UK)",
+        "country_iso2": "BM",
+        "mcc": [
+          "350"
+        ],
+        "dialing_code": [
+          "+1441",
+          "1441"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Bermuda / Bermuda (UK)?",
+          "What is the MCC for Bermuda / Bermuda (UK)?",
+          "What is Bermuda / Bermuda (UK)'s ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Bermuda / Bermuda (UK)"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.bermuda"
+    },
+    {
+      "fact_id": "bhutan_bt_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Bhutan dialing code and MCC",
+      "value": "Bhutan has ISO code BT, MCC 402, and dialing codes +975, 975.",
+      "structured_fields": {
+        "country": "Bhutan",
+        "country_iso2": "BT",
+        "mcc": [
+          "402"
+        ],
+        "dialing_code": [
+          "+975",
+          "975"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Bhutan?",
+          "What is the MCC for Bhutan?",
+          "What is Bhutan's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Bhutan"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.bhutan"
+    },
+    {
+      "fact_id": "bolivia_bo_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Bolivia dialing code and MCC",
+      "value": "Bolivia has ISO code BO, MCC 736, and dialing codes +591, 591.",
+      "structured_fields": {
+        "country": "Bolivia",
+        "country_iso2": "BO",
+        "mcc": [
+          "736"
+        ],
+        "dialing_code": [
+          "+591",
+          "591"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Bolivia?",
+          "What is the MCC for Bolivia?",
+          "What is Bolivia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Bolivia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.bolivia"
+    },
+    {
+      "fact_id": "bosnia_and_herzegovina_ba_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Bosnia and Herzegovina dialing code and MCC",
+      "value": "Bosnia and Herzegovina has ISO code BA, MCC 218, and dialing codes +387, 387.",
+      "structured_fields": {
+        "country": "Bosnia and Herzegovina",
+        "country_iso2": "BA",
+        "mcc": [
+          "218"
+        ],
+        "dialing_code": [
+          "+387",
+          "387"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Bosnia and Herzegovina?",
+          "What is the MCC for Bosnia and Herzegovina?",
+          "What is Bosnia and Herzegovina's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Bosnia and Herzegovina"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.bosnia_and_herzegovina"
+    },
+    {
+      "fact_id": "botswana_bw_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Botswana dialing code and MCC",
+      "value": "Botswana has ISO code BW, MCC 652, and dialing codes +267, 267.",
+      "structured_fields": {
+        "country": "Botswana",
+        "country_iso2": "BW",
+        "mcc": [
+          "652"
+        ],
+        "dialing_code": [
+          "+267",
+          "267"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Botswana?",
+          "What is the MCC for Botswana?",
+          "What is Botswana's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Botswana"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.botswana"
+    },
+    {
+      "fact_id": "brazil_br_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Brazil dialing code and MCC",
+      "value": "Brazil has ISO code BR, MCC 724, and dialing codes +55, 55.",
+      "structured_fields": {
+        "country": "Brazil",
+        "country_iso2": "BR",
+        "mcc": [
+          "724"
+        ],
+        "dialing_code": [
+          "+55",
+          "55"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Brazil?",
+          "What is the MCC for Brazil?",
+          "What is Brazil's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Brazil"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.brazil"
+    },
+    {
+      "fact_id": "british_virgin_islands_vg_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "British Virgin Islands (UK) dialing code and MCC",
+      "value": "British Virgin Islands (UK) has ISO code VG, MCC 348, and dialing codes +1284, 1284.",
+      "structured_fields": {
+        "country": "British Virgin Islands (UK)",
+        "country_iso2": "VG",
+        "mcc": [
+          "348"
+        ],
+        "dialing_code": [
+          "+1284",
+          "1284"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for British Virgin Islands (UK)?",
+          "What is the MCC for British Virgin Islands (UK)?",
+          "What is British Virgin Islands (UK)'s ISO code?"
+        ]
+      },
+      "applies_to": [
+        "British Virgin Islands (UK)"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.british_virgin_islands"
+    },
+    {
+      "fact_id": "brunei_darussalam_bn_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Brunei Darussalam dialing code and MCC",
+      "value": "Brunei Darussalam has ISO code BN, MCC 528, and dialing codes +673.",
+      "structured_fields": {
+        "country": "Brunei Darussalam",
+        "country_iso2": "BN",
+        "mcc": [
+          "528"
+        ],
+        "dialing_code": [
+          "+673"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Brunei Darussalam?",
+          "What is the MCC for Brunei Darussalam?",
+          "What is Brunei Darussalam's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Brunei Darussalam"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.brunei_darussalam"
+    },
+    {
+      "fact_id": "bulgaria_bg_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Bulgaria dialing code and MCC",
+      "value": "Bulgaria has ISO code BG, MCC 284, and dialing codes +359, 359.",
+      "structured_fields": {
+        "country": "Bulgaria",
+        "country_iso2": "BG",
+        "mcc": [
+          "284"
+        ],
+        "dialing_code": [
+          "+359",
+          "359"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Bulgaria?",
+          "What is the MCC for Bulgaria?",
+          "What is Bulgaria's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Bulgaria"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.bulgaria"
+    },
+    {
+      "fact_id": "burkina_faso_bf_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Burkina Faso dialing code and MCC",
+      "value": "Burkina Faso has ISO code BF, MCC 613, and dialing codes +226, 226.",
+      "structured_fields": {
+        "country": "Burkina Faso",
+        "country_iso2": "BF",
+        "mcc": [
+          "613"
+        ],
+        "dialing_code": [
+          "+226",
+          "226"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Burkina Faso?",
+          "What is the MCC for Burkina Faso?",
+          "What is Burkina Faso's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Burkina Faso"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.burkina_faso"
+    },
+    {
+      "fact_id": "burundi_bi_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Burundi dialing code and MCC",
+      "value": "Burundi has ISO code BI, MCC 642, and dialing codes +257, 257.",
+      "structured_fields": {
+        "country": "Burundi",
+        "country_iso2": "BI",
+        "mcc": [
+          "642"
+        ],
+        "dialing_code": [
+          "+257",
+          "257"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Burundi?",
+          "What is the MCC for Burundi?",
+          "What is Burundi's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Burundi"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.burundi"
+    },
+    {
+      "fact_id": "cabo_verde_cv_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Cabo Verde / Cape Verde dialing code and MCC",
+      "value": "Cabo Verde / Cape Verde has ISO code CV, MCC 625, and dialing codes +238, 238.",
+      "structured_fields": {
+        "country": "Cabo Verde / Cape Verde",
+        "country_iso2": "CV",
+        "mcc": [
+          "625"
+        ],
+        "dialing_code": [
+          "+238",
+          "238"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Cabo Verde / Cape Verde?",
+          "What is the MCC for Cabo Verde / Cape Verde?",
+          "What is Cabo Verde / Cape Verde's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Cabo Verde / Cape Verde"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.cabo_verde"
+    },
+    {
+      "fact_id": "cambodia_kh_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Cambodia dialing code and MCC",
+      "value": "Cambodia has ISO code KH, MCC 456, and dialing codes +855, 855.",
+      "structured_fields": {
+        "country": "Cambodia",
+        "country_iso2": "KH",
+        "mcc": [
+          "456"
+        ],
+        "dialing_code": [
+          "+855",
+          "855"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Cambodia?",
+          "What is the MCC for Cambodia?",
+          "What is Cambodia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Cambodia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.cambodia"
+    },
+    {
+      "fact_id": "cameroon_cm_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Cameroon dialing code and MCC",
+      "value": "Cameroon has ISO code CM, MCC 624, and dialing codes +237, 237.",
+      "structured_fields": {
+        "country": "Cameroon",
+        "country_iso2": "CM",
+        "mcc": [
+          "624"
+        ],
+        "dialing_code": [
+          "+237",
+          "237"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Cameroon?",
+          "What is the MCC for Cameroon?",
+          "What is Cameroon's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Cameroon"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.cameroon"
+    },
+    {
+      "fact_id": "canada_ca_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Canada dialing code and MCC",
+      "value": "Canada has ISO code CA, MCC 302, and dialing codes +1.",
+      "structured_fields": {
+        "country": "Canada",
+        "country_iso2": "CA",
+        "mcc": [
+          "302"
+        ],
+        "dialing_code": [
+          "+1"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Canada?",
+          "What is the MCC for Canada?",
+          "What is Canada's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Canada"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.canada"
+    },
+    {
+      "fact_id": "cayman_islands_ky_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Cayman Islands (UK) dialing code and MCC",
+      "value": "Cayman Islands (UK) has ISO code KY, MCC 346, and dialing codes +1345.",
+      "structured_fields": {
+        "country": "Cayman Islands (UK)",
+        "country_iso2": "KY",
+        "mcc": [
+          "346"
+        ],
+        "dialing_code": [
+          "+1345"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Cayman Islands (UK)?",
+          "What is the MCC for Cayman Islands (UK)?",
+          "What is Cayman Islands (UK)'s ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Cayman Islands (UK)"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.cayman_islands"
+    },
+    {
+      "fact_id": "central_african_republic_cf_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Central African Republic dialing code and MCC",
+      "value": "Central African Republic has ISO code CF, MCC 623, and dialing codes +236, 236.",
+      "structured_fields": {
+        "country": "Central African Republic",
+        "country_iso2": "CF",
+        "mcc": [
+          "623"
+        ],
+        "dialing_code": [
+          "+236",
+          "236"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Central African Republic?",
+          "What is the MCC for Central African Republic?",
+          "What is Central African Republic's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Central African Republic"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.central_african_republic"
+    },
+    {
+      "fact_id": "chad_td_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Chad dialing code and MCC",
+      "value": "Chad has ISO code TD, MCC 622, and dialing codes +235, 235.",
+      "structured_fields": {
+        "country": "Chad",
+        "country_iso2": "TD",
+        "mcc": [
+          "622"
+        ],
+        "dialing_code": [
+          "+235",
+          "235"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Chad?",
+          "What is the MCC for Chad?",
+          "What is Chad's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Chad"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.chad"
+    },
+    {
+      "fact_id": "chile_cl_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Chile dialing code and MCC",
+      "value": "Chile has ISO code CL, MCC 730, and dialing codes +56, 56.",
+      "structured_fields": {
+        "country": "Chile",
+        "country_iso2": "CL",
+        "mcc": [
+          "730"
+        ],
+        "dialing_code": [
+          "+56",
+          "56"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Chile?",
+          "What is the MCC for Chile?",
+          "What is Chile's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Chile"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.chile"
+    },
+    {
+      "fact_id": "china_cn_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "China dialing code and MCC",
+      "value": "China has ISO code CN, MCC 460, and dialing codes +86, 86.",
+      "structured_fields": {
+        "country": "China",
+        "country_iso2": "CN",
+        "mcc": [
+          "460"
+        ],
+        "dialing_code": [
+          "+86",
+          "86"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for China?",
+          "What is the MCC for China?",
+          "What is China's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "China"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.china"
+    },
+    {
+      "fact_id": "colombia_co_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Colombia dialing code and MCC",
+      "value": "Colombia has ISO code CO, MCC 732, and dialing codes +57, 57.",
+      "structured_fields": {
+        "country": "Colombia",
+        "country_iso2": "CO",
+        "mcc": [
+          "732"
+        ],
+        "dialing_code": [
+          "+57",
+          "57"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Colombia?",
+          "What is the MCC for Colombia?",
+          "What is Colombia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Colombia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.colombia"
+    },
+    {
+      "fact_id": "comoros_km_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Comoros dialing code and MCC",
+      "value": "Comoros has ISO code KM, MCC 654, and dialing codes +269, 269.",
+      "structured_fields": {
+        "country": "Comoros",
+        "country_iso2": "KM",
+        "mcc": [
+          "654"
+        ],
+        "dialing_code": [
+          "+269",
+          "269"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Comoros?",
+          "What is the MCC for Comoros?",
+          "What is Comoros's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Comoros"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.comoros"
+    },
+    {
+      "fact_id": "congo_cg_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Congo (Republic of the Congo) dialing code and MCC",
+      "value": "Congo (Republic of the Congo) has ISO code CG, MCC 629, and dialing codes +242, 242.",
+      "structured_fields": {
+        "country": "Congo (Republic of the Congo)",
+        "country_iso2": "CG",
+        "mcc": [
+          "629"
+        ],
+        "dialing_code": [
+          "+242",
+          "242"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Congo (Republic of the Congo)?",
+          "What is the MCC for Congo (Republic of the Congo)?",
+          "What is Congo (Republic of the Congo)'s ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Congo (Republic of the Congo)"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.congo"
+    },
+    {
+      "fact_id": "cook_islands_ck_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Cook Islands dialing code and MCC",
+      "value": "Cook Islands has ISO code CK, MCC 548, and dialing codes +682, 682.",
+      "structured_fields": {
+        "country": "Cook Islands",
+        "country_iso2": "CK",
+        "mcc": [
+          "548"
+        ],
+        "dialing_code": [
+          "+682",
+          "682"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Cook Islands?",
+          "What is the MCC for Cook Islands?",
+          "What is Cook Islands's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Cook Islands"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.cook_islands"
+    },
+    {
+      "fact_id": "costa_rica_cr_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Costa Rica dialing code and MCC",
+      "value": "Costa Rica has ISO code CR, MCC 712, and dialing codes +506, 506.",
+      "structured_fields": {
+        "country": "Costa Rica",
+        "country_iso2": "CR",
+        "mcc": [
+          "712"
+        ],
+        "dialing_code": [
+          "+506",
+          "506"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Costa Rica?",
+          "What is the MCC for Costa Rica?",
+          "What is Costa Rica's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Costa Rica"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.costa_rica"
+    },
+    {
+      "fact_id": "cote_divoire_ci_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Cote d'Ivoire / Ivory Coast dialing code and MCC",
+      "value": "Cote d'Ivoire / Ivory Coast has ISO code CI, MCC 612, and dialing codes +225, 225.",
+      "structured_fields": {
+        "country": "Cote d'Ivoire / Ivory Coast",
+        "country_iso2": "CI",
+        "mcc": [
+          "612"
+        ],
+        "dialing_code": [
+          "+225",
+          "225"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Cote d'Ivoire / Ivory Coast?",
+          "What is the MCC for Cote d'Ivoire / Ivory Coast?",
+          "What is Cote d'Ivoire / Ivory Coast's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Cote d'Ivoire / Ivory Coast"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.cote_divoire"
+    },
+    {
+      "fact_id": "croatia_hr_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Croatia dialing code and MCC",
+      "value": "Croatia has ISO code HR, MCC 219, and dialing codes +385, 385.",
+      "structured_fields": {
+        "country": "Croatia",
+        "country_iso2": "HR",
+        "mcc": [
+          "219"
+        ],
+        "dialing_code": [
+          "+385",
+          "385"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Croatia?",
+          "What is the MCC for Croatia?",
+          "What is Croatia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Croatia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.croatia"
+    },
+    {
+      "fact_id": "cuba_cu_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Cuba dialing code and MCC",
+      "value": "Cuba has ISO code CU, MCC 368, and dialing codes +53, 53.",
+      "structured_fields": {
+        "country": "Cuba",
+        "country_iso2": "CU",
+        "mcc": [
+          "368"
+        ],
+        "dialing_code": [
+          "+53",
+          "53"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Cuba?",
+          "What is the MCC for Cuba?",
+          "What is Cuba's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Cuba"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.cuba"
+    },
+    {
+      "fact_id": "cura_ao_na_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Curaçao dialing code and MCC",
+      "value": "Curaçao has no ISO code provided, MCC 362, and dialing codes 599.",
+      "structured_fields": {
+        "country": "Curaçao",
+        "country_iso2": null,
+        "mcc": [
+          "362"
+        ],
+        "dialing_code": [
+          "599"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Curaçao?",
+          "What is the MCC for Curaçao?",
+          "What is Curaçao's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Curaçao"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": "One or more fields were not provided explicitly in the source data.",
+      "source_anchor": "country_numbering_codes.cura_ao"
+    },
+    {
+      "fact_id": "cyprus_cy_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Cyprus dialing code and MCC",
+      "value": "Cyprus has ISO code CY, MCC 280, and dialing codes +357, 357.",
+      "structured_fields": {
+        "country": "Cyprus",
+        "country_iso2": "CY",
+        "mcc": [
+          "280"
+        ],
+        "dialing_code": [
+          "+357",
+          "357"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Cyprus?",
+          "What is the MCC for Cyprus?",
+          "What is Cyprus's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Cyprus"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.cyprus"
+    },
+    {
+      "fact_id": "czech_republic_cz_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Czech Republic dialing code and MCC",
+      "value": "Czech Republic has ISO code CZ, MCC 230, and dialing codes +420, 420.",
+      "structured_fields": {
+        "country": "Czech Republic",
+        "country_iso2": "CZ",
+        "mcc": [
+          "230"
+        ],
+        "dialing_code": [
+          "+420",
+          "420"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Czech Republic?",
+          "What is the MCC for Czech Republic?",
+          "What is Czech Republic's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Czech Republic"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.czech_republic"
+    },
+    {
+      "fact_id": "democratic_republic_of_the_congo_cd_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Democratic Republic of the Congo dialing code and MCC",
+      "value": "Democratic Republic of the Congo has ISO code CD, MCC 630, and dialing codes +243, 243.",
+      "structured_fields": {
+        "country": "Democratic Republic of the Congo",
+        "country_iso2": "CD",
+        "mcc": [
+          "630"
+        ],
+        "dialing_code": [
+          "+243",
+          "243"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Democratic Republic of the Congo?",
+          "What is the MCC for Democratic Republic of the Congo?",
+          "What is Democratic Republic of the Congo's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Democratic Republic of the Congo"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.democratic_republic_of_the_congo"
+    },
+    {
+      "fact_id": "denmark_dk_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Denmark dialing code and MCC",
+      "value": "Denmark has ISO code DK, MCC 238, and dialing codes +45.",
+      "structured_fields": {
+        "country": "Denmark",
+        "country_iso2": "DK",
+        "mcc": [
+          "238"
+        ],
+        "dialing_code": [
+          "+45"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Denmark?",
+          "What is the MCC for Denmark?",
+          "What is Denmark's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Denmark"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.denmark"
+    },
+    {
+      "fact_id": "djibouti_dj_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Djibouti dialing code and MCC",
+      "value": "Djibouti has ISO code DJ, MCC 638, and dialing codes +253, 253.",
+      "structured_fields": {
+        "country": "Djibouti",
+        "country_iso2": "DJ",
+        "mcc": [
+          "638"
+        ],
+        "dialing_code": [
+          "+253",
+          "253"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Djibouti?",
+          "What is the MCC for Djibouti?",
+          "What is Djibouti's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Djibouti"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.djibouti"
+    },
+    {
+      "fact_id": "dominica_dm_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Dominica dialing code and MCC",
+      "value": "Dominica has ISO code DM, MCC 366, and dialing codes +1767.",
+      "structured_fields": {
+        "country": "Dominica",
+        "country_iso2": "DM",
+        "mcc": [
+          "366"
+        ],
+        "dialing_code": [
+          "+1767"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Dominica?",
+          "What is the MCC for Dominica?",
+          "What is Dominica's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Dominica"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.dominica"
+    },
+    {
+      "fact_id": "dominican_republic_do_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Dominican Republic dialing code and MCC",
+      "value": "Dominican Republic has ISO code DO, MCC 370, and dialing codes +1829.",
+      "structured_fields": {
+        "country": "Dominican Republic",
+        "country_iso2": "DO",
+        "mcc": [
+          "370"
+        ],
+        "dialing_code": [
+          "+1829"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Dominican Republic?",
+          "What is the MCC for Dominican Republic?",
+          "What is Dominican Republic's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Dominican Republic"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.dominican_republic"
+    },
+    {
+      "fact_id": "ecuador_ec_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Ecuador dialing code and MCC",
+      "value": "Ecuador has ISO code EC, MCC 740, and dialing codes +593, 593.",
+      "structured_fields": {
+        "country": "Ecuador",
+        "country_iso2": "EC",
+        "mcc": [
+          "740"
+        ],
+        "dialing_code": [
+          "+593",
+          "593"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Ecuador?",
+          "What is the MCC for Ecuador?",
+          "What is Ecuador's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Ecuador"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.ecuador"
+    },
+    {
+      "fact_id": "egypt_eg_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Egypt dialing code and MCC",
+      "value": "Egypt has ISO code EG, MCC 602, and dialing codes +20, 20.",
+      "structured_fields": {
+        "country": "Egypt",
+        "country_iso2": "EG",
+        "mcc": [
+          "602"
+        ],
+        "dialing_code": [
+          "+20",
+          "20"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Egypt?",
+          "What is the MCC for Egypt?",
+          "What is Egypt's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Egypt"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.egypt"
+    },
+    {
+      "fact_id": "el_salvador_sv_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "El Salvador dialing code and MCC",
+      "value": "El Salvador has ISO code SV, MCC 706, and dialing codes +503, 503.",
+      "structured_fields": {
+        "country": "El Salvador",
+        "country_iso2": "SV",
+        "mcc": [
+          "706"
+        ],
+        "dialing_code": [
+          "+503",
+          "503"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for El Salvador?",
+          "What is the MCC for El Salvador?",
+          "What is El Salvador's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "El Salvador"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.el_salvador"
+    },
+    {
+      "fact_id": "equatorial_guinea_gq_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Equatorial Guinea dialing code and MCC",
+      "value": "Equatorial Guinea has ISO code GQ, MCC 627, and dialing codes +240, 240.",
+      "structured_fields": {
+        "country": "Equatorial Guinea",
+        "country_iso2": "GQ",
+        "mcc": [
+          "627"
+        ],
+        "dialing_code": [
+          "+240",
+          "240"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Equatorial Guinea?",
+          "What is the MCC for Equatorial Guinea?",
+          "What is Equatorial Guinea's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Equatorial Guinea"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.equatorial_guinea"
+    },
+    {
+      "fact_id": "eritrea_er_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Eritrea dialing code and MCC",
+      "value": "Eritrea has ISO code ER, MCC 657, and dialing codes +291, 291.",
+      "structured_fields": {
+        "country": "Eritrea",
+        "country_iso2": "ER",
+        "mcc": [
+          "657"
+        ],
+        "dialing_code": [
+          "+291",
+          "291"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Eritrea?",
+          "What is the MCC for Eritrea?",
+          "What is Eritrea's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Eritrea"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.eritrea"
+    },
+    {
+      "fact_id": "estonia_ee_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Estonia dialing code and MCC",
+      "value": "Estonia has ISO code EE, MCC 248, and dialing codes +372, 372.",
+      "structured_fields": {
+        "country": "Estonia",
+        "country_iso2": "EE",
+        "mcc": [
+          "248"
+        ],
+        "dialing_code": [
+          "+372",
+          "372"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Estonia?",
+          "What is the MCC for Estonia?",
+          "What is Estonia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Estonia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.estonia"
+    },
+    {
+      "fact_id": "eswatini_sz_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Eswatini / Swaziland dialing code and MCC",
+      "value": "Eswatini / Swaziland has ISO code SZ, MCC 653, and dialing codes +268, 268.",
+      "structured_fields": {
+        "country": "Eswatini / Swaziland",
+        "country_iso2": "SZ",
+        "mcc": [
+          "653"
+        ],
+        "dialing_code": [
+          "+268",
+          "268"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Eswatini / Swaziland?",
+          "What is the MCC for Eswatini / Swaziland?",
+          "What is Eswatini / Swaziland's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Eswatini / Swaziland"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.eswatini"
+    },
+    {
+      "fact_id": "ethiopia_et_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Ethiopia dialing code and MCC",
+      "value": "Ethiopia has ISO code ET, MCC 636, and dialing codes +251, 251.",
+      "structured_fields": {
+        "country": "Ethiopia",
+        "country_iso2": "ET",
+        "mcc": [
+          "636"
+        ],
+        "dialing_code": [
+          "+251",
+          "251"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Ethiopia?",
+          "What is the MCC for Ethiopia?",
+          "What is Ethiopia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Ethiopia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.ethiopia"
+    },
+    {
+      "fact_id": "falkland_islands_na_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Falkland Islands dialing code and MCC",
+      "value": "Falkland Islands has no ISO code provided, MCC 750, and dialing codes 500.",
+      "structured_fields": {
+        "country": "Falkland Islands",
+        "country_iso2": null,
+        "mcc": [
+          "750"
+        ],
+        "dialing_code": [
+          "500"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Falkland Islands?",
+          "What is the MCC for Falkland Islands?",
+          "What is Falkland Islands's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Falkland Islands"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": "One or more fields were not provided explicitly in the source data.",
+      "source_anchor": "country_numbering_codes.falkland_islands"
+    },
+    {
+      "fact_id": "faroe_islands_fo_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Faroe Islands dialing code and MCC",
+      "value": "Faroe Islands has ISO code FO, MCC 288, and dialing codes +298, 298.",
+      "structured_fields": {
+        "country": "Faroe Islands",
+        "country_iso2": "FO",
+        "mcc": [
+          "288"
+        ],
+        "dialing_code": [
+          "+298",
+          "298"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Faroe Islands?",
+          "What is the MCC for Faroe Islands?",
+          "What is Faroe Islands's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Faroe Islands"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.faroe_islands"
+    },
+    {
+      "fact_id": "fiji_fj_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Fiji dialing code and MCC",
+      "value": "Fiji has ISO code FJ, MCC 542, and dialing codes +679, 679.",
+      "structured_fields": {
+        "country": "Fiji",
+        "country_iso2": "FJ",
+        "mcc": [
+          "542"
+        ],
+        "dialing_code": [
+          "+679",
+          "679"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Fiji?",
+          "What is the MCC for Fiji?",
+          "What is Fiji's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Fiji"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.fiji"
+    },
+    {
+      "fact_id": "finland_fi_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Finland dialing code and MCC",
+      "value": "Finland has ISO code FI, MCC 244, and dialing codes +358, 358.",
+      "structured_fields": {
+        "country": "Finland",
+        "country_iso2": "FI",
+        "mcc": [
+          "244"
+        ],
+        "dialing_code": [
+          "+358",
+          "358"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Finland?",
+          "What is the MCC for Finland?",
+          "What is Finland's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Finland"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.finland"
+    },
+    {
+      "fact_id": "france_fr_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "France dialing code and MCC",
+      "value": "France has ISO code FR, MCC 208, and dialing codes +33, 33.",
+      "structured_fields": {
+        "country": "France",
+        "country_iso2": "FR",
+        "mcc": [
+          "208"
+        ],
+        "dialing_code": [
+          "+33",
+          "33"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for France?",
+          "What is the MCC for France?",
+          "What is France's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "France"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.france"
+    },
+    {
+      "fact_id": "french_guiana_gf_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "French Guiana dialing code and MCC",
+      "value": "French Guiana has ISO code GF, MCC 340, 742, and dialing codes +594, 594.",
+      "structured_fields": {
+        "country": "French Guiana",
+        "country_iso2": "GF",
+        "mcc": [
+          "340",
+          "742"
+        ],
+        "dialing_code": [
+          "+594",
+          "594"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for French Guiana?",
+          "What is the MCC for French Guiana?",
+          "What is French Guiana's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "French Guiana"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.french_guiana"
+    },
+    {
+      "fact_id": "french_polynesia_pf_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "French Polynesia dialing code and MCC",
+      "value": "French Polynesia has ISO code PF, MCC 547, and dialing codes +689, 689.",
+      "structured_fields": {
+        "country": "French Polynesia",
+        "country_iso2": "PF",
+        "mcc": [
+          "547"
+        ],
+        "dialing_code": [
+          "+689",
+          "689"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for French Polynesia?",
+          "What is the MCC for French Polynesia?",
+          "What is French Polynesia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "French Polynesia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.french_polynesia"
+    },
+    {
+      "fact_id": "gabon_ga_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Gabon dialing code and MCC",
+      "value": "Gabon has ISO code GA, MCC 628, and dialing codes +241, 241.",
+      "structured_fields": {
+        "country": "Gabon",
+        "country_iso2": "GA",
+        "mcc": [
+          "628"
+        ],
+        "dialing_code": [
+          "+241",
+          "241"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Gabon?",
+          "What is the MCC for Gabon?",
+          "What is Gabon's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Gabon"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.gabon"
+    },
+    {
+      "fact_id": "gambia_gm_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Gambia dialing code and MCC",
+      "value": "Gambia has ISO code GM, MCC 607, and dialing codes +220, 220.",
+      "structured_fields": {
+        "country": "Gambia",
+        "country_iso2": "GM",
+        "mcc": [
+          "607"
+        ],
+        "dialing_code": [
+          "+220",
+          "220"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Gambia?",
+          "What is the MCC for Gambia?",
+          "What is Gambia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Gambia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.gambia"
+    },
+    {
+      "fact_id": "georgia_ge_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Georgia dialing code and MCC",
+      "value": "Georgia has ISO code GE, MCC 282, and dialing codes +995, 955.",
+      "structured_fields": {
+        "country": "Georgia",
+        "country_iso2": "GE",
+        "mcc": [
+          "282"
+        ],
+        "dialing_code": [
+          "+995",
+          "955"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Georgia?",
+          "What is the MCC for Georgia?",
+          "What is Georgia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Georgia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.georgia"
+    },
+    {
+      "fact_id": "germany_de_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Germany dialing code and MCC",
+      "value": "Germany has ISO code DE, MCC 262, and dialing codes +49, 49.",
+      "structured_fields": {
+        "country": "Germany",
+        "country_iso2": "DE",
+        "mcc": [
+          "262"
+        ],
+        "dialing_code": [
+          "+49",
+          "49"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Germany?",
+          "What is the MCC for Germany?",
+          "What is Germany's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Germany"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.germany"
+    },
+    {
+      "fact_id": "ghana_gh_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Ghana dialing code and MCC",
+      "value": "Ghana has ISO code GH, MCC 620, and dialing codes +233, 233.",
+      "structured_fields": {
+        "country": "Ghana",
+        "country_iso2": "GH",
+        "mcc": [
+          "620"
+        ],
+        "dialing_code": [
+          "+233",
+          "233"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Ghana?",
+          "What is the MCC for Ghana?",
+          "What is Ghana's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Ghana"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.ghana"
+    },
+    {
+      "fact_id": "gibraltar_gi_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Gibraltar (UK) dialing code and MCC",
+      "value": "Gibraltar (UK) has ISO code GI, MCC 266, and dialing codes +350, 350.",
+      "structured_fields": {
+        "country": "Gibraltar (UK)",
+        "country_iso2": "GI",
+        "mcc": [
+          "266"
+        ],
+        "dialing_code": [
+          "+350",
+          "350"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Gibraltar (UK)?",
+          "What is the MCC for Gibraltar (UK)?",
+          "What is Gibraltar (UK)'s ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Gibraltar (UK)"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.gibraltar"
+    },
+    {
+      "fact_id": "greece_gr_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Greece dialing code and MCC",
+      "value": "Greece has ISO code GR, MCC 202, and dialing codes +30, 30.",
+      "structured_fields": {
+        "country": "Greece",
+        "country_iso2": "GR",
+        "mcc": [
+          "202"
+        ],
+        "dialing_code": [
+          "+30",
+          "30"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Greece?",
+          "What is the MCC for Greece?",
+          "What is Greece's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Greece"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.greece"
+    },
+    {
+      "fact_id": "greenland_gl_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Greenland (Denmark) dialing code and MCC",
+      "value": "Greenland (Denmark) has ISO code GL, MCC 290, and dialing codes +299, 299.",
+      "structured_fields": {
+        "country": "Greenland (Denmark)",
+        "country_iso2": "GL",
+        "mcc": [
+          "290"
+        ],
+        "dialing_code": [
+          "+299",
+          "299"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Greenland (Denmark)?",
+          "What is the MCC for Greenland (Denmark)?",
+          "What is Greenland (Denmark)'s ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Greenland (Denmark)"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.greenland"
+    },
+    {
+      "fact_id": "grenada_gd_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Grenada dialing code and MCC",
+      "value": "Grenada has ISO code GD, MCC 352, and dialing codes +1473, 1473.",
+      "structured_fields": {
+        "country": "Grenada",
+        "country_iso2": "GD",
+        "mcc": [
+          "352"
+        ],
+        "dialing_code": [
+          "+1473",
+          "1473"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Grenada?",
+          "What is the MCC for Grenada?",
+          "What is Grenada's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Grenada"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.grenada"
+    },
+    {
+      "fact_id": "guadeloupe_gp_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Guadeloupe dialing code and MCC",
+      "value": "Guadeloupe has ISO code GP, MCC 340, and dialing codes +590, 590.",
+      "structured_fields": {
+        "country": "Guadeloupe",
+        "country_iso2": "GP",
+        "mcc": [
+          "340"
+        ],
+        "dialing_code": [
+          "+590",
+          "590"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Guadeloupe?",
+          "What is the MCC for Guadeloupe?",
+          "What is Guadeloupe's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Guadeloupe"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.guadeloupe"
+    },
+    {
+      "fact_id": "guam_gu_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Guam dialing code and MCC",
+      "value": "Guam has ISO code GU, MCC 310, and dialing codes +1671.",
+      "structured_fields": {
+        "country": "Guam",
+        "country_iso2": "GU",
+        "mcc": [
+          "310"
+        ],
+        "dialing_code": [
+          "+1671"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Guam?",
+          "What is the MCC for Guam?",
+          "What is Guam's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Guam"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.guam"
+    },
+    {
+      "fact_id": "guatemala_gt_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Guatemala dialing code and MCC",
+      "value": "Guatemala has ISO code GT, MCC 704, and dialing codes +502, 502.",
+      "structured_fields": {
+        "country": "Guatemala",
+        "country_iso2": "GT",
+        "mcc": [
+          "704"
+        ],
+        "dialing_code": [
+          "+502",
+          "502"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Guatemala?",
+          "What is the MCC for Guatemala?",
+          "What is Guatemala's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Guatemala"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.guatemala"
+    },
+    {
+      "fact_id": "guernsey_gg_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Guernsey dialing code and MCC",
+      "value": "Guernsey has ISO code GG, MCC 234, and dialing codes +44, 44.",
+      "structured_fields": {
+        "country": "Guernsey",
+        "country_iso2": "GG",
+        "mcc": [
+          "234"
+        ],
+        "dialing_code": [
+          "+44",
+          "44"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Guernsey?",
+          "What is the MCC for Guernsey?",
+          "What is Guernsey's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Guernsey"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.guernsey"
+    },
+    {
+      "fact_id": "guinea_gn_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Guinea dialing code and MCC",
+      "value": "Guinea has ISO code GN, MCC 611, and dialing codes +224, 224.",
+      "structured_fields": {
+        "country": "Guinea",
+        "country_iso2": "GN",
+        "mcc": [
+          "611"
+        ],
+        "dialing_code": [
+          "+224",
+          "224"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Guinea?",
+          "What is the MCC for Guinea?",
+          "What is Guinea's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Guinea"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.guinea"
+    },
+    {
+      "fact_id": "guinea_bissau_gw_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Guinea-Bissau dialing code and MCC",
+      "value": "Guinea-Bissau has ISO code GW, MCC 632, and dialing codes +245, 245.",
+      "structured_fields": {
+        "country": "Guinea-Bissau",
+        "country_iso2": "GW",
+        "mcc": [
+          "632"
+        ],
+        "dialing_code": [
+          "+245",
+          "245"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Guinea-Bissau?",
+          "What is the MCC for Guinea-Bissau?",
+          "What is Guinea-Bissau's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Guinea-Bissau"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.guinea_bissau"
+    },
+    {
+      "fact_id": "guyana_gy_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Guyana dialing code and MCC",
+      "value": "Guyana has ISO code GY, MCC 738, and dialing codes +592, 592.",
+      "structured_fields": {
+        "country": "Guyana",
+        "country_iso2": "GY",
+        "mcc": [
+          "738"
+        ],
+        "dialing_code": [
+          "+592",
+          "592"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Guyana?",
+          "What is the MCC for Guyana?",
+          "What is Guyana's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Guyana"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.guyana"
+    },
+    {
+      "fact_id": "haiti_ht_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Haiti dialing code and MCC",
+      "value": "Haiti has ISO code HT, MCC 372, and dialing codes +509, 509.",
+      "structured_fields": {
+        "country": "Haiti",
+        "country_iso2": "HT",
+        "mcc": [
+          "372"
+        ],
+        "dialing_code": [
+          "+509",
+          "509"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Haiti?",
+          "What is the MCC for Haiti?",
+          "What is Haiti's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Haiti"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.haiti"
+    },
+    {
+      "fact_id": "honduras_hn_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Honduras dialing code and MCC",
+      "value": "Honduras has ISO code HN, MCC 708, and dialing codes +504, 504.",
+      "structured_fields": {
+        "country": "Honduras",
+        "country_iso2": "HN",
+        "mcc": [
+          "708"
+        ],
+        "dialing_code": [
+          "+504",
+          "504"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Honduras?",
+          "What is the MCC for Honduras?",
+          "What is Honduras's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Honduras"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.honduras"
+    },
+    {
+      "fact_id": "hong_kong_hk_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Hong Kong dialing code and MCC",
+      "value": "Hong Kong has ISO code HK, MCC 454, and dialing codes +852, 852.",
+      "structured_fields": {
+        "country": "Hong Kong",
+        "country_iso2": "HK",
+        "mcc": [
+          "454"
+        ],
+        "dialing_code": [
+          "+852",
+          "852"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Hong Kong?",
+          "What is the MCC for Hong Kong?",
+          "What is Hong Kong's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Hong Kong"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.hong_kong"
+    },
+    {
+      "fact_id": "hungary_hu_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Hungary dialing code and MCC",
+      "value": "Hungary has ISO code HU, MCC 216, and dialing codes +36, 36.",
+      "structured_fields": {
+        "country": "Hungary",
+        "country_iso2": "HU",
+        "mcc": [
+          "216"
+        ],
+        "dialing_code": [
+          "+36",
+          "36"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Hungary?",
+          "What is the MCC for Hungary?",
+          "What is Hungary's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Hungary"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.hungary"
+    },
+    {
+      "fact_id": "iceland_is_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Iceland dialing code and MCC",
+      "value": "Iceland has ISO code IS, MCC 274, and dialing codes +354, 354.",
+      "structured_fields": {
+        "country": "Iceland",
+        "country_iso2": "IS",
+        "mcc": [
+          "274"
+        ],
+        "dialing_code": [
+          "+354",
+          "354"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Iceland?",
+          "What is the MCC for Iceland?",
+          "What is Iceland's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Iceland"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.iceland"
+    },
+    {
+      "fact_id": "india_in_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "India dialing code and MCC",
+      "value": "India has ISO code IN, MCC 404, 405, 406, and dialing codes +91, 91.",
+      "structured_fields": {
+        "country": "India",
+        "country_iso2": "IN",
+        "mcc": [
+          "404",
+          "405",
+          "406"
+        ],
+        "dialing_code": [
+          "+91",
+          "91"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for India?",
+          "What is the MCC for India?",
+          "What is India's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "India"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.india"
+    },
+    {
+      "fact_id": "iran_ir_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Iran dialing code and MCC",
+      "value": "Iran has ISO code IR, MCC 432, and dialing codes +98, 98.",
+      "structured_fields": {
+        "country": "Iran",
+        "country_iso2": "IR",
+        "mcc": [
+          "432"
+        ],
+        "dialing_code": [
+          "+98",
+          "98"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Iran?",
+          "What is the MCC for Iran?",
+          "What is Iran's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Iran"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.iran"
+    },
+    {
+      "fact_id": "iraq_iq_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Iraq dialing code and MCC",
+      "value": "Iraq has ISO code IQ, MCC 418, and dialing codes +964, 964.",
+      "structured_fields": {
+        "country": "Iraq",
+        "country_iso2": "IQ",
+        "mcc": [
+          "418"
+        ],
+        "dialing_code": [
+          "+964",
+          "964"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Iraq?",
+          "What is the MCC for Iraq?",
+          "What is Iraq's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Iraq"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.iraq"
+    },
+    {
+      "fact_id": "ireland_ie_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Ireland dialing code and MCC",
+      "value": "Ireland has ISO code IE, MCC 272, and dialing codes +353.",
+      "structured_fields": {
+        "country": "Ireland",
+        "country_iso2": "IE",
+        "mcc": [
+          "272"
+        ],
+        "dialing_code": [
+          "+353"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Ireland?",
+          "What is the MCC for Ireland?",
+          "What is Ireland's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Ireland"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.ireland"
+    },
+    {
+      "fact_id": "isle_of_man_na_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Isle of Man dialing code and MCC",
+      "value": "Isle of Man has no ISO code provided, MCC 234, and dialing codes 44.",
+      "structured_fields": {
+        "country": "Isle of Man",
+        "country_iso2": null,
+        "mcc": [
+          "234"
+        ],
+        "dialing_code": [
+          "44"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Isle of Man?",
+          "What is the MCC for Isle of Man?",
+          "What is Isle of Man's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Isle of Man"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": "One or more fields were not provided explicitly in the source data.",
+      "source_anchor": "country_numbering_codes.isle_of_man"
+    },
+    {
+      "fact_id": "israel_il_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Israel dialing code and MCC",
+      "value": "Israel has ISO code IL, MCC 425, and dialing codes +972, 972.",
+      "structured_fields": {
+        "country": "Israel",
+        "country_iso2": "IL",
+        "mcc": [
+          "425"
+        ],
+        "dialing_code": [
+          "+972",
+          "972"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Israel?",
+          "What is the MCC for Israel?",
+          "What is Israel's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Israel"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.israel"
+    },
+    {
+      "fact_id": "italy_it_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Italy dialing code and MCC",
+      "value": "Italy has ISO code IT, MCC 222, and dialing codes +39, 39.",
+      "structured_fields": {
+        "country": "Italy",
+        "country_iso2": "IT",
+        "mcc": [
+          "222"
+        ],
+        "dialing_code": [
+          "+39",
+          "39"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Italy?",
+          "What is the MCC for Italy?",
+          "What is Italy's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Italy"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.italy"
+    },
+    {
+      "fact_id": "jamaica_jm_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Jamaica dialing code and MCC",
+      "value": "Jamaica has ISO code JM, MCC 338, and dialing codes +1876, 1658.",
+      "structured_fields": {
+        "country": "Jamaica",
+        "country_iso2": "JM",
+        "mcc": [
+          "338"
+        ],
+        "dialing_code": [
+          "+1876",
+          "1658"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Jamaica?",
+          "What is the MCC for Jamaica?",
+          "What is Jamaica's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Jamaica"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.jamaica"
+    },
+    {
+      "fact_id": "japan_jp_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Japan dialing code and MCC",
+      "value": "Japan has ISO code JP, MCC 440, and dialing codes +81, 81.",
+      "structured_fields": {
+        "country": "Japan",
+        "country_iso2": "JP",
+        "mcc": [
+          "440"
+        ],
+        "dialing_code": [
+          "+81",
+          "81"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Japan?",
+          "What is the MCC for Japan?",
+          "What is Japan's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Japan"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.japan"
+    },
+    {
+      "fact_id": "jersey_je_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Jersey dialing code and MCC",
+      "value": "Jersey has ISO code JE, MCC 234, and dialing codes +4477003, 44.",
+      "structured_fields": {
+        "country": "Jersey",
+        "country_iso2": "JE",
+        "mcc": [
+          "234"
+        ],
+        "dialing_code": [
+          "+4477003",
+          "44"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Jersey?",
+          "What is the MCC for Jersey?",
+          "What is Jersey's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Jersey"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.jersey"
+    },
+    {
+      "fact_id": "jordan_jo_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Jordan dialing code and MCC",
+      "value": "Jordan has ISO code JO, MCC 416, and dialing codes +962, 962.",
+      "structured_fields": {
+        "country": "Jordan",
+        "country_iso2": "JO",
+        "mcc": [
+          "416"
+        ],
+        "dialing_code": [
+          "+962",
+          "962"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Jordan?",
+          "What is the MCC for Jordan?",
+          "What is Jordan's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Jordan"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.jordan"
+    },
+    {
+      "fact_id": "kazakhstan_kz_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Kazakhstan dialing code and MCC",
+      "value": "Kazakhstan has ISO code KZ, MCC 401, and dialing codes +7.",
+      "structured_fields": {
+        "country": "Kazakhstan",
+        "country_iso2": "KZ",
+        "mcc": [
+          "401"
+        ],
+        "dialing_code": [
+          "+7"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Kazakhstan?",
+          "What is the MCC for Kazakhstan?",
+          "What is Kazakhstan's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Kazakhstan"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.kazakhstan"
+    },
+    {
+      "fact_id": "kenya_ke_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Kenya dialing code and MCC",
+      "value": "Kenya has ISO code KE, MCC 639, and dialing codes +254, 254.",
+      "structured_fields": {
+        "country": "Kenya",
+        "country_iso2": "KE",
+        "mcc": [
+          "639"
+        ],
+        "dialing_code": [
+          "+254",
+          "254"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Kenya?",
+          "What is the MCC for Kenya?",
+          "What is Kenya's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Kenya"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.kenya"
+    },
+    {
+      "fact_id": "kosovo_xk_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Kosovo dialing code and MCC",
+      "value": "Kosovo has ISO code XK, MCC 221, and dialing codes 383.",
+      "structured_fields": {
+        "country": "Kosovo",
+        "country_iso2": "XK",
+        "mcc": [
+          "221"
+        ],
+        "dialing_code": [
+          "383"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Kosovo?",
+          "What is the MCC for Kosovo?",
+          "What is Kosovo's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Kosovo"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.kosovo"
+    },
+    {
+      "fact_id": "kuwait_kw_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Kuwait dialing code and MCC",
+      "value": "Kuwait has ISO code KW, MCC 419, and dialing codes +965, 965.",
+      "structured_fields": {
+        "country": "Kuwait",
+        "country_iso2": "KW",
+        "mcc": [
+          "419"
+        ],
+        "dialing_code": [
+          "+965",
+          "965"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Kuwait?",
+          "What is the MCC for Kuwait?",
+          "What is Kuwait's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Kuwait"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.kuwait"
+    },
+    {
+      "fact_id": "kyrgyzstan_kg_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Kyrgyzstan dialing code and MCC",
+      "value": "Kyrgyzstan has ISO code KG, MCC 437, and dialing codes +996, 996.",
+      "structured_fields": {
+        "country": "Kyrgyzstan",
+        "country_iso2": "KG",
+        "mcc": [
+          "437"
+        ],
+        "dialing_code": [
+          "+996",
+          "996"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Kyrgyzstan?",
+          "What is the MCC for Kyrgyzstan?",
+          "What is Kyrgyzstan's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Kyrgyzstan"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.kyrgyzstan"
+    },
+    {
+      "fact_id": "lao_people_s_democratic_republic_la_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Lao People's Democratic Republic (Laos) dialing code and MCC",
+      "value": "Lao People's Democratic Republic (Laos) has ISO code LA, MCC 457, and dialing codes +856, 856.",
+      "structured_fields": {
+        "country": "Lao People's Democratic Republic (Laos)",
+        "country_iso2": "LA",
+        "mcc": [
+          "457"
+        ],
+        "dialing_code": [
+          "+856",
+          "856"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Lao People's Democratic Republic (Laos)?",
+          "What is the MCC for Lao People's Democratic Republic (Laos)?",
+          "What is Lao People's Democratic Republic (Laos)'s ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Lao People's Democratic Republic (Laos)"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.lao_people_s_democratic_republic"
+    },
+    {
+      "fact_id": "latvia_lv_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Latvia dialing code and MCC",
+      "value": "Latvia has ISO code LV, MCC 247, and dialing codes +371, 371.",
+      "structured_fields": {
+        "country": "Latvia",
+        "country_iso2": "LV",
+        "mcc": [
+          "247"
+        ],
+        "dialing_code": [
+          "+371",
+          "371"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Latvia?",
+          "What is the MCC for Latvia?",
+          "What is Latvia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Latvia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.latvia"
+    },
+    {
+      "fact_id": "lebanon_lb_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Lebanon dialing code and MCC",
+      "value": "Lebanon has ISO code LB, MCC 415, and dialing codes +961, 961.",
+      "structured_fields": {
+        "country": "Lebanon",
+        "country_iso2": "LB",
+        "mcc": [
+          "415"
+        ],
+        "dialing_code": [
+          "+961",
+          "961"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Lebanon?",
+          "What is the MCC for Lebanon?",
+          "What is Lebanon's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Lebanon"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.lebanon"
+    },
+    {
+      "fact_id": "lesotho_ls_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Lesotho dialing code and MCC",
+      "value": "Lesotho has ISO code LS, MCC 651, and dialing codes +266, 266.",
+      "structured_fields": {
+        "country": "Lesotho",
+        "country_iso2": "LS",
+        "mcc": [
+          "651"
+        ],
+        "dialing_code": [
+          "+266",
+          "266"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Lesotho?",
+          "What is the MCC for Lesotho?",
+          "What is Lesotho's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Lesotho"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.lesotho"
+    },
+    {
+      "fact_id": "liberia_lr_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Liberia dialing code and MCC",
+      "value": "Liberia has ISO code LR, MCC 618, and dialing codes +231, 231.",
+      "structured_fields": {
+        "country": "Liberia",
+        "country_iso2": "LR",
+        "mcc": [
+          "618"
+        ],
+        "dialing_code": [
+          "+231",
+          "231"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Liberia?",
+          "What is the MCC for Liberia?",
+          "What is Liberia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Liberia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.liberia"
+    },
+    {
+      "fact_id": "libya_ly_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Libya dialing code and MCC",
+      "value": "Libya has ISO code LY, MCC 606, and dialing codes +218, 218.",
+      "structured_fields": {
+        "country": "Libya",
+        "country_iso2": "LY",
+        "mcc": [
+          "606"
+        ],
+        "dialing_code": [
+          "+218",
+          "218"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Libya?",
+          "What is the MCC for Libya?",
+          "What is Libya's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Libya"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.libya"
+    },
+    {
+      "fact_id": "liechtenstein_li_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Liechtenstein dialing code and MCC",
+      "value": "Liechtenstein has ISO code LI, MCC 295, and dialing codes +423.",
+      "structured_fields": {
+        "country": "Liechtenstein",
+        "country_iso2": "LI",
+        "mcc": [
+          "295"
+        ],
+        "dialing_code": [
+          "+423"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Liechtenstein?",
+          "What is the MCC for Liechtenstein?",
+          "What is Liechtenstein's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Liechtenstein"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.liechtenstein"
+    },
+    {
+      "fact_id": "lithuania_lt_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Lithuania dialing code and MCC",
+      "value": "Lithuania has ISO code LT, MCC 246, and dialing codes +370.",
+      "structured_fields": {
+        "country": "Lithuania",
+        "country_iso2": "LT",
+        "mcc": [
+          "246"
+        ],
+        "dialing_code": [
+          "+370"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Lithuania?",
+          "What is the MCC for Lithuania?",
+          "What is Lithuania's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Lithuania"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.lithuania"
+    },
+    {
+      "fact_id": "luxembourg_lu_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Luxembourg dialing code and MCC",
+      "value": "Luxembourg has ISO code LU, MCC 270, and dialing codes +352, 352.",
+      "structured_fields": {
+        "country": "Luxembourg",
+        "country_iso2": "LU",
+        "mcc": [
+          "270"
+        ],
+        "dialing_code": [
+          "+352",
+          "352"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Luxembourg?",
+          "What is the MCC for Luxembourg?",
+          "What is Luxembourg's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Luxembourg"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.luxembourg"
+    },
+    {
+      "fact_id": "macao_mo_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Macao / Macau dialing code and MCC",
+      "value": "Macao / Macau has ISO code MO, MCC 455, and dialing codes +853, 853.",
+      "structured_fields": {
+        "country": "Macao / Macau",
+        "country_iso2": "MO",
+        "mcc": [
+          "455"
+        ],
+        "dialing_code": [
+          "+853",
+          "853"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Macao / Macau?",
+          "What is the MCC for Macao / Macau?",
+          "What is Macao / Macau's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Macao / Macau"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.macao"
+    },
+    {
+      "fact_id": "macedonia_mk_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Macedonia (North Macedonia) dialing code and MCC",
+      "value": "Macedonia (North Macedonia) has ISO code MK, MCC 294, and dialing codes +389, 389.",
+      "structured_fields": {
+        "country": "Macedonia (North Macedonia)",
+        "country_iso2": "MK",
+        "mcc": [
+          "294"
+        ],
+        "dialing_code": [
+          "+389",
+          "389"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Macedonia (North Macedonia)?",
+          "What is the MCC for Macedonia (North Macedonia)?",
+          "What is Macedonia (North Macedonia)'s ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Macedonia (North Macedonia)"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.macedonia"
+    },
+    {
+      "fact_id": "madagascar_mg_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Madagascar dialing code and MCC",
+      "value": "Madagascar has ISO code MG, MCC 646, and dialing codes +261, 261.",
+      "structured_fields": {
+        "country": "Madagascar",
+        "country_iso2": "MG",
+        "mcc": [
+          "646"
+        ],
+        "dialing_code": [
+          "+261",
+          "261"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Madagascar?",
+          "What is the MCC for Madagascar?",
+          "What is Madagascar's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Madagascar"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.madagascar"
+    },
+    {
+      "fact_id": "malawi_mw_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Malawi dialing code and MCC",
+      "value": "Malawi has ISO code MW, MCC 650, and dialing codes +265, 265.",
+      "structured_fields": {
+        "country": "Malawi",
+        "country_iso2": "MW",
+        "mcc": [
+          "650"
+        ],
+        "dialing_code": [
+          "+265",
+          "265"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Malawi?",
+          "What is the MCC for Malawi?",
+          "What is Malawi's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Malawi"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.malawi"
+    },
+    {
+      "fact_id": "malaysia_my_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Malaysia dialing code and MCC",
+      "value": "Malaysia has ISO code MY, MCC 502, and dialing codes +60.",
+      "structured_fields": {
+        "country": "Malaysia",
+        "country_iso2": "MY",
+        "mcc": [
+          "502"
+        ],
+        "dialing_code": [
+          "+60"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Malaysia?",
+          "What is the MCC for Malaysia?",
+          "What is Malaysia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Malaysia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.malaysia"
+    },
+    {
+      "fact_id": "maldives_mv_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Maldives dialing code and MCC",
+      "value": "Maldives has ISO code MV, MCC 472, and dialing codes +960, 960.",
+      "structured_fields": {
+        "country": "Maldives",
+        "country_iso2": "MV",
+        "mcc": [
+          "472"
+        ],
+        "dialing_code": [
+          "+960",
+          "960"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Maldives?",
+          "What is the MCC for Maldives?",
+          "What is Maldives's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Maldives"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.maldives"
+    },
+    {
+      "fact_id": "mali_ml_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Mali dialing code and MCC",
+      "value": "Mali has ISO code ML, MCC 610, and dialing codes +223, 223.",
+      "structured_fields": {
+        "country": "Mali",
+        "country_iso2": "ML",
+        "mcc": [
+          "610"
+        ],
+        "dialing_code": [
+          "+223",
+          "223"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Mali?",
+          "What is the MCC for Mali?",
+          "What is Mali's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Mali"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.mali"
+    },
+    {
+      "fact_id": "malta_mt_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Malta dialing code and MCC",
+      "value": "Malta has ISO code MT, MCC 278, and dialing codes +356, 356.",
+      "structured_fields": {
+        "country": "Malta",
+        "country_iso2": "MT",
+        "mcc": [
+          "278"
+        ],
+        "dialing_code": [
+          "+356",
+          "356"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Malta?",
+          "What is the MCC for Malta?",
+          "What is Malta's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Malta"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.malta"
+    },
+    {
+      "fact_id": "marshall_islands_mh_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Marshall Islands dialing code and MCC",
+      "value": "Marshall Islands has ISO code MH, MCC 551, and dialing codes +692.",
+      "structured_fields": {
+        "country": "Marshall Islands",
+        "country_iso2": "MH",
+        "mcc": [
+          "551"
+        ],
+        "dialing_code": [
+          "+692"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Marshall Islands?",
+          "What is the MCC for Marshall Islands?",
+          "What is Marshall Islands's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Marshall Islands"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.marshall_islands"
+    },
+    {
+      "fact_id": "martinique_mq_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Martinique (France) dialing code and MCC",
+      "value": "Martinique (France) has ISO code MQ, MCC 340, and dialing codes +596, 596.",
+      "structured_fields": {
+        "country": "Martinique (France)",
+        "country_iso2": "MQ",
+        "mcc": [
+          "340"
+        ],
+        "dialing_code": [
+          "+596",
+          "596"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Martinique (France)?",
+          "What is the MCC for Martinique (France)?",
+          "What is Martinique (France)'s ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Martinique (France)"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.martinique"
+    },
+    {
+      "fact_id": "mauritania_mr_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Mauritania dialing code and MCC",
+      "value": "Mauritania has ISO code MR, MCC 609, and dialing codes +222, 222.",
+      "structured_fields": {
+        "country": "Mauritania",
+        "country_iso2": "MR",
+        "mcc": [
+          "609"
+        ],
+        "dialing_code": [
+          "+222",
+          "222"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Mauritania?",
+          "What is the MCC for Mauritania?",
+          "What is Mauritania's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Mauritania"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.mauritania"
+    },
+    {
+      "fact_id": "mauritius_mu_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Mauritius dialing code and MCC",
+      "value": "Mauritius has ISO code MU, MCC 617, and dialing codes +230, 230.",
+      "structured_fields": {
+        "country": "Mauritius",
+        "country_iso2": "MU",
+        "mcc": [
+          "617"
+        ],
+        "dialing_code": [
+          "+230",
+          "230"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Mauritius?",
+          "What is the MCC for Mauritius?",
+          "What is Mauritius's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Mauritius"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.mauritius"
+    },
+    {
+      "fact_id": "mayotte_na_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Mayotte dialing code and MCC",
+      "value": "Mayotte has no ISO code provided, MCC 654, and dialing codes 262.",
+      "structured_fields": {
+        "country": "Mayotte",
+        "country_iso2": null,
+        "mcc": [
+          "654"
+        ],
+        "dialing_code": [
+          "262"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Mayotte?",
+          "What is the MCC for Mayotte?",
+          "What is Mayotte's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Mayotte"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": "One or more fields were not provided explicitly in the source data.",
+      "source_anchor": "country_numbering_codes.mayotte"
+    },
+    {
+      "fact_id": "mexico_mx_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Mexico dialing code and MCC",
+      "value": "Mexico has ISO code MX, MCC 334, and dialing codes +52, 52.",
+      "structured_fields": {
+        "country": "Mexico",
+        "country_iso2": "MX",
+        "mcc": [
+          "334"
+        ],
+        "dialing_code": [
+          "+52",
+          "52"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Mexico?",
+          "What is the MCC for Mexico?",
+          "What is Mexico's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Mexico"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.mexico"
+    },
+    {
+      "fact_id": "micronesia_fm_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Micronesia dialing code and MCC",
+      "value": "Micronesia has ISO code FM, MCC 550, and dialing codes +691.",
+      "structured_fields": {
+        "country": "Micronesia",
+        "country_iso2": "FM",
+        "mcc": [
+          "550"
+        ],
+        "dialing_code": [
+          "+691"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Micronesia?",
+          "What is the MCC for Micronesia?",
+          "What is Micronesia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Micronesia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.micronesia"
+    },
+    {
+      "fact_id": "moldova_md_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Moldova dialing code and MCC",
+      "value": "Moldova has ISO code MD, MCC 259, and dialing codes +373, 373.",
+      "structured_fields": {
+        "country": "Moldova",
+        "country_iso2": "MD",
+        "mcc": [
+          "259"
+        ],
+        "dialing_code": [
+          "+373",
+          "373"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Moldova?",
+          "What is the MCC for Moldova?",
+          "What is Moldova's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Moldova"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.moldova"
+    },
+    {
+      "fact_id": "monaco_mc_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Monaco dialing code and MCC",
+      "value": "Monaco has ISO code MC, MCC 212, and dialing codes +377, 377.",
+      "structured_fields": {
+        "country": "Monaco",
+        "country_iso2": "MC",
+        "mcc": [
+          "212"
+        ],
+        "dialing_code": [
+          "+377",
+          "377"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Monaco?",
+          "What is the MCC for Monaco?",
+          "What is Monaco's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Monaco"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.monaco"
+    },
+    {
+      "fact_id": "mongolia_mn_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Mongolia dialing code and MCC",
+      "value": "Mongolia has ISO code MN, MCC 428, and dialing codes +976, 976.",
+      "structured_fields": {
+        "country": "Mongolia",
+        "country_iso2": "MN",
+        "mcc": [
+          "428"
+        ],
+        "dialing_code": [
+          "+976",
+          "976"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Mongolia?",
+          "What is the MCC for Mongolia?",
+          "What is Mongolia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Mongolia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.mongolia"
+    },
+    {
+      "fact_id": "montenegro_me_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Montenegro dialing code and MCC",
+      "value": "Montenegro has ISO code ME, MCC 297, and dialing codes +382, 382.",
+      "structured_fields": {
+        "country": "Montenegro",
+        "country_iso2": "ME",
+        "mcc": [
+          "297"
+        ],
+        "dialing_code": [
+          "+382",
+          "382"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Montenegro?",
+          "What is the MCC for Montenegro?",
+          "What is Montenegro's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Montenegro"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.montenegro"
+    },
+    {
+      "fact_id": "montserrat_ms_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Montserrat (UK) dialing code and MCC",
+      "value": "Montserrat (UK) has ISO code MS, MCC 354, and dialing codes +1664, 1664.",
+      "structured_fields": {
+        "country": "Montserrat (UK)",
+        "country_iso2": "MS",
+        "mcc": [
+          "354"
+        ],
+        "dialing_code": [
+          "+1664",
+          "1664"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Montserrat (UK)?",
+          "What is the MCC for Montserrat (UK)?",
+          "What is Montserrat (UK)'s ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Montserrat (UK)"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.montserrat"
+    },
+    {
+      "fact_id": "morocco_ma_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Morocco dialing code and MCC",
+      "value": "Morocco has ISO code MA, MCC 604, and dialing codes +212, 212.",
+      "structured_fields": {
+        "country": "Morocco",
+        "country_iso2": "MA",
+        "mcc": [
+          "604"
+        ],
+        "dialing_code": [
+          "+212",
+          "212"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Morocco?",
+          "What is the MCC for Morocco?",
+          "What is Morocco's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Morocco"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.morocco"
+    },
+    {
+      "fact_id": "mozambique_mz_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Mozambique dialing code and MCC",
+      "value": "Mozambique has ISO code MZ, MCC 643, and dialing codes +258, 258.",
+      "structured_fields": {
+        "country": "Mozambique",
+        "country_iso2": "MZ",
+        "mcc": [
+          "643"
+        ],
+        "dialing_code": [
+          "+258",
+          "258"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Mozambique?",
+          "What is the MCC for Mozambique?",
+          "What is Mozambique's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Mozambique"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.mozambique"
+    },
+    {
+      "fact_id": "myanmar_mm_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Myanmar dialing code and MCC",
+      "value": "Myanmar has ISO code MM, MCC 414, and dialing codes +95, 95.",
+      "structured_fields": {
+        "country": "Myanmar",
+        "country_iso2": "MM",
+        "mcc": [
+          "414"
+        ],
+        "dialing_code": [
+          "+95",
+          "95"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Myanmar?",
+          "What is the MCC for Myanmar?",
+          "What is Myanmar's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Myanmar"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.myanmar"
+    },
+    {
+      "fact_id": "namibia_na_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Namibia dialing code and MCC",
+      "value": "Namibia has ISO code NA, MCC 649, and dialing codes +264, 264.",
+      "structured_fields": {
+        "country": "Namibia",
+        "country_iso2": "NA",
+        "mcc": [
+          "649"
+        ],
+        "dialing_code": [
+          "+264",
+          "264"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Namibia?",
+          "What is the MCC for Namibia?",
+          "What is Namibia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Namibia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.namibia"
+    },
+    {
+      "fact_id": "nepal_np_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Nepal dialing code and MCC",
+      "value": "Nepal has ISO code NP, MCC 429, and dialing codes +977, 977.",
+      "structured_fields": {
+        "country": "Nepal",
+        "country_iso2": "NP",
+        "mcc": [
+          "429"
+        ],
+        "dialing_code": [
+          "+977",
+          "977"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Nepal?",
+          "What is the MCC for Nepal?",
+          "What is Nepal's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Nepal"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.nepal"
+    },
+    {
+      "fact_id": "netherlands_nl_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Netherlands dialing code and MCC",
+      "value": "Netherlands has ISO code NL, MCC 204, and dialing codes +31, 31.",
+      "structured_fields": {
+        "country": "Netherlands",
+        "country_iso2": "NL",
+        "mcc": [
+          "204"
+        ],
+        "dialing_code": [
+          "+31",
+          "31"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Netherlands?",
+          "What is the MCC for Netherlands?",
+          "What is Netherlands's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Netherlands"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.netherlands"
+    },
+    {
+      "fact_id": "netherlands_antilles_an_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Netherlands Antilles dialing code and MCC",
+      "value": "Netherlands Antilles has ISO code AN, MCC 362, and dialing codes +599.",
+      "structured_fields": {
+        "country": "Netherlands Antilles",
+        "country_iso2": "AN",
+        "mcc": [
+          "362"
+        ],
+        "dialing_code": [
+          "+599"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Netherlands Antilles?",
+          "What is the MCC for Netherlands Antilles?",
+          "What is Netherlands Antilles's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Netherlands Antilles"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.netherlands_antilles"
+    },
+    {
+      "fact_id": "new_caledonia_nc_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "New Caledonia (France) dialing code and MCC",
+      "value": "New Caledonia (France) has ISO code NC, MCC 546, and dialing codes +687, 687.",
+      "structured_fields": {
+        "country": "New Caledonia (France)",
+        "country_iso2": "NC",
+        "mcc": [
+          "546"
+        ],
+        "dialing_code": [
+          "+687",
+          "687"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for New Caledonia (France)?",
+          "What is the MCC for New Caledonia (France)?",
+          "What is New Caledonia (France)'s ISO code?"
+        ]
+      },
+      "applies_to": [
+        "New Caledonia (France)"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.new_caledonia"
+    },
+    {
+      "fact_id": "new_zealand_nz_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "New Zealand dialing code and MCC",
+      "value": "New Zealand has ISO code NZ, MCC 530, and dialing codes +64, 64.",
+      "structured_fields": {
+        "country": "New Zealand",
+        "country_iso2": "NZ",
+        "mcc": [
+          "530"
+        ],
+        "dialing_code": [
+          "+64",
+          "64"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for New Zealand?",
+          "What is the MCC for New Zealand?",
+          "What is New Zealand's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "New Zealand"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.new_zealand"
+    },
+    {
+      "fact_id": "nicaragua_ni_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Nicaragua dialing code and MCC",
+      "value": "Nicaragua has ISO code NI, MCC 710, and dialing codes +505, 505.",
+      "structured_fields": {
+        "country": "Nicaragua",
+        "country_iso2": "NI",
+        "mcc": [
+          "710"
+        ],
+        "dialing_code": [
+          "+505",
+          "505"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Nicaragua?",
+          "What is the MCC for Nicaragua?",
+          "What is Nicaragua's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Nicaragua"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.nicaragua"
+    },
+    {
+      "fact_id": "niger_ne_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Niger dialing code and MCC",
+      "value": "Niger has ISO code NE, MCC 614, and dialing codes +227, 227.",
+      "structured_fields": {
+        "country": "Niger",
+        "country_iso2": "NE",
+        "mcc": [
+          "614"
+        ],
+        "dialing_code": [
+          "+227",
+          "227"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Niger?",
+          "What is the MCC for Niger?",
+          "What is Niger's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Niger"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.niger"
+    },
+    {
+      "fact_id": "nigeria_ng_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Nigeria dialing code and MCC",
+      "value": "Nigeria has ISO code NG, MCC 621, and dialing codes +234, 234.",
+      "structured_fields": {
+        "country": "Nigeria",
+        "country_iso2": "NG",
+        "mcc": [
+          "621"
+        ],
+        "dialing_code": [
+          "+234",
+          "234"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Nigeria?",
+          "What is the MCC for Nigeria?",
+          "What is Nigeria's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Nigeria"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.nigeria"
+    },
+    {
+      "fact_id": "niue_nu_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Niue dialing code and MCC",
+      "value": "Niue has ISO code NU, MCC 555, and dialing codes +683.",
+      "structured_fields": {
+        "country": "Niue",
+        "country_iso2": "NU",
+        "mcc": [
+          "555"
+        ],
+        "dialing_code": [
+          "+683"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Niue?",
+          "What is the MCC for Niue?",
+          "What is Niue's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Niue"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.niue"
+    },
+    {
+      "fact_id": "norfolk_island_nf_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Norfolk Island dialing code and MCC",
+      "value": "Norfolk Island has ISO code NF, MCC 505, and dialing codes 672.",
+      "structured_fields": {
+        "country": "Norfolk Island",
+        "country_iso2": "NF",
+        "mcc": [
+          "505"
+        ],
+        "dialing_code": [
+          "672"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Norfolk Island?",
+          "What is the MCC for Norfolk Island?",
+          "What is Norfolk Island's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Norfolk Island"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.norfolk_island"
+    },
+    {
+      "fact_id": "northern_cyprus_na_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Northern Cyprus dialing code and MCC",
+      "value": "Northern Cyprus has no ISO code provided, MCC 286, and dialing codes 597.",
+      "structured_fields": {
+        "country": "Northern Cyprus",
+        "country_iso2": null,
+        "mcc": [
+          "286"
+        ],
+        "dialing_code": [
+          "597"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Northern Cyprus?",
+          "What is the MCC for Northern Cyprus?",
+          "What is Northern Cyprus's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Northern Cyprus"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": "One or more fields were not provided explicitly in the source data.",
+      "source_anchor": "country_numbering_codes.northern_cyprus"
+    },
+    {
+      "fact_id": "norway_no_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Norway dialing code and MCC",
+      "value": "Norway has ISO code NO, MCC 242, and dialing codes +47, 47.",
+      "structured_fields": {
+        "country": "Norway",
+        "country_iso2": "NO",
+        "mcc": [
+          "242"
+        ],
+        "dialing_code": [
+          "+47",
+          "47"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Norway?",
+          "What is the MCC for Norway?",
+          "What is Norway's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Norway"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.norway"
+    },
+    {
+      "fact_id": "oman_om_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Oman dialing code and MCC",
+      "value": "Oman has ISO code OM, MCC 422, and dialing codes +968, 968.",
+      "structured_fields": {
+        "country": "Oman",
+        "country_iso2": "OM",
+        "mcc": [
+          "422"
+        ],
+        "dialing_code": [
+          "+968",
+          "968"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Oman?",
+          "What is the MCC for Oman?",
+          "What is Oman's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Oman"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.oman"
+    },
+    {
+      "fact_id": "pakistan_pk_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Pakistan dialing code and MCC",
+      "value": "Pakistan has ISO code PK, MCC 410, and dialing codes +92, 92.",
+      "structured_fields": {
+        "country": "Pakistan",
+        "country_iso2": "PK",
+        "mcc": [
+          "410"
+        ],
+        "dialing_code": [
+          "+92",
+          "92"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Pakistan?",
+          "What is the MCC for Pakistan?",
+          "What is Pakistan's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Pakistan"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.pakistan"
+    },
+    {
+      "fact_id": "palau_pw_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Palau dialing code and MCC",
+      "value": "Palau has ISO code PW, MCC 429, 552, and dialing codes +977, 680.",
+      "structured_fields": {
+        "country": "Palau",
+        "country_iso2": "PW",
+        "mcc": [
+          "429",
+          "552"
+        ],
+        "dialing_code": [
+          "+977",
+          "680"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Palau?",
+          "What is the MCC for Palau?",
+          "What is Palau's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Palau"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.palau"
+    },
+    {
+      "fact_id": "palestine_ps_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Palestine dialing code and MCC",
+      "value": "Palestine has ISO code PS, MCC 425, and dialing codes +970.",
+      "structured_fields": {
+        "country": "Palestine",
+        "country_iso2": "PS",
+        "mcc": [
+          "425"
+        ],
+        "dialing_code": [
+          "+970"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Palestine?",
+          "What is the MCC for Palestine?",
+          "What is Palestine's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Palestine"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.palestine"
+    },
+    {
+      "fact_id": "panama_pa_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Panama dialing code and MCC",
+      "value": "Panama has ISO code PA, MCC 714, and dialing codes +507, 507.",
+      "structured_fields": {
+        "country": "Panama",
+        "country_iso2": "PA",
+        "mcc": [
+          "714"
+        ],
+        "dialing_code": [
+          "+507",
+          "507"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Panama?",
+          "What is the MCC for Panama?",
+          "What is Panama's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Panama"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.panama"
+    },
+    {
+      "fact_id": "papua_new_guinea_pg_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Papua New Guinea dialing code and MCC",
+      "value": "Papua New Guinea has ISO code PG, MCC 537, and dialing codes +675, 675.",
+      "structured_fields": {
+        "country": "Papua New Guinea",
+        "country_iso2": "PG",
+        "mcc": [
+          "537"
+        ],
+        "dialing_code": [
+          "+675",
+          "675"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Papua New Guinea?",
+          "What is the MCC for Papua New Guinea?",
+          "What is Papua New Guinea's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Papua New Guinea"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.papua_new_guinea"
+    },
+    {
+      "fact_id": "paraguay_py_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Paraguay dialing code and MCC",
+      "value": "Paraguay has ISO code PY, MCC 744, and dialing codes +595, 595.",
+      "structured_fields": {
+        "country": "Paraguay",
+        "country_iso2": "PY",
+        "mcc": [
+          "744"
+        ],
+        "dialing_code": [
+          "+595",
+          "595"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Paraguay?",
+          "What is the MCC for Paraguay?",
+          "What is Paraguay's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Paraguay"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.paraguay"
+    },
+    {
+      "fact_id": "peru_pe_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Peru dialing code and MCC",
+      "value": "Peru has ISO code PE, MCC 716, and dialing codes +51, 51.",
+      "structured_fields": {
+        "country": "Peru",
+        "country_iso2": "PE",
+        "mcc": [
+          "716"
+        ],
+        "dialing_code": [
+          "+51",
+          "51"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Peru?",
+          "What is the MCC for Peru?",
+          "What is Peru's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Peru"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.peru"
+    },
+    {
+      "fact_id": "philippines_ph_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Philippines dialing code and MCC",
+      "value": "Philippines has ISO code PH, MCC 515, and dialing codes +63, 63.",
+      "structured_fields": {
+        "country": "Philippines",
+        "country_iso2": "PH",
+        "mcc": [
+          "515"
+        ],
+        "dialing_code": [
+          "+63",
+          "63"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Philippines?",
+          "What is the MCC for Philippines?",
+          "What is Philippines's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Philippines"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.philippines"
+    },
+    {
+      "fact_id": "poland_pl_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Poland dialing code and MCC",
+      "value": "Poland has ISO code PL, MCC 260, and dialing codes +48, 48.",
+      "structured_fields": {
+        "country": "Poland",
+        "country_iso2": "PL",
+        "mcc": [
+          "260"
+        ],
+        "dialing_code": [
+          "+48",
+          "48"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Poland?",
+          "What is the MCC for Poland?",
+          "What is Poland's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Poland"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.poland"
+    },
+    {
+      "fact_id": "portugal_pt_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Portugal dialing code and MCC",
+      "value": "Portugal has ISO code PT, MCC 268, and dialing codes +351, 351.",
+      "structured_fields": {
+        "country": "Portugal",
+        "country_iso2": "PT",
+        "mcc": [
+          "268"
+        ],
+        "dialing_code": [
+          "+351",
+          "351"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Portugal?",
+          "What is the MCC for Portugal?",
+          "What is Portugal's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Portugal"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.portugal"
+    },
+    {
+      "fact_id": "puerto_rico_pr_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Puerto Rico (US) dialing code and MCC",
+      "value": "Puerto Rico (US) has ISO code PR, MCC 330, and dialing codes +1, 1787.",
+      "structured_fields": {
+        "country": "Puerto Rico (US)",
+        "country_iso2": "PR",
+        "mcc": [
+          "330"
+        ],
+        "dialing_code": [
+          "+1",
+          "1787"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Puerto Rico (US)?",
+          "What is the MCC for Puerto Rico (US)?",
+          "What is Puerto Rico (US)'s ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Puerto Rico (US)"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.puerto_rico"
+    },
+    {
+      "fact_id": "qatar_qa_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Qatar dialing code and MCC",
+      "value": "Qatar has ISO code QA, MCC 427, and dialing codes +974, 974.",
+      "structured_fields": {
+        "country": "Qatar",
+        "country_iso2": "QA",
+        "mcc": [
+          "427"
+        ],
+        "dialing_code": [
+          "+974",
+          "974"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Qatar?",
+          "What is the MCC for Qatar?",
+          "What is Qatar's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Qatar"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.qatar"
+    },
+    {
+      "fact_id": "reunion_re_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Reunion (France) dialing code and MCC",
+      "value": "Reunion (France) has ISO code RE, MCC 647, and dialing codes +262.",
+      "structured_fields": {
+        "country": "Reunion (France)",
+        "country_iso2": "RE",
+        "mcc": [
+          "647"
+        ],
+        "dialing_code": [
+          "+262"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Reunion (France)?",
+          "What is the MCC for Reunion (France)?",
+          "What is Reunion (France)'s ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Reunion (France)"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.reunion"
+    },
+    {
+      "fact_id": "romania_ro_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Romania dialing code and MCC",
+      "value": "Romania has ISO code RO, MCC 226, and dialing codes +40, 40.",
+      "structured_fields": {
+        "country": "Romania",
+        "country_iso2": "RO",
+        "mcc": [
+          "226"
+        ],
+        "dialing_code": [
+          "+40",
+          "40"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Romania?",
+          "What is the MCC for Romania?",
+          "What is Romania's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Romania"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.romania"
+    },
+    {
+      "fact_id": "russia_ru_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Russia dialing code and MCC",
+      "value": "Russia has ISO code RU, MCC 250, and dialing codes +7, 7.",
+      "structured_fields": {
+        "country": "Russia",
+        "country_iso2": "RU",
+        "mcc": [
+          "250"
+        ],
+        "dialing_code": [
+          "+7",
+          "7"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Russia?",
+          "What is the MCC for Russia?",
+          "What is Russia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Russia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.russia"
+    },
+    {
+      "fact_id": "rwanda_rw_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Rwanda dialing code and MCC",
+      "value": "Rwanda has ISO code RW, MCC 635, and dialing codes +250, 250.",
+      "structured_fields": {
+        "country": "Rwanda",
+        "country_iso2": "RW",
+        "mcc": [
+          "635"
+        ],
+        "dialing_code": [
+          "+250",
+          "250"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Rwanda?",
+          "What is the MCC for Rwanda?",
+          "What is Rwanda's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Rwanda"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.rwanda"
+    },
+    {
+      "fact_id": "saint_kitts_and_nevis_kn_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Saint Kitts and Nevis dialing code and MCC",
+      "value": "Saint Kitts and Nevis has ISO code KN, MCC 356, and dialing codes +1869, 1869.",
+      "structured_fields": {
+        "country": "Saint Kitts and Nevis",
+        "country_iso2": "KN",
+        "mcc": [
+          "356"
+        ],
+        "dialing_code": [
+          "+1869",
+          "1869"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Saint Kitts and Nevis?",
+          "What is the MCC for Saint Kitts and Nevis?",
+          "What is Saint Kitts and Nevis's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Saint Kitts and Nevis"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.saint_kitts_and_nevis"
+    },
+    {
+      "fact_id": "saint_lucia_lc_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Saint Lucia dialing code and MCC",
+      "value": "Saint Lucia has ISO code LC, MCC 358, 385, and dialing codes +1758, 1758.",
+      "structured_fields": {
+        "country": "Saint Lucia",
+        "country_iso2": "LC",
+        "mcc": [
+          "358",
+          "385"
+        ],
+        "dialing_code": [
+          "+1758",
+          "1758"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Saint Lucia?",
+          "What is the MCC for Saint Lucia?",
+          "What is Saint Lucia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Saint Lucia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.saint_lucia"
+    },
+    {
+      "fact_id": "saint_pierre_and_miquelon_pm_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Saint Pierre and Miquelon dialing code and MCC",
+      "value": "Saint Pierre and Miquelon has ISO code PM, MCC 308, and dialing codes +508, 508.",
+      "structured_fields": {
+        "country": "Saint Pierre and Miquelon",
+        "country_iso2": "PM",
+        "mcc": [
+          "308"
+        ],
+        "dialing_code": [
+          "+508",
+          "508"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Saint Pierre and Miquelon?",
+          "What is the MCC for Saint Pierre and Miquelon?",
+          "What is Saint Pierre and Miquelon's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Saint Pierre and Miquelon"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.saint_pierre_and_miquelon"
+    },
+    {
+      "fact_id": "saint_vincent_and_the_grenadines_vc_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Saint Vincent and the Grenadines dialing code and MCC",
+      "value": "Saint Vincent and the Grenadines has ISO code VC, MCC 360, and dialing codes +1784, 1784.",
+      "structured_fields": {
+        "country": "Saint Vincent and the Grenadines",
+        "country_iso2": "VC",
+        "mcc": [
+          "360"
+        ],
+        "dialing_code": [
+          "+1784",
+          "1784"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Saint Vincent and the Grenadines?",
+          "What is the MCC for Saint Vincent and the Grenadines?",
+          "What is Saint Vincent and the Grenadines's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Saint Vincent and the Grenadines"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.saint_vincent_and_the_grenadines"
+    },
+    {
+      "fact_id": "samoa_ws_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Samoa dialing code and MCC",
+      "value": "Samoa has ISO code WS, MCC 549, and dialing codes +685.",
+      "structured_fields": {
+        "country": "Samoa",
+        "country_iso2": "WS",
+        "mcc": [
+          "549"
+        ],
+        "dialing_code": [
+          "+685"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Samoa?",
+          "What is the MCC for Samoa?",
+          "What is Samoa's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Samoa"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.samoa"
+    },
+    {
+      "fact_id": "san_marino_sm_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "San Marino dialing code and MCC",
+      "value": "San Marino has ISO code SM, MCC 292, 222, and dialing codes +378, 378.",
+      "structured_fields": {
+        "country": "San Marino",
+        "country_iso2": "SM",
+        "mcc": [
+          "292",
+          "222"
+        ],
+        "dialing_code": [
+          "+378",
+          "378"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for San Marino?",
+          "What is the MCC for San Marino?",
+          "What is San Marino's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "San Marino"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.san_marino"
+    },
+    {
+      "fact_id": "sao_tome_and_principe_st_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Sao Tome and Principe dialing code and MCC",
+      "value": "Sao Tome and Principe has ISO code ST, MCC 626, and dialing codes +239, 239.",
+      "structured_fields": {
+        "country": "Sao Tome and Principe",
+        "country_iso2": "ST",
+        "mcc": [
+          "626"
+        ],
+        "dialing_code": [
+          "+239",
+          "239"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Sao Tome and Principe?",
+          "What is the MCC for Sao Tome and Principe?",
+          "What is Sao Tome and Principe's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Sao Tome and Principe"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.sao_tome_and_principe"
+    },
+    {
+      "fact_id": "saudi_arabia_sa_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Saudi Arabia dialing code and MCC",
+      "value": "Saudi Arabia has ISO code SA, MCC 420, and dialing codes +966, 966.",
+      "structured_fields": {
+        "country": "Saudi Arabia",
+        "country_iso2": "SA",
+        "mcc": [
+          "420"
+        ],
+        "dialing_code": [
+          "+966",
+          "966"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Saudi Arabia?",
+          "What is the MCC for Saudi Arabia?",
+          "What is Saudi Arabia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Saudi Arabia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.saudi_arabia"
+    },
+    {
+      "fact_id": "senegal_sn_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Senegal dialing code and MCC",
+      "value": "Senegal has ISO code SN, MCC 608, and dialing codes +221, 221.",
+      "structured_fields": {
+        "country": "Senegal",
+        "country_iso2": "SN",
+        "mcc": [
+          "608"
+        ],
+        "dialing_code": [
+          "+221",
+          "221"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Senegal?",
+          "What is the MCC for Senegal?",
+          "What is Senegal's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Senegal"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.senegal"
+    },
+    {
+      "fact_id": "serbia_rs_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Serbia dialing code and MCC",
+      "value": "Serbia has ISO code RS, MCC 220, and dialing codes +381, 381.",
+      "structured_fields": {
+        "country": "Serbia",
+        "country_iso2": "RS",
+        "mcc": [
+          "220"
+        ],
+        "dialing_code": [
+          "+381",
+          "381"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Serbia?",
+          "What is the MCC for Serbia?",
+          "What is Serbia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Serbia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.serbia"
+    },
+    {
+      "fact_id": "seychelles_sc_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Seychelles dialing code and MCC",
+      "value": "Seychelles has ISO code SC, MCC 633, and dialing codes +248, 248.",
+      "structured_fields": {
+        "country": "Seychelles",
+        "country_iso2": "SC",
+        "mcc": [
+          "633"
+        ],
+        "dialing_code": [
+          "+248",
+          "248"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Seychelles?",
+          "What is the MCC for Seychelles?",
+          "What is Seychelles's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Seychelles"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.seychelles"
+    },
+    {
+      "fact_id": "sierra_leone_sl_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Sierra Leone dialing code and MCC",
+      "value": "Sierra Leone has ISO code SL, MCC 619, and dialing codes +232, 232.",
+      "structured_fields": {
+        "country": "Sierra Leone",
+        "country_iso2": "SL",
+        "mcc": [
+          "619"
+        ],
+        "dialing_code": [
+          "+232",
+          "232"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Sierra Leone?",
+          "What is the MCC for Sierra Leone?",
+          "What is Sierra Leone's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Sierra Leone"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.sierra_leone"
+    },
+    {
+      "fact_id": "singapore_sg_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Singapore dialing code and MCC",
+      "value": "Singapore has ISO code SG, MCC 525, and dialing codes +65, 65.",
+      "structured_fields": {
+        "country": "Singapore",
+        "country_iso2": "SG",
+        "mcc": [
+          "525"
+        ],
+        "dialing_code": [
+          "+65",
+          "65"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Singapore?",
+          "What is the MCC for Singapore?",
+          "What is Singapore's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Singapore"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.singapore"
+    },
+    {
+      "fact_id": "sint_maarten_na_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Sint Maarten dialing code and MCC",
+      "value": "Sint Maarten has no ISO code provided, MCC 362, and dialing codes 1721.",
+      "structured_fields": {
+        "country": "Sint Maarten",
+        "country_iso2": null,
+        "mcc": [
+          "362"
+        ],
+        "dialing_code": [
+          "1721"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Sint Maarten?",
+          "What is the MCC for Sint Maarten?",
+          "What is Sint Maarten's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Sint Maarten"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": "One or more fields were not provided explicitly in the source data.",
+      "source_anchor": "country_numbering_codes.sint_maarten"
+    },
+    {
+      "fact_id": "slovakia_sk_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Slovakia dialing code and MCC",
+      "value": "Slovakia has ISO code SK, MCC 231, and dialing codes +421, 421.",
+      "structured_fields": {
+        "country": "Slovakia",
+        "country_iso2": "SK",
+        "mcc": [
+          "231"
+        ],
+        "dialing_code": [
+          "+421",
+          "421"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Slovakia?",
+          "What is the MCC for Slovakia?",
+          "What is Slovakia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Slovakia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.slovakia"
+    },
+    {
+      "fact_id": "slovenia_si_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Slovenia dialing code and MCC",
+      "value": "Slovenia has ISO code SI, MCC 293, and dialing codes +386, 386.",
+      "structured_fields": {
+        "country": "Slovenia",
+        "country_iso2": "SI",
+        "mcc": [
+          "293"
+        ],
+        "dialing_code": [
+          "+386",
+          "386"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Slovenia?",
+          "What is the MCC for Slovenia?",
+          "What is Slovenia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Slovenia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.slovenia"
+    },
+    {
+      "fact_id": "solomon_islands_sb_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Solomon Islands dialing code and MCC",
+      "value": "Solomon Islands has ISO code SB, MCC 540, and dialing codes +677, 677.",
+      "structured_fields": {
+        "country": "Solomon Islands",
+        "country_iso2": "SB",
+        "mcc": [
+          "540"
+        ],
+        "dialing_code": [
+          "+677",
+          "677"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Solomon Islands?",
+          "What is the MCC for Solomon Islands?",
+          "What is Solomon Islands's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Solomon Islands"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.solomon_islands"
+    },
+    {
+      "fact_id": "somalia_so_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Somalia dialing code and MCC",
+      "value": "Somalia has ISO code SO, MCC 637, and dialing codes +252, 252.",
+      "structured_fields": {
+        "country": "Somalia",
+        "country_iso2": "SO",
+        "mcc": [
+          "637"
+        ],
+        "dialing_code": [
+          "+252",
+          "252"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Somalia?",
+          "What is the MCC for Somalia?",
+          "What is Somalia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Somalia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.somalia"
+    },
+    {
+      "fact_id": "south_africa_za_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "South Africa dialing code and MCC",
+      "value": "South Africa has ISO code ZA, MCC 655, and dialing codes +27.",
+      "structured_fields": {
+        "country": "South Africa",
+        "country_iso2": "ZA",
+        "mcc": [
+          "655"
+        ],
+        "dialing_code": [
+          "+27"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for South Africa?",
+          "What is the MCC for South Africa?",
+          "What is South Africa's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "South Africa"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.south_africa"
+    },
+    {
+      "fact_id": "south_korea_kr_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "South Korea dialing code and MCC",
+      "value": "South Korea has ISO code KR, MCC 450, and dialing codes +82, 82.",
+      "structured_fields": {
+        "country": "South Korea",
+        "country_iso2": "KR",
+        "mcc": [
+          "450"
+        ],
+        "dialing_code": [
+          "+82",
+          "82"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for South Korea?",
+          "What is the MCC for South Korea?",
+          "What is South Korea's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "South Korea"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.south_korea"
+    },
+    {
+      "fact_id": "south_ossetia_na_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "South Ossetia dialing code and MCC",
+      "value": "South Ossetia has no ISO code provided, no MCC provided, and dialing codes 995 34.",
+      "structured_fields": {
+        "country": "South Ossetia",
+        "country_iso2": null,
+        "mcc": null,
+        "dialing_code": [
+          "995 34"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for South Ossetia?",
+          "What is the MCC for South Ossetia?",
+          "What is South Ossetia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "South Ossetia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": "One or more fields were not provided explicitly in the source data.",
+      "source_anchor": "country_numbering_codes.south_ossetia"
+    },
+    {
+      "fact_id": "south_sudan_ss_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "South Sudan dialing code and MCC",
+      "value": "South Sudan has ISO code SS, MCC 659, and dialing codes +211.",
+      "structured_fields": {
+        "country": "South Sudan",
+        "country_iso2": "SS",
+        "mcc": [
+          "659"
+        ],
+        "dialing_code": [
+          "+211"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for South Sudan?",
+          "What is the MCC for South Sudan?",
+          "What is South Sudan's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "South Sudan"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.south_sudan"
+    },
+    {
+      "fact_id": "spain_es_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Spain dialing code and MCC",
+      "value": "Spain has ISO code ES, MCC 214, and dialing codes +34, 34.",
+      "structured_fields": {
+        "country": "Spain",
+        "country_iso2": "ES",
+        "mcc": [
+          "214"
+        ],
+        "dialing_code": [
+          "+34",
+          "34"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Spain?",
+          "What is the MCC for Spain?",
+          "What is Spain's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Spain"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.spain"
+    },
+    {
+      "fact_id": "sri_lanka_lk_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Sri Lanka dialing code and MCC",
+      "value": "Sri Lanka has ISO code LK, MCC 413, and dialing codes +94, 94.",
+      "structured_fields": {
+        "country": "Sri Lanka",
+        "country_iso2": "LK",
+        "mcc": [
+          "413"
+        ],
+        "dialing_code": [
+          "+94",
+          "94"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Sri Lanka?",
+          "What is the MCC for Sri Lanka?",
+          "What is Sri Lanka's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Sri Lanka"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.sri_lanka"
+    },
+    {
+      "fact_id": "sudan_sd_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Sudan dialing code and MCC",
+      "value": "Sudan has ISO code SD, MCC 634, and dialing codes +249, 249.",
+      "structured_fields": {
+        "country": "Sudan",
+        "country_iso2": "SD",
+        "mcc": [
+          "634"
+        ],
+        "dialing_code": [
+          "+249",
+          "249"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Sudan?",
+          "What is the MCC for Sudan?",
+          "What is Sudan's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Sudan"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.sudan"
+    },
+    {
+      "fact_id": "suriname_sr_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Suriname dialing code and MCC",
+      "value": "Suriname has ISO code SR, MCC 746, and dialing codes +597, 597.",
+      "structured_fields": {
+        "country": "Suriname",
+        "country_iso2": "SR",
+        "mcc": [
+          "746"
+        ],
+        "dialing_code": [
+          "+597",
+          "597"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Suriname?",
+          "What is the MCC for Suriname?",
+          "What is Suriname's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Suriname"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.suriname"
+    },
+    {
+      "fact_id": "sweden_se_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Sweden dialing code and MCC",
+      "value": "Sweden has ISO code SE, MCC 240, and dialing codes +46, 46.",
+      "structured_fields": {
+        "country": "Sweden",
+        "country_iso2": "SE",
+        "mcc": [
+          "240"
+        ],
+        "dialing_code": [
+          "+46",
+          "46"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Sweden?",
+          "What is the MCC for Sweden?",
+          "What is Sweden's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Sweden"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.sweden"
+    },
+    {
+      "fact_id": "switzerland_ch_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Switzerland dialing code and MCC",
+      "value": "Switzerland has ISO code CH, MCC 228, and dialing codes +41, 41.",
+      "structured_fields": {
+        "country": "Switzerland",
+        "country_iso2": "CH",
+        "mcc": [
+          "228"
+        ],
+        "dialing_code": [
+          "+41",
+          "41"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Switzerland?",
+          "What is the MCC for Switzerland?",
+          "What is Switzerland's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Switzerland"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.switzerland"
+    },
+    {
+      "fact_id": "syria_sy_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Syria dialing code and MCC",
+      "value": "Syria has ISO code SY, MCC 417, and dialing codes +963.",
+      "structured_fields": {
+        "country": "Syria",
+        "country_iso2": "SY",
+        "mcc": [
+          "417"
+        ],
+        "dialing_code": [
+          "+963"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Syria?",
+          "What is the MCC for Syria?",
+          "What is Syria's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Syria"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.syria"
+    },
+    {
+      "fact_id": "taiwan_tw_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Taiwan dialing code and MCC",
+      "value": "Taiwan has ISO code TW, MCC 466, and dialing codes +886, 886.",
+      "structured_fields": {
+        "country": "Taiwan",
+        "country_iso2": "TW",
+        "mcc": [
+          "466"
+        ],
+        "dialing_code": [
+          "+886",
+          "886"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Taiwan?",
+          "What is the MCC for Taiwan?",
+          "What is Taiwan's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Taiwan"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.taiwan"
+    },
+    {
+      "fact_id": "tajikistan_tj_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Tajikistan dialing code and MCC",
+      "value": "Tajikistan has ISO code TJ, MCC 436, and dialing codes +992, 992.",
+      "structured_fields": {
+        "country": "Tajikistan",
+        "country_iso2": "TJ",
+        "mcc": [
+          "436"
+        ],
+        "dialing_code": [
+          "+992",
+          "992"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Tajikistan?",
+          "What is the MCC for Tajikistan?",
+          "What is Tajikistan's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Tajikistan"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.tajikistan"
+    },
+    {
+      "fact_id": "tanzania_tz_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Tanzania dialing code and MCC",
+      "value": "Tanzania has ISO code TZ, MCC 640, and dialing codes +255, 255.",
+      "structured_fields": {
+        "country": "Tanzania",
+        "country_iso2": "TZ",
+        "mcc": [
+          "640"
+        ],
+        "dialing_code": [
+          "+255",
+          "255"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Tanzania?",
+          "What is the MCC for Tanzania?",
+          "What is Tanzania's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Tanzania"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.tanzania"
+    },
+    {
+      "fact_id": "thailand_th_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Thailand dialing code and MCC",
+      "value": "Thailand has ISO code TH, MCC 520, and dialing codes +66, 66.",
+      "structured_fields": {
+        "country": "Thailand",
+        "country_iso2": "TH",
+        "mcc": [
+          "520"
+        ],
+        "dialing_code": [
+          "+66",
+          "66"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Thailand?",
+          "What is the MCC for Thailand?",
+          "What is Thailand's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Thailand"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.thailand"
+    },
+    {
+      "fact_id": "timor_leste_tl_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Timor-Leste dialing code and MCC",
+      "value": "Timor-Leste has ISO code TL, MCC 514, and dialing codes +670.",
+      "structured_fields": {
+        "country": "Timor-Leste",
+        "country_iso2": "TL",
+        "mcc": [
+          "514"
+        ],
+        "dialing_code": [
+          "+670"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Timor-Leste?",
+          "What is the MCC for Timor-Leste?",
+          "What is Timor-Leste's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Timor-Leste"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.timor_leste"
+    },
+    {
+      "fact_id": "togo_tg_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Togo dialing code and MCC",
+      "value": "Togo has ISO code TG, MCC 615, and dialing codes +228, 228.",
+      "structured_fields": {
+        "country": "Togo",
+        "country_iso2": "TG",
+        "mcc": [
+          "615"
+        ],
+        "dialing_code": [
+          "+228",
+          "228"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Togo?",
+          "What is the MCC for Togo?",
+          "What is Togo's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Togo"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.togo"
+    },
+    {
+      "fact_id": "tonga_to_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Tonga dialing code and MCC",
+      "value": "Tonga has ISO code TO, MCC 539, and dialing codes +676, 679.",
+      "structured_fields": {
+        "country": "Tonga",
+        "country_iso2": "TO",
+        "mcc": [
+          "539"
+        ],
+        "dialing_code": [
+          "+676",
+          "679"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Tonga?",
+          "What is the MCC for Tonga?",
+          "What is Tonga's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Tonga"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.tonga"
+    },
+    {
+      "fact_id": "trinidad_and_tobago_tt_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Trinidad and Tobago dialing code and MCC",
+      "value": "Trinidad and Tobago has ISO code TT, MCC 374, and dialing codes +1868, 1868.",
+      "structured_fields": {
+        "country": "Trinidad and Tobago",
+        "country_iso2": "TT",
+        "mcc": [
+          "374"
+        ],
+        "dialing_code": [
+          "+1868",
+          "1868"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Trinidad and Tobago?",
+          "What is the MCC for Trinidad and Tobago?",
+          "What is Trinidad and Tobago's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Trinidad and Tobago"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.trinidad_and_tobago"
+    },
+    {
+      "fact_id": "tunisia_tn_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Tunisia dialing code and MCC",
+      "value": "Tunisia has ISO code TN, MCC 605, and dialing codes +216, 216.",
+      "structured_fields": {
+        "country": "Tunisia",
+        "country_iso2": "TN",
+        "mcc": [
+          "605"
+        ],
+        "dialing_code": [
+          "+216",
+          "216"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Tunisia?",
+          "What is the MCC for Tunisia?",
+          "What is Tunisia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Tunisia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.tunisia"
+    },
+    {
+      "fact_id": "turkey_tr_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Turkey / Türkiye dialing code and MCC",
+      "value": "Turkey / Türkiye has ISO code TR, MCC 286, and dialing codes +90, 90.",
+      "structured_fields": {
+        "country": "Turkey / Türkiye",
+        "country_iso2": "TR",
+        "mcc": [
+          "286"
+        ],
+        "dialing_code": [
+          "+90",
+          "90"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Turkey / Türkiye?",
+          "What is the MCC for Turkey / Türkiye?",
+          "What is Turkey / Türkiye's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Turkey / Türkiye"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.turkey"
+    },
+    {
+      "fact_id": "turkmenistan_tm_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Turkmenistan dialing code and MCC",
+      "value": "Turkmenistan has ISO code TM, MCC 438, and dialing codes +993, 993.",
+      "structured_fields": {
+        "country": "Turkmenistan",
+        "country_iso2": "TM",
+        "mcc": [
+          "438"
+        ],
+        "dialing_code": [
+          "+993",
+          "993"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Turkmenistan?",
+          "What is the MCC for Turkmenistan?",
+          "What is Turkmenistan's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Turkmenistan"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.turkmenistan"
+    },
+    {
+      "fact_id": "turks_and_caicos_islands_tc_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Turks and Caicos Islands dialing code and MCC",
+      "value": "Turks and Caicos Islands has ISO code TC, MCC 376, and dialing codes +1649, 1649.",
+      "structured_fields": {
+        "country": "Turks and Caicos Islands",
+        "country_iso2": "TC",
+        "mcc": [
+          "376"
+        ],
+        "dialing_code": [
+          "+1649",
+          "1649"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Turks and Caicos Islands?",
+          "What is the MCC for Turks and Caicos Islands?",
+          "What is Turks and Caicos Islands's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Turks and Caicos Islands"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.turks_and_caicos_islands"
+    },
+    {
+      "fact_id": "tuvalu_tv_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Tuvalu dialing code and MCC",
+      "value": "Tuvalu has ISO code TV, MCC 553, and dialing codes +688, 688.",
+      "structured_fields": {
+        "country": "Tuvalu",
+        "country_iso2": "TV",
+        "mcc": [
+          "553"
+        ],
+        "dialing_code": [
+          "+688",
+          "688"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Tuvalu?",
+          "What is the MCC for Tuvalu?",
+          "What is Tuvalu's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Tuvalu"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.tuvalu"
+    },
+    {
+      "fact_id": "uganda_ug_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Uganda dialing code and MCC",
+      "value": "Uganda has ISO code UG, MCC 641, and dialing codes +256, 256.",
+      "structured_fields": {
+        "country": "Uganda",
+        "country_iso2": "UG",
+        "mcc": [
+          "641"
+        ],
+        "dialing_code": [
+          "+256",
+          "256"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Uganda?",
+          "What is the MCC for Uganda?",
+          "What is Uganda's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Uganda"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.uganda"
+    },
+    {
+      "fact_id": "ukraine_ua_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Ukraine dialing code and MCC",
+      "value": "Ukraine has ISO code UA, MCC 255, and dialing codes +380, 380.",
+      "structured_fields": {
+        "country": "Ukraine",
+        "country_iso2": "UA",
+        "mcc": [
+          "255"
+        ],
+        "dialing_code": [
+          "+380",
+          "380"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Ukraine?",
+          "What is the MCC for Ukraine?",
+          "What is Ukraine's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Ukraine"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.ukraine"
+    },
+    {
+      "fact_id": "united_arab_emirates_ae_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "United Arab Emirates dialing code and MCC",
+      "value": "United Arab Emirates has ISO code AE, MCC 424, and dialing codes +971, 971.",
+      "structured_fields": {
+        "country": "United Arab Emirates",
+        "country_iso2": "AE",
+        "mcc": [
+          "424"
+        ],
+        "dialing_code": [
+          "+971",
+          "971"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for United Arab Emirates?",
+          "What is the MCC for United Arab Emirates?",
+          "What is United Arab Emirates's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "United Arab Emirates"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.united_arab_emirates"
+    },
+    {
+      "fact_id": "united_kingdom_gb_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "United Kingdom dialing code and MCC",
+      "value": "United Kingdom has ISO code GB, MCC 234, 235, and dialing codes +44, 44.",
+      "structured_fields": {
+        "country": "United Kingdom",
+        "country_iso2": "GB",
+        "mcc": [
+          "234",
+          "235"
+        ],
+        "dialing_code": [
+          "+44",
+          "44"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for United Kingdom?",
+          "What is the MCC for United Kingdom?",
+          "What is United Kingdom's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "United Kingdom"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.united_kingdom"
+    },
+    {
+      "fact_id": "united_states_us_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "United States dialing code and MCC",
+      "value": "United States has ISO code US, MCC 310, 311, 312, 313, 314, 315, 316, and dialing codes +1, 1.",
+      "structured_fields": {
+        "country": "United States",
+        "country_iso2": "US",
+        "mcc": [
+          "310",
+          "311",
+          "312",
+          "313",
+          "314",
+          "315",
+          "316"
+        ],
+        "dialing_code": [
+          "+1",
+          "1"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for United States?",
+          "What is the MCC for United States?",
+          "What is United States's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "United States"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.united_states"
+    },
+    {
+      "fact_id": "uruguay_uy_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Uruguay dialing code and MCC",
+      "value": "Uruguay has ISO code UY, MCC 748, and dialing codes +598, 598.",
+      "structured_fields": {
+        "country": "Uruguay",
+        "country_iso2": "UY",
+        "mcc": [
+          "748"
+        ],
+        "dialing_code": [
+          "+598",
+          "598"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Uruguay?",
+          "What is the MCC for Uruguay?",
+          "What is Uruguay's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Uruguay"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.uruguay"
+    },
+    {
+      "fact_id": "us_virgin_islands_vi_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "US Virgin Islands dialing code and MCC",
+      "value": "US Virgin Islands has ISO code VI, MCC 332, 310, 311, and dialing codes +1340.",
+      "structured_fields": {
+        "country": "US Virgin Islands",
+        "country_iso2": "VI",
+        "mcc": [
+          "332",
+          "310",
+          "311"
+        ],
+        "dialing_code": [
+          "+1340"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for US Virgin Islands?",
+          "What is the MCC for US Virgin Islands?",
+          "What is US Virgin Islands's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "US Virgin Islands"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.us_virgin_islands"
+    },
+    {
+      "fact_id": "uzbekistan_uz_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Uzbekistan dialing code and MCC",
+      "value": "Uzbekistan has ISO code UZ, MCC 434, and dialing codes +998, 998.",
+      "structured_fields": {
+        "country": "Uzbekistan",
+        "country_iso2": "UZ",
+        "mcc": [
+          "434"
+        ],
+        "dialing_code": [
+          "+998",
+          "998"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Uzbekistan?",
+          "What is the MCC for Uzbekistan?",
+          "What is Uzbekistan's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Uzbekistan"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.uzbekistan"
+    },
+    {
+      "fact_id": "vanuatu_vu_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Vanuatu dialing code and MCC",
+      "value": "Vanuatu has ISO code VU, MCC 541, and dialing codes +678, 678.",
+      "structured_fields": {
+        "country": "Vanuatu",
+        "country_iso2": "VU",
+        "mcc": [
+          "541"
+        ],
+        "dialing_code": [
+          "+678",
+          "678"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Vanuatu?",
+          "What is the MCC for Vanuatu?",
+          "What is Vanuatu's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Vanuatu"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.vanuatu"
+    },
+    {
+      "fact_id": "venezuela_ve_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Venezuela dialing code and MCC",
+      "value": "Venezuela has ISO code VE, MCC 734, and dialing codes +58, 58.",
+      "structured_fields": {
+        "country": "Venezuela",
+        "country_iso2": "VE",
+        "mcc": [
+          "734"
+        ],
+        "dialing_code": [
+          "+58",
+          "58"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Venezuela?",
+          "What is the MCC for Venezuela?",
+          "What is Venezuela's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Venezuela"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.venezuela"
+    },
+    {
+      "fact_id": "vietnam_vn_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Vietnam dialing code and MCC",
+      "value": "Vietnam has ISO code VN, MCC 452, and dialing codes +84, 84.",
+      "structured_fields": {
+        "country": "Vietnam",
+        "country_iso2": "VN",
+        "mcc": [
+          "452"
+        ],
+        "dialing_code": [
+          "+84",
+          "84"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Vietnam?",
+          "What is the MCC for Vietnam?",
+          "What is Vietnam's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Vietnam"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.vietnam"
+    },
+    {
+      "fact_id": "yemen_ye_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Yemen dialing code and MCC",
+      "value": "Yemen has ISO code YE, MCC 421, and dialing codes +967, 967.",
+      "structured_fields": {
+        "country": "Yemen",
+        "country_iso2": "YE",
+        "mcc": [
+          "421"
+        ],
+        "dialing_code": [
+          "+967",
+          "967"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Yemen?",
+          "What is the MCC for Yemen?",
+          "What is Yemen's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Yemen"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.yemen"
+    },
+    {
+      "fact_id": "zambia_zm_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Zambia dialing code and MCC",
+      "value": "Zambia has ISO code ZM, MCC 645, and dialing codes +260, 260.",
+      "structured_fields": {
+        "country": "Zambia",
+        "country_iso2": "ZM",
+        "mcc": [
+          "645"
+        ],
+        "dialing_code": [
+          "+260",
+          "260"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Zambia?",
+          "What is the MCC for Zambia?",
+          "What is Zambia's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Zambia"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.zambia"
+    },
+    {
+      "fact_id": "zimbabwe_zw_numbering_codes_001",
+      "fact_type": "country_numbering_codes",
+      "topic": "Zimbabwe dialing code and MCC",
+      "value": "Zimbabwe has ISO code ZW, MCC 648, and dialing codes +263, 263.",
+      "structured_fields": {
+        "country": "Zimbabwe",
+        "country_iso2": "ZW",
+        "mcc": [
+          "648"
+        ],
+        "dialing_code": [
+          "+263",
+          "263"
+        ],
+        "hypothetical_questions": [
+          "What is the dialing code for Zimbabwe?",
+          "What is the MCC for Zimbabwe?",
+          "What is Zimbabwe's ISO code?"
+        ]
+      },
+      "applies_to": [
+        "Zimbabwe"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "notes": null,
+      "source_anchor": "country_numbering_codes.zimbabwe"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+question_type,correct,total,answer_correctness
+table_extraction,2,10,0.2
+policy_rule,539,584,0.9229
+procedural,175,189,0.9259
+sender_type_capability,145,156,0.9295
+factoid,196,204,0.9608
+sender_type_policy,401,407,0.9853
+capability,427,431,0.9907
+binary,609,613,0.9935
+duration,204,205,0.9951

@@ -1,0 +1,63 @@
+[
+  {
+    "question": "Which countries need sender registration?",
+    "expected_document_ids": ["india_in", "kenya_ke", "kuwait_kw"],
+    "expected_source_paths": [
+      "data/raw/india_in.md",
+      "data/raw/kenya_ke.md",
+      "data/raw/kuwait_kw.md"
+    ],
+    "expected_terms": ["india", "registration"],
+    "expected_block_types": ["table_fact", "structured_fact"],
+    "question_type": "aggregate_registration",
+    "should_refuse": false
+  },
+  {
+    "question": "Which countries support two-way SMS?",
+    "expected_document_ids": ["colombia_co", "india_in"],
+    "expected_source_paths": [
+      "data/raw/colombia_co.md",
+      "data/raw/india_in.md"
+    ],
+    "expected_terms": ["two-way"],
+    "expected_block_types": ["table_fact", "structured_fact"],
+    "forbid_document_ids": ["kenya_ke", "kuwait_kw", "sri_lanka_lk"],
+    "question_type": "aggregate_two_way_sms",
+    "should_refuse": false
+  },
+  {
+    "question": "Which countries have MCC 419?",
+    "expected_document_ids": ["kuwait_kw"],
+    "expected_source_paths": ["data/raw/kuwait_kw.md"],
+    "expected_terms": ["kuwait", "419"],
+    "expected_block_types": ["table_fact", "structured_fact"],
+    "expected_iso_code": "KW",
+    "question_type": "aggregate_mcc_lookup",
+    "should_refuse": false
+  },
+  {
+    "question": "Which countries mention opt-in or marketing content restrictions?",
+    "expected_document_ids": ["colombia_co", "kenya_ke"],
+    "expected_source_paths": [
+      "data/raw/colombia_co.md",
+      "data/raw/kenya_ke.md"
+    ],
+    "expected_terms": ["opt", "marketing"],
+    "expected_block_types": ["table_fact", "structured_fact", "policy_rule"],
+    "question_type": "aggregate_content_restrictions",
+    "should_refuse": false
+  },
+  {
+    "question": "Which countries mention sender availability or sender ID availability?",
+    "expected_document_ids": ["colombia_co", "india_in", "kenya_ke"],
+    "expected_source_paths": [
+      "data/raw/colombia_co.md",
+      "data/raw/india_in.md",
+      "data/raw/kenya_ke.md"
+    ],
+    "expected_terms": ["sender"],
+    "expected_block_types": ["table_fact", "structured_fact"],
+    "question_type": "aggregate_sender_availability",
+    "should_refuse": false
+  }
+]

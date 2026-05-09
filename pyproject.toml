@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "own-knowledge-rag"
+version = "0.1.0"
+description = "Local-first, corpus-agnostic RAG for private knowledge bases."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "charset-normalizer>=3,<4",
+  "pydantic>=2.7,<3",
+  "pydantic-settings>=2.2,<3",
+  "python-dotenv>=1,<2",
+]
+
+[project.optional-dependencies]
+api = [
+  "fastapi>=0.111,<1",
+  "uvicorn[standard]>=0.30,<1",
+]
+dev = [
+  "fastapi>=0.111,<1",
+  "httpx>=0.27,<1",
+  "pytest>=8,<10",
+  "ruff>=0.6,<1",
+  "uvicorn[standard]>=0.30,<1",
+]
+notebooks = [
+  "ipykernel>=6,<8",
+  "matplotlib>=3.8,<4",
+  "nbclient>=0.10,<1",
+  "nbformat>=5,<6",
+  "scikit-learn>=1.4,<2",
+  "scipy>=1.11,<2",
+  "shap>=0.45,<1",
+  "umap-learn>=0.5,<1",
+  "xgboost>=2,<4",
+]
+huggingface = [
+  "sentence-transformers>=3,<4",
+]
+openai = [
+  "openai>=1.0,<3",
+]
+gemini = [
+  "google-genai>=0.3,<1",
+]
+chromadb = [
+  "chromadb>=0.5,<1",
+]
+qdrant = [
+  "qdrant-client>=1.10,<2",
+]
+
+[project.scripts]
+okr = "own_knowledge_rag.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+own_knowledge_rag = ["templates/*.html", "static/*.css", "static/*.js"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

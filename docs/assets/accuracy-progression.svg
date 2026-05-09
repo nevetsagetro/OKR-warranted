@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="360" viewBox="0 0 920 360" role="img" aria-labelledby="title desc">
+  <title id="title">Warranted answer accuracy progression</title>
+  <desc id="desc">A four-step bar chart showing answer accuracy improving from 79.1 percent to 96.4 percent.</desc>
+  <rect width="920" height="360" fill="#f8fafc"/>
+  <rect x="26" y="24" width="868" height="312" rx="14" fill="#ffffff" stroke="#dbe3ee"/>
+  <text x="54" y="66" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#111827">Measured Answer Accuracy Progression</text>
+  <text x="54" y="94" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#526071">Each bar is a checked-in benchmark milestone, not a projected estimate.</text>
+
+  <line x1="250" y1="282" x2="830" y2="282" stroke="#d7dee8"/>
+  <line x1="250" y1="128" x2="830" y2="128" stroke="#eef2f7"/>
+  <line x1="250" y1="179" x2="830" y2="179" stroke="#eef2f7"/>
+  <line x1="250" y1="231" x2="830" y2="231" stroke="#eef2f7"/>
+
+  <text x="54" y="137" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111827">Naive extractive RAG</text>
+  <rect x="250" y="118" width="460" height="24" rx="6" fill="#8da2b8"/>
+  <text x="724" y="137" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111827">79.1%</text>
+
+  <text x="54" y="188" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111827">+ Hybrid pipeline</text>
+  <rect x="250" y="169" width="539" height="24" rx="6" fill="#3b82f6"/>
+  <text x="803" y="188" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111827">92.7%</text>
+
+  <text x="54" y="240" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111827">+ Binary template V1</text>
+  <rect x="250" y="221" width="545" height="24" rx="6" fill="#2563eb"/>
+  <text x="809" y="240" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111827">93.8%</text>
+
+  <text x="54" y="291" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111827">+ Binary fix V2</text>
+  <rect x="250" y="272" width="560" height="24" rx="6" fill="#0f766e"/>
+  <text x="824" y="291" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111827">96.4%</text>
+
+  <text x="54" y="320" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#64748b">Sources: README baseline; docs/ds_failure_analysis.md; docs/binary_question_template_experiment.md; docs/final-ds-portfolio-packet.md.</text>
+</svg>

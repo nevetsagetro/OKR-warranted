@@ -1,0 +1,229 @@
+{
+  "source_url": "https://www.twilio.com/en-us/guidelines/vn/sms",
+  "locale_code": "vn",
+  "locale_name": "Vietnam (VN)",
+  "tables": [
+    {
+      "title": "Locale Summary",
+      "type": "key_value",
+      "items": [
+        {
+          "field": "Locale name",
+          "description": "",
+          "value": "Vietnam"
+        },
+        {
+          "field": "ISO code",
+          "description": "The International Organization for Standardization two character representation for the given locale.",
+          "value": "VN"
+        },
+        {
+          "field": "Region",
+          "description": "",
+          "value": "Asia"
+        },
+        {
+          "field": "Mobile country code",
+          "description": "A three digit code associated with the given locale and used in conjunction with a Mobile Network Code to uniquely identify mobile networks.",
+          "value": "452"
+        },
+        {
+          "field": "Dialing code",
+          "description": "The dialing prefix used to establish a call or send an SMS from one locale to the given locale.",
+          "value": "+84"
+        }
+      ]
+    },
+    {
+      "title": "Guidelines",
+      "type": "key_value",
+      "items": [
+        {
+          "field": "Two-way SMS supported",
+          "description": "Whether Twilio supports two-way SMS in the given locale.",
+          "value": "No"
+        },
+        {
+          "field": "Number portability available",
+          "description": "Whether number portability is available in the given locale.",
+          "value": "Yes"
+        },
+        {
+          "field": "Twilio concatenated message support",
+          "description": "Concatenation refers to the capability of splitting a message that is too long to be sent in one SMS into smaller pieces and then joining the pieces at the receiving end so that the receiver sees the message as one.",
+          "value": "Yes* For certain sender ID types this may not be supported. Where messages are split and rejoined may vary based on character encoding."
+        },
+        {
+          "field": "Message length",
+          "description": "How many characters can be sent given a particular message encoding before the message will be split into concatenated segments.",
+          "value": "160 characters"
+        },
+        {
+          "field": "Twilio MMS support",
+          "description": "Multimedia Messaging Service (MMS) provides a standards-based means to send pictures and video to mobile phones.",
+          "value": "Not available"
+        },
+        {
+          "field": "Sending SMS to landline numbers",
+          "description": "How Twilio handles an SMS message destined for landline telephone number.",
+          "value": "You cannot send SMS to a landline destination number: the Twilio REST API will throw a 400 response with error code 21614, the message will not appear in the logs, and the account will not be charged."
+        },
+        {
+          "field": "Compliance considerations",
+          "description": "Twilio strongly encourages customers to review proposed use cases with qualified legal counsel to make sure that they comply with all applicable laws. This table lists some general best practices.",
+          "value": "Sender ID Compliance Vietnam mobile operators require pre-registration of Alphanumeric Sender IDs and message templates. Numeric Sender IDs are overwritten with generic Alphanumeric Sender IDs outside Twilio’s platform. Quality is lower and delivery is on a best-effort basis because generic Alphanumeric Sender IDs are likely to be blocked or filtered by mobile operators. Twilio therefore recommends using pre-registered Alphanumeric Sender IDs and message templates only. Sending promotional traffic (non transactional) is not currently supported. The enforcement of complete blocking of unregistered Sender IDs in Vietnam is on August 25, 2025. Twilio highly recommends sending from a registered Alphanumeric Sender ID to avoid having your messages blocked. Please ensure you pass your exact registered Alphanumeric Sender ID in the “From” parameter when you send a message. Keep in mind that registered senders are case-sensitive. Content Compliance Requirements for SMS Delivery to Vietnam Starting August 12, 2024, all SMS messages to Vietnam must include a brand name or application name in the message body. This name should be similar or identical to the alphanumeric SenderID header you use to send the SMS message. For example, an OTP message from Company ABC could appear like this: [Company ABC] Your verification code is 123456. Any SMS message to Vietnam that doesn’t contain a brand name or application name may be undelivered or blocked after the start date. Mobile operators prohibit sending virtual currency-related content. You must have a license from the State Bank of Vietnam to send finance-related content via Sender ID. Delivery reports are SMSC-acknowledgment only and are not guaranteed. Sending firearms, gambling, adult content, money/loan, political, religious, controlled substance, cannabis, and alcohol related content is strictly prohibited. Messages containing URLs, WhatsApp/LINE chat links, and phone numbers in the body are not allowed. Sending marketing and promotional messages between 8PM to 8AM is prohibited. Additional Phone Numbers and Sender ID Guidelines Twilio strongly encourages customers to review proposed use cases with qualified legal counsel to make sure that they comply with all applicable laws. The following are some general best practices: Get opt-in consent from each end-user before sending any communication to them, particularly for marketing or other non-essential communications.Only communicate during an end-user’s daytime hours unless it is urgent.SMS campaigns should support HELP/STOP messages, and similar messages, in the end-user’s local language.Do not contact end-users on do-not-call or do-not-disturb registries."
+        }
+      ]
+    },
+    {
+      "title": "Phone Numbers & Sender ID",
+      "section": "Alphanumeric",
+      "type": "matrix",
+      "columns": [
+        "International Pre-registration",
+        "Domestic Pre-registration",
+        "Dynamic"
+      ],
+      "items": [
+        {
+          "field": "Operator network capability",
+          "description": "Whether mobile operators in the given country support the feature.",
+          "values": {
+            "International Pre-registration": "Required",
+            "Domestic Pre-registration": "Required",
+            "Dynamic": "Not Supported"
+          }
+        },
+        {
+          "field": "Twilio supported",
+          "description": "Whether Twilio supports the feature for the given country.",
+          "values": {
+            "International Pre-registration": "Supported Learn more and register via the Console",
+            "Domestic Pre-registration": "Supported Learn more and register via the Console",
+            "Dynamic": "Not Supported"
+          }
+        },
+        {
+          "field": "Sender ID preserved",
+          "description": "In some countries sender IDs for certain sender types are not preserved and are changed for compliance and/or deliverability reasons. In these countries mobile subscribers will see a different ‘from sender ID’ than the one sent by you.",
+          "values": {
+            "International Pre-registration": "Yes",
+            "Domestic Pre-registration": "Yes",
+            "Dynamic": "N/A"
+          }
+        },
+        {
+          "field": "Provisioning time",
+          "description": "Provisioning is the process of getting the sender ID approved and registered with mobile networks (depending on country requirements). Provisioning time is how long this process takes in the given country.",
+          "values": {
+            "International Pre-registration": "5 weeks",
+            "Domestic Pre-registration": "5 weeks",
+            "Dynamic": "N/A"
+          }
+        },
+        {
+          "field": "UCS-2 support",
+          "description": "",
+          "values": {
+            "International Pre-registration": "Supported",
+            "Domestic Pre-registration": "N/A",
+            "Dynamic": "N/A"
+          }
+        },
+        {
+          "field": "Use case restrictions",
+          "description": "",
+          "values": {
+            "International Pre-registration": "Mobile operators prohibit sending virtual currency-related content. You must have a license from the State Bank of Vietnam to send finance-related content using a Sender ID. Delivery reports are not supported by all mobile networks other than VietnaMobile. Sending adult, gambling, charity or political content is prohibited. Sending promotional traffic (non transactional) is not currently supported.",
+            "Domestic Pre-registration": "Mobile operators prohibit sending virtual currency-related content. You must have a license from the State Bank of Vietnam to send finance-related content using a Sender ID. Delivery reports are not supported by all mobile networks other than VietnaMobile. Sending adult, gambling, charity or political content is prohibited. Sending promotional traffic (non transactional) is not currently supported.",
+            "Dynamic": "Delivery of messages submitted with unregistered Sender IDs is on a best-effort basis and will be overwritten with either a random Numeric or Alphanumeric Sender ID outside the Twilio platform. The enforcement of complete blocking of unregistered Sender IDs in Vietnam is on August 25, 2025. Twilio highly recommends sending from a registered Alphanumeric Sender ID to avoid having your messages blocked. Please ensure you pass your exact registered Alphanumeric Sender ID in the “From” parameter when you send a message. Keep in mind that registered senders are case-sensitive."
+          }
+        },
+        {
+          "field": "Best practices",
+          "description": "",
+          "values": {
+            "International Pre-registration": "On receiving your registration request, the Sender ID team will ask you to upload a colored copy of your business registration certificate. This is a legal document issued by the government or a government-related body that legitimizes the formation of a company or corporation. If the Sender ID you requested is different from or is not affiliated with the company requesting the Sender ID, you will need to submit documentation that proves the company is allowed to use the Sender ID’s brand name. For example, Twilio owns the brand ‘Authy’. When Twilio submits a registration request for Authy, it needs to submit a document that proves Twilio owns the rights to use the Authy brand name.",
+            "Domestic Pre-registration": "On receiving your registration request, the Sender ID team will ask you to upload a colored copy of your business registration certificate. This is a legal document issued by the government or a government-related body that legitimizes the formation of a company or corporation. If the Sender ID you requested is different from or is not affiliated with the company requesting the Sender ID, you will need to submit documentation that proves the company is allowed to use the Sender ID’s brand name. For example, Twilio owns the brand ‘Authy’. When Twilio submits a registration request for Authy, it needs to submit a document that proves Twilio owns the rights to use the Authy brand name.",
+            "Dynamic": "N/A"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Phone Numbers & Sender ID",
+      "section": "Long codes and short codes",
+      "type": "matrix",
+      "columns": [
+        "Long code domestic",
+        "Long code international",
+        "Short code"
+      ],
+      "items": [
+        {
+          "field": "Operator network capability",
+          "description": "Whether mobile operators in the given country support the feature.",
+          "values": {
+            "Long code domestic": "Not Supported",
+            "Long code international": "Not Supported",
+            "Short code": "Not Supported"
+          }
+        },
+        {
+          "field": "Twilio supported",
+          "description": "Whether Twilio supports the feature for the given country.",
+          "values": {
+            "Long code domestic": "Not Supported",
+            "Long code international": "Supported",
+            "Short code": "Not Supported"
+          }
+        },
+        {
+          "field": "Sender ID preserved",
+          "description": "In some countries sender IDs for certain sender types are not preserved and are changed for compliance and/or deliverability reasons. In these countries mobile subscribers will see a different ‘from sender ID’ than the one sent by you.",
+          "values": {
+            "Long code domestic": "---",
+            "Long code international": "No",
+            "Short code": "---"
+          }
+        },
+        {
+          "field": "Provisioning time",
+          "description": "Provisioning is the process of getting the sender ID approved and registered with mobile networks (depending on country requirements). Provisioning time is how long this process takes in the given country.",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "N/A",
+            "Short code": "N/A"
+          }
+        },
+        {
+          "field": "UCS-2 support",
+          "description": "",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "Supported",
+            "Short code": "N/A"
+          }
+        },
+        {
+          "field": "Use case restrictions",
+          "description": "",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "Delivery of messages submitted with Numeric Sender IDs is on a best-effort basis and will be overwritten with either a random Numeric or Alphanumeric Sender ID outside the Twilio platform. The enforcement of complete blocking of unregistered Sender IDs in Vietnam is on August 25, 2025. Twilio highly recommends sending from a registered Alphanumeric Sender ID to avoid having your messages blocked. Please ensure you pass your exact registered Alphanumeric Sender ID in the “From” parameter when you send a message. Keep in mind that registered senders are case-sensitive.",
+            "Short code": "N/A"
+          }
+        },
+        {
+          "field": "Best practices",
+          "description": "",
+          "values": {
+            "Long code domestic": "N/A",
+            "Long code international": "N/A",
+            "Short code": "N/A"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "unique_tags_before": 758,
+  "candidate_groups": 2,
+  "candidate_variant_rows": 4,
+  "proposed_unique_tags_after_review": 756,
+  "estimated_vocab_reduction": 2,
+  "top_candidate_groups": [
+    {
+      "canonical_suggestion": "sender id preserved",
+      "variant_count": 2,
+      "total_count": 900,
+      "variants": [
+        "sender id preserved",
+        "senderid preserved"
+      ]
+    },
+    {
+      "canonical_suggestion": "content restriction",
+      "variant_count": 2,
+      "total_count": 19,
+      "variants": [
+        "content_restriction",
+        "content restrictions"
+      ]
+    }
+  ]
+}

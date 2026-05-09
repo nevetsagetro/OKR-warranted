@@ -1,0 +1,13 @@
+{
+  "total_cases": 2799,
+  "audited_case_count": 14,
+  "foreign_evidence_case_count": 4,
+  "wrong_country_case_count": 11,
+  "answer_correct_count": 4,
+  "likely_cause_counts": {
+    "citation_or_evidence_anchor_mixed_country": 2,
+    "metadata_filter_or_country_alias_leakage": 2,
+    "needs_manual_review": 10
+  },
+  "artifact": "reports/tables/foreign_evidence_audit.csv"
+}
